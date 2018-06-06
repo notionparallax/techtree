@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1424 847" style="enable-background:new 0 0 1424 847;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{font-family:'Blender-Book';}
+	.st2{font-size:13.9958px;}
+	.st3{fill:none;stroke:#000000;}
+	.st4{enable-background:new    ;}
+</style>
+<title>G</title>
+<title>phone</title>
+<ellipse cx="63.1" cy="33.7" rx="53.2" ry="29.3"/>
+<text transform="matrix(1 0 0 1 43.1146 29.48)" class="st0 st1 st2">Access</text>
+<text transform="matrix(1 0 0 1 34.6754 46.2749)" class="st0 st1 st2">To Phones</text>
+<title>mApp</title>
+<ellipse cx="365.8" cy="33.7" rx="39.8" ry="29.3"/>
+<text transform="matrix(1 0 0 1 345.5942 29.48)" class="st0 st1 st2">Mobile</text>
+<text transform="matrix(1 0 0 1 353.7573 46.2749)" class="st0 st1 st2">App</text>
+<title>phone-&gt;mApp</title>
+<g>
+	<g>
+		<path class="st3" d="M116.8,33.7c19,0,180.2,0,198.9,0"/>
+		<g>
+			<path d="M313.9,33.7l-2.2-3.6l0.1-0.1l5.9,2.3c2,0.5,4.1,0.9,6.1,1.4c-2,0.5-4.1,0.9-6.1,1.4l-5.9,2.3l-0.1-0.1L313.9,33.7z"/>
+		</g>
+	</g>
+</g>
+<title>sensicorn2</title>
+<ellipse cx="534.1" cy="72.7" rx="56.2" ry="18"/>
+<text transform="matrix(1 0 0 1 501.209 76.8657)" class="st0 st1 st2">Sensicorn 2</text>
+<title>mApp-&gt;sensicorn2</title>
+<g>
+	<g>
+		<path class="st3" d="M404,42.5c22,5.1,50,11.6,74.4,17.2"/>
+		<g>
+			<path d="M476.6,59.4l-1.3-4l0.1-0.1l5.2,3.6c1.9,0.9,3.8,1.8,5.7,2.7c-2.1,0-4.2,0-6.3-0.1l-6.3,0.9l-0.1-0.1L476.6,59.4z"/>
+		</g>
+	</g>
+</g>
+<title>desks</title>
+<ellipse cx="63.1" cy="243.6" rx="35.5" ry="29.3"/>
+<text transform="matrix(1 0 0 1 52.0438 239.4165)" class="st0 st1 st2">Unit</text>
+<text transform="matrix(1 0 0 1 46.4525 256.2114)" class="st0 st1 st2">Desks</text>
+<title>s3</title>
+<ellipse cx="365.8" cy="163.6" rx="27" ry="18"/>
+<text transform="matrix(1 0 0 1 358.418 167.8379)" class="st0 st1 st2">S3</text>
+<title>desks-&gt;s3</title>
+<g>
+	<g>
+		<path class="st3" d="M89.7,226.1c18.3-10.9,164.6-20.4,188.5-30.7s42.8-15.3,54.2-19.7"/>
+		<g>
+			<path d="M330.7,176.3l-3.3-2.6l0.1-0.1l6.3,0.1c2.1-0.3,4.1-0.6,6.2-0.9c-1.7,1.2-3.5,2.3-5.2,3.5l-4.6,4.3l-0.1,0L330.7,176.3z"
+				/>
+		</g>
+	</g>
+</g>
+<title>deskLoc</title>
+<ellipse cx="534.1" cy="317.6" rx="46.5" ry="29.3"/>
+<text transform="matrix(1 0 0 1 519.6738 313.394)" class="st0 st1 st2">Desk</text>
+<text transform="matrix(1 0 0 1 509.1841 330.189)" class="st0 st1 st2">Location</text>
+<title>desks-&gt;deskLoc</title>
+<g>
+	<g>
+		<line class="st3" x1="95.4" y1="252.3" x2="480" y2="306.4"/>
+		<g>
+			<path d="M478.2,306.2l-1.7-3.9l0.1-0.1l5.5,3.1c2,0.7,3.9,1.5,5.9,2.2c-2.1,0.2-4.2,0.3-6.3,0.5l-6.1,1.5l-0.1-0.1L478.2,306.2z"
+				/>
+		</g>
+	</g>
+</g>
+<title>sensors</title>
+<ellipse cx="203.1" cy="327.6" rx="44.1" ry="29.3"/>
+<text transform="matrix(1 0 0 1 184.0156 323.3911)" class="st0 st1 st2">Sensor</text>
+<text transform="matrix(1 0 0 1 179.7549 340.186)" class="st0 st1 st2">Literacy</text>
+<title>sensors-&gt;s3</title>
+<g>
+	<g>
+		<path class="st3" d="M235,307.1c14-39.1,107.9-110.4,113.7-123.9"/>
+		<g>
+			<path d="M348,184.8l-4.2,0.6l0-0.1l4.5-4.5c1.2-1.7,2.4-3.4,3.7-5.1c-0.4,2.1-0.8,4.1-1.2,6.2l-0.2,6.3l-0.1,0.1L348,184.8z"/>
+		</g>
+	</g>
+</g>
+<title>robSense</title>
+<ellipse cx="365.8" cy="408.6" rx="47.1" ry="41.1"/>
+<text transform="matrix(1 0 0 1 348.7002 395.9688)" class="st0 st1 st2">Robot</text>
+<text transform="matrix(1 0 0 1 340.5405 412.7637)" class="st0 st1 st2">Mounted</text>
+<text transform="matrix(1 0 0 1 343.6465 429.5586)" class="st0 st1 st2">Sensing</text>
+<title>sensors-&gt;robSense</title>
+<g>
+	<g>
+		<path class="st3" d="M238.8,345.4c22.5,11.2,51.8,25.8,76.7,38.2"/>
+		<g>
+			<path d="M313.8,382.7l-0.4-4.2l0.1,0l4.2,4.7c1.6,1.3,3.3,2.6,4.9,3.9c-2-0.5-4.1-1-6.1-1.5l-6.3-0.5l-0.1-0.1L313.8,382.7z"/>
+		</g>
+	</g>
+</g>
+<title>Shakedown</title>
+<ellipse cx="365.8" cy="331.6" rx="56.2" ry="18"/>
+<text transform="matrix(1 0 0 1 333.1567 335.7876)" class="st0 st1 st2">Shakedown</text>
+<title>sensors-&gt;Shakedown</title>
+<g>
+	<g>
+		<path class="st3" d="M247.5,328.7c16,0.4,34.5,0.8,52,1.3"/>
+		<g>
+			<path d="M297.8,329.9l-2.1-3.7l0.1-0.1l5.8,2.5c2,0.5,4.1,1,6.1,1.5c-2.1,0.4-4.1,0.8-6.2,1.2l-5.9,2.2l-0.1-0.1L297.8,329.9z"/>
+		</g>
+	</g>
+</g>
+<title>data</title>
+<ellipse cx="63.1" cy="327.6" rx="44.1" ry="29.3"/>
+<text transform="matrix(1 0 0 1 50.3224 323.3911)" class="st0 st1 st2">Data</text>
+<text transform="matrix(1 0 0 1 40.4068 340.186)" class="st0 st1 st2">Literacy</text>
+<title>data-&gt;sensors</title>
+<g>
+	<g>
+		<path class="st3" d="M100.9,327.6c15,0,31.9,0,47.6,0"/>
+		<g>
+			<path d="M146.7,327.6l-2.2-3.6l0.1-0.1l5.9,2.3c2,0.5,4.1,0.9,6.1,1.4c-2,0.5-4.1,0.9-6.1,1.4l-5.9,2.3l-0.1-0.1L146.7,327.6z"/>
+		</g>
+	</g>
+</g>
+<title>deskSenseUp</title>
+<ellipse cx="534.1" cy="151.6" rx="42.8" ry="41.1"/>
+<text transform="matrix(1 0 0 1 515.3994 139.0469)" class="st0 st1 st2">Above</text>
+<text transform="matrix(1 0 0 1 519.6738 155.8418)" class="st0 st1 st2">Desk</text>
+<text transform="matrix(1 0 0 1 511.8936 172.6367)" class="st0 st1 st2">Sensing</text>
+<title>s3-&gt;deskSenseUp</title>
+<g>
+	<g>
+		<path class="st3" d="M392.8,161.7c23.8-1.7,59-4.2,88.4-6.3"/>
+		<g>
+			<path d="M479.4,155.5l-2.4-3.4l0.1-0.1l6,1.9c2.1,0.3,4.1,0.6,6.2,0.9c-2,0.6-4,1.2-6,1.8l-5.7,2.7l-0.1-0.1L479.4,155.5z"/>
+		</g>
+	</g>
+</g>
+<title>hardware</title>
+<ellipse cx="63.1" cy="163.6" rx="50.1" ry="29.3"/>
+<text transform="matrix(1 0 0 1 35.4732 159.4404)" class="st0 st1 st2">Hardware</text>
+<text transform="matrix(1 0 0 1 44.3954 176.2354)" class="st0 st1 st2">Design</text>
+<title>hardware-&gt;s3</title>
+<g>
+	<g>
+		<path class="st3" d="M113.7,163.6c24.2,0,192.6,0,214.8,0"/>
+		<g>
+			<path d="M326.6,163.6l-2.2-3.6l0.1-0.1l5.9,2.3c2,0.5,4.1,0.9,6.1,1.4c-2,0.5-4.1,0.9-6.1,1.4l-5.9,2.3l-0.1-0.1L326.6,163.6z"/>
+		</g>
+	</g>
+</g>
+<title>sensicorn1</title>
+<ellipse cx="365.8" cy="98.7" rx="56.2" ry="18"/>
+<text transform="matrix(1 0 0 1 332.9619 102.8579)" class="st0 st1 st2">Sensicorn 1</text>
+<title>hardware-&gt;sensicorn1</title>
+<g>
+	<g>
+		<path class="st3" d="M105,146.9c23.3-9.3,192.2-20.8,215.9-30.3"/>
+		<g>
+			<path d="M319.2,117.3l-3.4-2.5l0.1-0.1l6.3,0c2.1-0.3,4.1-0.7,6.2-1c-1.7,1.2-3.5,2.4-5.2,3.5l-4.6,4.3l-0.1,0L319.2,117.3z"/>
+		</g>
+	</g>
+</g>
+<title>geoEthno1</title>
+<ellipse cx="698.2" cy="242.6" rx="64.8" ry="41.1"/>
+<text transform="matrix(1 0 0 1 663.6021 230.0195)" class="st0 st1 st2">Geographic/</text>
+<text transform="matrix(1 0 0 1 660.4893 246.8145)" class="st0 st1 st2">Ethnographic</text>
+<text transform="matrix(1 0 0 1 681.2847 263.6094)" class="st0 st1 st2">data 1</text>
+<title>deskSenseUp-&gt;geoEthno1</title>
+<g>
+	<g>
+		<path class="st3" d="M571.3,172.3c20.4,11.3,46.1,25.5,69,38.2"/>
+		<g>
+			<path d="M638.7,209.7l-0.2-4.2l0.1,0l4,4.9c1.6,1.4,3.1,2.8,4.7,4.2c-2-0.6-4-1.2-6-1.8l-6.3-0.8l-0.1-0.1L638.7,209.7z"/>
+		</g>
+	</g>
+</g>
+<title>deskSenseDn</title>
+<ellipse cx="698.2" cy="141.6" rx="42.8" ry="41.1"/>
+<text transform="matrix(1 0 0 1 679.918 129.0498)" class="st0 st1 st2">Below</text>
+<text transform="matrix(1 0 0 1 683.8066 145.8447)" class="st0 st1 st2">Desk</text>
+<text transform="matrix(1 0 0 1 676.0259 162.6396)" class="st0 st1 st2">Sensing</text>
+<title>geoEthno2</title>
+<ellipse cx="863.4" cy="199.6" rx="64.8" ry="41.1"/>
+<text transform="matrix(1 0 0 1 828.8447 187.0322)" class="st0 st1 st2">Geographic/</text>
+<text transform="matrix(1 0 0 1 825.7314 203.8271)" class="st0 st1 st2">Ethnographic</text>
+<text transform="matrix(1 0 0 1 846.5273 220.6221)" class="st0 st1 st2">data 2</text>
+<title>deskSenseDn-&gt;geoEthno2</title>
+<g>
+	<g>
+		<path class="st3" d="M738.6,155.8c17.6,6.2,38.6,13.6,58.4,20.5"/>
+		<g>
+			<path d="M795.3,175.7l-0.9-4.1l0.1,0l4.8,4.1c1.8,1.1,3.6,2.2,5.3,3.3c-2.1-0.3-4.2-0.5-6.2-0.8l-6.3,0.3l-0.1-0.1L795.3,175.7z"
+				/>
+		</g>
+	</g>
+</g>
+<title>electron</title>
+<ellipse cx="365.8" cy="238.6" rx="44.1" ry="29.3"/>
+<text transform="matrix(1 0 0 1 342.4849 234.4209)" class="st0 st1 st2">Desktop</text>
+<text transform="matrix(1 0 0 1 353.7573 251.2158)" class="st0 st1 st2">App</text>
+<title>electron-&gt;deskSenseUp</title>
+<g>
+	<g>
+		<path class="st3" d="M402.3,221.9c24.6-11.2,57.2-36.2,83.8-48.3"/>
+		<g>
+			<path d="M484.5,174.3L481,172l0.1-0.1l6.3-0.3c2-0.4,4.1-0.9,6.1-1.3c-1.7,1.3-3.3,2.5-5,3.8l-4.4,4.6l-0.1,0L484.5,174.3z"/>
+		</g>
+	</g>
+</g>
+<title>diary</title>
+<ellipse cx="534.1" cy="240.6" rx="40.4" ry="29.3"/>
+<text transform="matrix(1 0 0 1 518.123 236.4175)" class="st0 st1 st2">Diary</text>
+<text transform="matrix(1 0 0 1 513.4482 253.2124)" class="st0 st1 st2">Studies</text>
+<title>electron-&gt;diary</title>
+<g>
+	<g>
+		<path class="st3" d="M410,241.8c22.6,1.6,50.1-6.4,73.5-4.8"/>
+		<g>
+			<path d="M481.7,236.9l-1.9-3.7l0.1-0.1l5.7,2.7c2,0.6,4,1.2,6,1.8c-2.1,0.3-4.1,0.6-6.2,0.9l-6,1.9l-0.1-0.1L481.7,236.9z"/>
+		</g>
+	</g>
+</g>
+<title>deskLoc-&gt;geoEthno1</title>
+<g>
+	<g>
+		<path class="st3" d="M572.1,300.2c19.1-8.7,42.6-19.5,64.2-29.3"/>
+		<g>
+			<path d="M634.7,271.6l-3.5-2.4l0.1-0.1l6.3-0.3c2-0.4,4.1-0.9,6.1-1.3c-1.7,1.3-3.3,2.5-5,3.8l-4.4,4.6l-0.1,0L634.7,271.6z"/>
+		</g>
+	</g>
+</g>
+<title>robDesk</title>
+<ellipse cx="714.1" cy="592.5" rx="63.6" ry="41.1"/>
+<text transform="matrix(1 0 0 1 691.897 579.9141)" class="st0 st1 st2">Robotic</text>
+<text transform="matrix(1 0 0 1 699.6738 596.709)" class="st0 st1 st2">Desk</text>
+<text transform="matrix(1 0 0 1 677.1396 613.5039)" class="st0 st1 st2">Arrangement</text>
+<title>robSense-&gt;robDesk</title>
+<g>
+	<g>
+		<path class="st3" d="M404.7,432.3c10.6,7.8,220.6,42.2,261.4,121.1"/>
+		<g>
+			<path d="M665.3,551.8l2.2-3.6l0.1,0.1l0.6,6.3c0.5,2,1.1,4,1.6,6.1c-1.3-1.6-2.7-3.2-4-4.8l-4.8-4.1l0-0.1L665.3,551.8z"/>
+		</g>
+	</g>
+</g>
+<title>diary-&gt;geoEthno1</title>
+<g>
+	<g>
+		<path class="st3" d="M574.6,241.1c14.7,0.2,31.8,0.4,48.5,0.6"/>
+		<g>
+			<path d="M621.4,241.7l-2.1-3.6l0.1-0.1l5.8,2.4c2,0.5,4.1,1,6.1,1.4c-2.1,0.4-4.1,0.9-6.2,1.3l-5.9,2.3l-0.1-0.1L621.4,241.7z"/>
+		</g>
+	</g>
+</g>
+<title>basicRobot</title>
+<ellipse cx="63.1" cy="444.6" rx="58" ry="29.3"/>
+<text transform="matrix(1 0 0 1 29.0633 440.3516)" class="st0 st1 st2">Arwareness</text>
+<text transform="matrix(1 0 0 1 36.4181 457.1465)" class="st0 st1 st2">of Robots</text>
+<title>basicRobot-&gt;robSense</title>
+<g>
+	<g>
+		<path class="st3" d="M113.2,429.5c18.5-5.6,179.4,1.1,198.2-4.5"/>
+		<g>
+			<path d="M309.7,425.4l-3.1-2.8l0.1-0.1l6.3,0.5c2.1-0.2,4.2-0.3,6.3-0.5c-1.8,1-3.7,2-5.5,3.1l-5,3.9l-0.1,0L309.7,425.4z"/>
+		</g>
+	</g>
+</g>
+<title>halo</title>
+<ellipse cx="196.8" cy="467.4" rx="47.1" ry="29.3"/>
+<text transform="matrix(1 0 0 1 174.5974 463.2507)" class="st0 st1 st2">Robotic</text>
+<text transform="matrix(1 0 0 1 172.0588 480.0456)" class="st0 st1 st2">Weaving</text>
+<title>basicRobot-&gt;halo</title>
+<g>
+	<g>
+		<line class="st3" x1="115.5" y1="457.4" x2="142" y2="463.3"/>
+		<g>
+			<path d="M140.2,462.9l-1.4-4l0.1-0.1l5.2,3.5c1.9,0.9,3.8,1.8,5.7,2.6c-2.1,0-4.2,0-6.3,0l-6.2,1l-0.1-0.1L140.2,462.9z"/>
+		</g>
+	</g>
+</g>
+<title>robPaper</title>
+<ellipse cx="374.2" cy="494.2" rx="46.5" ry="29.3"/>
+<text transform="matrix(1 0 0 1 349.3133 490.0417)" class="st0 st1 st2">Robotics</text>
+<text transform="matrix(1 0 0 1 355.5389 506.8367)" class="st0 st1 st2">Papers</text>
+<title>halo-&gt;robPaper</title>
+<g>
+	<g>
+		<path class="st3" d="M244.1,467.4c20,0,52.6,26.8,73.4,26.8"/>
+		<g>
+			<path d="M315.7,494.2l-2.2-3.6l0.1-0.1l5.9,2.3c2,0.5,4.1,0.9,6.1,1.4c-2,0.5-4.1,0.9-6.1,1.4l-5.9,2.3l-0.1-0.1L315.7,494.2z"/>
+		</g>
+	</g>
+</g>
+<title>timeData</title>
+<ellipse cx="63.1" cy="508.5" rx="52.6" ry="29.3"/>
+<text transform="matrix(1 0 0 1 34.4935 504.3369)" class="st0 st1 st2">Timesheet</text>
+<text transform="matrix(1 0 0 1 50.3224 521.1318)" class="st0 st1 st2">Data</text>
+<title>SNA</title>
+<ellipse cx="203.1" cy="546.5" rx="45.9" ry="41.1"/>
+<text transform="matrix(1 0 0 1 186.5716 533.9277)" class="st0 st1 st2">Social</text>
+<text transform="matrix(1 0 0 1 179.714 550.7227)" class="st0 st1 st2">Network</text>
+<text transform="matrix(1 0 0 1 180.3018 567.5176)" class="st0 st1 st2">Analysis</text>
+<title>timeData-&gt;SNA</title>
+<g>
+	<g>
+		<path class="st3" d="M104.5,521c14.1,3.7,29.6,7.7,44.1,11.4"/>
+		<g>
+			<path d="M146.9,532l-1.2-4l0.1,0l5.1,3.7c1.9,0.9,3.7,1.9,5.6,2.8c-2.1-0.1-4.2-0.2-6.3-0.2L144,535l-0.1-0.1L146.9,532z"/>
+		</g>
+	</g>
+</g>
+<title>emailData</title>
+<ellipse cx="63.1" cy="585.5" rx="34.9" ry="29.3"/>
+<text transform="matrix(1 0 0 1 48.4332 581.3135)" class="st0 st1 st2">Email</text>
+<text transform="matrix(1 0 0 1 50.3224 598.1084)" class="st0 st1 st2">Data</text>
+<title>emailData-&gt;SNA</title>
+<g>
+	<g>
+		<path class="st3" d="M90.1,576.6c17.4-4.6,39.1-10.4,58.8-15.7"/>
+		<g>
+			<path d="M147.2,561.4l-3-2.9l0.1-0.1l6.3,0.7c2.1-0.1,4.2-0.2,6.3-0.3c-1.9,1-3.7,1.9-5.6,2.9l-5.1,3.8l-0.1,0L147.2,561.4z"/>
+		</g>
+	</g>
+</g>
+<title>lAmp</title>
+<ellipse cx="365.8" cy="599.5" rx="52" ry="53.3"/>
+<text transform="matrix(1 0 0 1 341.464 578.5137)" class="st0 st1 st2">Learning</text>
+<text transform="matrix(1 0 0 1 340.4422 595.3086)" class="st0 st1 st2">Amplified</text>
+<text transform="matrix(1 0 0 1 344.7318 612.1035)" class="st0 st1 st2">Seating</text>
+<text transform="matrix(1 0 0 1 350.8268 628.8984)" class="st0 st1 st2">Plans</text>
+<title>SNA-&gt;lAmp</title>
+<g>
+	<g>
+		<path class="st3" d="M246.7,560.7c18.4,6,40,13,59.8,19.5"/>
+		<g>
+			<path d="M304.8,579.6l-1-4.1l0.1,0l4.9,4c1.8,1.1,3.6,2.1,5.4,3.2c-2.1-0.2-4.2-0.4-6.3-0.6l-6.3,0.4l-0.1-0.1L304.8,579.6z"/>
+		</g>
+	</g>
+</g>
+<title>lExp</title>
+<ellipse cx="63.1" cy="647.5" rx="57.5" ry="29.3"/>
+<text transform="matrix(1 0 0 1 38.7203 643.2979)" class="st0 st1 st2">Learning</text>
+<text transform="matrix(1 0 0 1 31.5125 660.0928)" class="st0 st1 st2">Experiment</text>
+<title>lExp-&gt;lAmp</title>
+<g>
+	<g>
+		<path class="st3" d="M116.9,635.8c15.7-3.5,172-19.3,188.1-22.9"/>
+		<g>
+			<path d="M303.3,613.3l-2.9-3l0.1-0.1l6.2,1c2.1,0,4.2,0,6.3,0c-1.9,0.9-3.8,1.8-5.7,2.6l-5.2,3.5l-0.1,0L303.3,613.3z"/>
+		</g>
+	</g>
+</g>
+<title>lAmp-&gt;robDesk</title>
+<g>
+	<g>
+		<path class="st3" d="M418.1,597.3c13.4-0.6,208-1.2,222.2-1.8"/>
+		<g>
+			<path d="M638.5,595.7l-2.3-3.5l0.1-0.1l6,2.1c2.1,0.4,4.1,0.7,6.2,1.1c-2,0.5-4.1,1.1-6.1,1.6l-5.8,2.6l-0.1-0.1L638.5,595.7z"/>
+		</g>
+	</g>
+</g>
+<title>pot</title>
+<ellipse cx="63.1" cy="724.5" rx="53.8" ry="29.3"/>
+<text transform="matrix(1 0 0 1 35.5433 720.2744)" class="st0 st1 st2">A Plane of</text>
+<text transform="matrix(1 0 0 1 40.3158 737.0693)" class="st0 st1 st2">Thrones</text>
+<title>pot-&gt;lAmp</title>
+<g>
+	<g>
+		<path class="st3" d="M98.2,701.7c54.2-54.2,179.4-28.5,216.8-65.9"/>
+		<g>
+			<path d="M313.7,637l-4.1-1l0-0.1l5.8-2.5c1.8-1.1,3.5-2.3,5.3-3.4c-1.1,1.8-2.3,3.5-3.4,5.3l-2.5,5.8l-0.1,0L313.7,637z"/>
+		</g>
+	</g>
+</g>
+<title>potPaper</title>
+<ellipse cx="205.8" cy="712.5" rx="45" ry="28.3"/>
+<text transform="matrix(1 0 0 1 185.9028 699.2744)" class="st4"><tspan x="0" y="0" class="st0 st1 st2">A Plane</tspan><tspan x="-9.6" y="16.8" class="st0 st1 st2">of Thrones</tspan><tspan x="3.8" y="33.6" class="st0 st1 st2">Paper</tspan></text>
+<title>pot-&gt;potPaper</title>
+<g>
+	<g>
+		<path class="st3" d="M117.8,724.5c0,0,20.3-12,36.1-12"/>
+		<g>
+			<path d="M152.1,712.5l-2.2-3.6l0.1-0.1l5.9,2.3c2,0.5,4.1,0.9,6.1,1.4c-2,0.5-4.1,0.9-6.1,1.4l-5.9,2.3l-0.1-0.1L152.1,712.5z"/>
+		</g>
+	</g>
+</g>
+<title>geoEthno1-&gt;geoEthno2</title>
+<g>
+	<g>
+		<path class="st3" d="M758.3,227c11.5-3,23.6-6.1,35.3-9.2"/>
+		<g>
+			<path d="M791.9,218.2l-3-2.9l0.1-0.1l6.3,0.8c2.1-0.1,4.2-0.2,6.3-0.2c-1.9,1-3.7,1.9-5.6,2.9l-5.1,3.7l-0.1,0L791.9,218.2z"/>
+		</g>
+	</g>
+</g>
+<title>geoEthno3</title>
+<ellipse cx="1028.7" cy="217.6" rx="64.8" ry="41.1"/>
+<text transform="matrix(1 0 0 1 994.0869 205.0269)" class="st0 st1 st2">Geographic/</text>
+<text transform="matrix(1 0 0 1 990.9746 221.8218)" class="st0 st1 st2">Ethnographic</text>
+<text transform="matrix(1 0 0 1 1011.7695 238.6167)" class="st0 st1 st2">data 3</text>
+<title>geoEthno2-&gt;geoEthno3</title>
+<g>
+	<g>
+		<path class="st3" d="M927.3,206.6c9.1,1,18.5,2,27.7,3"/>
+		<g>
+			<path d="M953.2,209.4l-1.8-3.8l0.1-0.1l5.6,3c2,0.7,4,1.3,6,2c-2.1,0.2-4.2,0.5-6.3,0.7l-6.1,1.7l-0.1-0.1L953.2,209.4z"/>
+		</g>
+	</g>
+</g>
+<title>cadd</title>
+<ellipse cx="1186.2" cy="307.6" rx="56.9" ry="53.3"/>
+<text transform="matrix(1 0 0 1 1153.9648 286.6021)" class="st0 st1 st2">Continuous</text>
+<text transform="matrix(1 0 0 1 1159.9961 303.397)" class="st0 st1 st2">Analysis,</text>
+<text transform="matrix(1 0 0 1 1159.2207 320.1919)" class="st0 st1 st2">Design &amp;</text>
+<text transform="matrix(1 0 0 1 1161.7559 336.9868)" class="st0 st1 st2">Delivery</text>
+<title>geoEthno3-&gt;cadd</title>
+<g>
+	<g>
+		<path class="st3" d="M1077.2,245.4c16.3,9.3,34.7,19.8,51.6,29.5"/>
+		<g>
+			<path d="M1127.3,273.9l-0.1-4.2l0.1,0l3.9,4.9c1.6,1.4,3.1,2.8,4.7,4.2c-2-0.6-4-1.2-6-1.9l-6.3-0.9l-0.1-0.1L1127.3,273.9z"/>
+		</g>
+	</g>
+</g>
+<title>RBTM</title>
+<ellipse cx="863.4" cy="464.9" rx="63" ry="53.3"/>
+<text transform="matrix(1 0 0 1 842.5706 443.924)" class="st0 st1 st2">Robotic</text>
+<text transform="matrix(1 0 0 1 841.8079 460.7189)" class="st0 st1 st2">Building</text>
+<text transform="matrix(1 0 0 1 839.0228 477.5138)" class="st0 st1 st2">Topology</text>
+<text transform="matrix(1 0 0 1 830.0379 494.3087)" class="st0 st1 st2">Modification</text>
+<title>robDesk-&gt;RBTM</title>
+<g>
+	<g>
+		<line class="st3" x1="754.1" y1="560" x2="810" y2="508.2"/>
+		<g>
+			<path d="M808.7,509.4l-4.1-1.2l0-0.1l5.9-2.3c1.8-1.1,3.6-2.1,5.4-3.2c-1.2,1.7-2.4,3.4-3.6,5.2l-2.7,5.7l-0.1,0L808.7,509.4z"/>
+		</g>
+	</g>
+</g>
+<title>BTARATA</title>
+<ellipse cx="1349.6" cy="307.6" rx="70.3" ry="41.1"/>
+<text transform="matrix(1 0 0 1 1310.8514 294.9995)" class="st0 st1 st2">Buildings That</text>
+<text transform="matrix(1 0 0 1 1323.5873 311.7944)" class="st0 st1 st2">Are Right</text>
+<text transform="matrix(1 0 0 1 1316.9115 328.5894)" class="st0 st1 st2">All The Time</text>
+<title>cadd-&gt;BTARATA</title>
+<g>
+	<g>
+		<path class="st3" d="M1243.4,307.6c8.3,0,16.9,0,25.5,0"/>
+		<g>
+			<path d="M1267.1,307.6l-2.2-3.6l0.1-0.1l5.9,2.3c2,0.5,4.1,0.9,6.1,1.4c-2,0.5-4.1,0.9-6.1,1.4l-5.9,2.3l-0.1-0.1L1267.1,307.6z"
+				/>
+		</g>
+	</g>
+</g>
+<title>RBTM-&gt;cadd</title>
+<g>
+	<g>
+		<path class="st3" d="M926.4,461.4c55.4-3.1,158.6-92.9,205.8-117.1"/>
+		<g>
+			<path d="M1130.7,345.2l-3.6-2.2l0.1-0.1l6.3-0.6c2-0.5,4.1-1.1,6.1-1.6c-1.6,1.3-3.2,2.7-4.9,4l-4.2,4.8l-0.1,0L1130.7,345.2z"/>
+		</g>
+	</g>
+</g>
+<title>bizCap</title>
+<ellipse cx="860.4" cy="335.5" rx="50.8" ry="41.1"/>
+<text transform="matrix(1 0 0 1 832.4436 322.9003)" class="st0 st1 st2">Capturing</text>
+<text transform="matrix(1 0 0 1 835.5461 339.6953)" class="st0 st1 st2">Business</text>
+<text transform="matrix(1 0 0 1 839.0549 356.4897)" class="st0 st1 st2">Metrics</text>
+<title>bizCap-&gt;cadd</title>
+<g>
+	<g>
+		<path class="st3" d="M905.6,315.7c16-7,200.7-23.2,217.5-20.7"/>
+		<g>
+			<path d="M1121.4,294.7l-1.7-3.9l0.1-0.1l5.5,3.2c2,0.7,3.9,1.5,5.9,2.2c-2.1,0.2-4.2,0.3-6.3,0.5l-6.1,1.5l-0.1-0.1L1121.4,294.7
+				z"/>
+		</g>
+	</g>
+</g>
+<title>loTraining</title>
+<ellipse cx="203.1" cy="801.4" rx="45.3" ry="41.1"/>
+<text transform="matrix(1 0 0 1 183.2437 788.8506)" class="st0 st1 st2">Layout</text>
+<text transform="matrix(1 0 0 1 179.2148 805.6455)" class="st0 st1 st2">Training</text>
+<text transform="matrix(1 0 0 1 189.8555 822.4404)" class="st0 st1 st2">Data</text>
+<title>AIlayout</title>
+<ellipse cx="365.8" cy="789.5" rx="51" ry="18"/>
+<text transform="matrix(1 0 0 1 336.8535 793.6494)" class="st0 st1 st2">AI Layout</text>
+<title>loTraining-&gt;AIlayout</title>
+<g>
+	<g>
+		<path class="st3" d="M248.4,798.1c17.8-1.3,38.4-2.8,57.4-4.2"/>
+		<g>
+			<path d="M304,794l-2.5-3.4l0.1-0.1l6,1.9c2.1,0.3,4.1,0.6,6.2,0.9c-2,0.6-4,1.2-6,1.8l-5.7,2.8l-0.1-0.1L304,794z"/>
+		</g>
+	</g>
+</g>
+<title>AIlayout-&gt;robDesk</title>
+<g>
+	<g>
+		<path class="st3" d="M398.1,775.3c12.3-6.4,25.9-14.8,36.4-24.9c32.7-31.2,239.3-75.3,256.7-108.9"/>
+		<g>
+			<path d="M690.4,643.1l-4.2,0.3l0-0.1l4.8-4.1c1.3-1.6,2.7-3.2,4-4.8c-0.5,2-1.1,4-1.6,6.1l-0.6,6.3l-0.1,0.1L690.4,643.1z"/>
+		</g>
+	</g>
+</g>
+<title>sensicorn1-&gt;sensicorn2</title>
+<g>
+	<g>
+		<path class="st3" d="M416.7,90.8c17.8-2.7,37.9-5.9,56.5-8.7"/>
+		<g>
+			<path d="M471.4,82.3l-2.7-3.2l0.1-0.1l6.2,1.4c2.1,0.1,4.2,0.3,6.3,0.4c-2,0.8-3.9,1.5-5.9,2.3l-5.4,3.2l-0.1,0L471.4,82.3z"/>
+		</g>
+	</g>
+</g>
+<title>sensicorn2-&gt;geoEthno2</title>
+<g>
+	<g>
+		<path class="st3" d="M587.3,66.6c48.3-3.2,376.6,14.1,427.1,99.5"/>
+		<g>
+			<path d="M1013.4,164.5l2-3.7l0.1,0.1l1,6.2c0.7,2,1.3,4,2,6c-1.4-1.5-2.9-3.1-4.3-4.6l-5-3.9l0-0.1L1013.4,164.5z"/>
+		</g>
+	</g>
+</g>
+<title>revit2ML</title>
+<ellipse cx="63.1" cy="801.4" rx="52.6" ry="41.1"/>
+<text transform="matrix(1 0 0 1 49.1187 788.8506)" class="st0 st1 st2">Revit</text>
+<text transform="matrix(1 0 0 1 44.6544 805.6455)" class="st0 st1 st2">Layout</text>
+<text transform="matrix(1 0 0 1 34.3258 822.4404)" class="st0 st1 st2">Extraction</text>
+<title>revit2ML-&gt;loTraining</title>
+<g>
+	<g>
+		<path class="st3" d="M109.4,801.4c12.3,0,25.4,0,37.8,0"/>
+		<g>
+			<path d="M145.5,801.4l-2.2-3.6l0.1-0.1l5.9,2.3c2,0.5,4.1,0.9,6.1,1.4c-2,0.5-4.1,0.9-6.1,1.4l-5.9,2.3l-0.1-0.1L145.5,801.4z"/>
+		</g>
+	</g>
+</g>
+<title>ShakedownPaper</title>
+<ellipse cx="534.1" cy="394.6" rx="57.5" ry="29.3"/>
+<text transform="matrix(1 0 0 1 501.4038 390.3711)" class="st0 st1 st2">Shakedown</text>
+<text transform="matrix(1 0 0 1 518.123 407.166)" class="st0 st1 st2">Paper</text>
+<title>pathVis</title>
+<ellipse cx="63.1" cy="98.3" rx="41.1" ry="22.7"/>
+<text transform="matrix(1 0 0 1 50.4835 89.8579)" class="st4"><tspan x="0" y="0" class="st0 st1 st2">Path</tspan><tspan x="-22.3" y="16.8" class="st0 st1 st2">Visualisation</tspan></text>
+<title>pathVis-&gt;sensicorn1</title>
+<g>
+	<g>
+		<path class="st3" d="M104.1,98.7c16.7,0,176.4,0,195,0"/>
+		<g>
+			<path d="M297.4,98.7l-2.2-3.6l0.1-0.1l5.9,2.3c2,0.5,4.1,0.9,6.1,1.4c-2,0.5-4.1,0.9-6.1,1.4l-5.9,2.3l-0.1-0.1L297.4,98.7z"/>
+		</g>
+	</g>
+</g>
+<title>Shakedown-&gt;ShakedownPaper</title>
+<g>
+	<g>
+		<path class="st3" d="M402.3,345.3c22,8.2,50.5,18.9,75.4,28.2"/>
+		<g>
+			<path d="M476,372.8l-0.8-4.1l0.1,0l4.7,4.2c1.8,1.1,3.5,2.3,5.3,3.4c-2.1-0.3-4.1-0.6-6.2-0.9l-6.3,0.1l-0.1-0.1L476,372.8z"/>
+		</g>
+	</g>
+</g>
+<title>SLAM</title>
+<ellipse cx="200.1" cy="392.6" rx="37.7" ry="18"/>
+<text transform="matrix(1 0 0 1 184.7403 396.7686)" class="st0 st1 st2">SLAM</text>
+<title>SLAM-&gt;robSense</title>
+<g>
+	<g>
+		<path class="st3" d="M237.4,396.2c20.3,2,48.7,4.5,71.4,6.7"/>
+		<g>
+			<path d="M307,402.8l-1.8-3.8l0.1-0.1l5.6,2.9c2,0.6,4,1.3,6,1.9c-2.1,0.2-4.2,0.5-6.2,0.7l-6.1,1.7l-0.1-0.1L307,402.8z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st3" d="M577.1,328.7c28.7,20.9,132.8,187.1,134.9,217.5"/>
+		<g>
+			<path d="M711.9,544.4l3.4-2.4l0.1,0.1l-1.9,6c-0.3,2.1-0.6,4.1-0.9,6.2c-0.6-2-1.2-4-1.8-6l-2.7-5.7l0.1-0.1L711.9,544.4z"/>
+		</g>
+	</g>
+</g>
+</svg>
