@@ -1,0 +1,130 @@
+digraph G {
+  rankdir="LR";
+  label = "Tech Tree of OATMEAL Projects";
+  labelloc = "t";
+  node [style=filled, color="black", fontcolor="white"];
+
+  AIlayout [label="AI Layout"];
+  altSpace [label="AltSpace"];
+  basicBeacon [label="iBeacon\nAwareness"];
+  basicRobot [label="Awareness\nof Robots"];
+  bizCap [label="Capturing\nBusiness\nMetrics"];
+  boom [label="Distribution\nBoom"];
+  bravo [label="Bravo\nVictor\nNovember"];
+  BTARATA [label="Buildings That\nAre Right\nAll The Time"];
+  cadd [label="Continuous\nAnalysis,\nDesign &\nDelivery"];
+  changeSpace [label="Change\nSpace\nCollective"];
+  data [label="Data\nLiteracy"];
+  deskLoc [label="Desk\nLocation"];
+  desks [label="Unit\nDesks"];
+  deskSenseDn [label="Below\nDesk\nSensing"];
+  deskSenseUp [label="Above\nDesk\nSensing"];
+  diary [label="Diary\nStudies"];
+  electron [label="Desktop\nApp"];
+  emailData  [label="Email\nData"];
+  geoEthno1 [label="Geographic/\nEthnographic\ndata 1"];
+  geoEthno2 [label="Geographic/\nEthnographic\ndata 2"];
+  geoEthno3 [label="Geographic/\nEthnographic\ndata 3"];
+  halo [label="Robotic\nWeaving"];
+  hardware [label="Hardware\nDesign"];
+  lAmp [label="Learning\nAmplified\nSeating\nPlans"];
+  lExp [label="Learning\nExperiment"];
+  loTraining [label="Layout\nTraining\nData"];
+  mApp [label="Mobile\nApp"];
+  pathVis  [label="Path\nVisualisation"];
+  phone [label="Access\nTo Phones"];
+  pot [label="A Plane of\nThrones\nFramework"];
+  potPaper [label="A Plane of\nThrones Paper"];
+  RBTM [label="Robotic\nBuilding\nTopology\nModification"];
+  revit2ML [label="Revit\nLayout\nExtraction"];
+  robDesk [label="Robotic\nDesk\nArrangement"];
+  robPaper  [label="Robotics\nPapers"];
+  robSense [label="Robot\nMounted\nSensing"];
+  s3 [label="S3"];
+  sensicorn1 [label="Sensicorn 1"];
+  sensicorn2 [label="Sensicorn 2"];
+  sensors [label="Sensor\nLiteracy"];
+  Shakedown [label="Shakedown\ndata capture"];
+  Shakedown2 [label="Shakedown\n(with stalls)\nProduct"];
+  ShakedownPaper [label="Shakedown\nPaper"];
+  SLAM  [label="SLAM", xlabel="(Simultanious\nLocation\nAnd\nMapping)"];
+  SNA  [label="Social\nNetwork\nAnalysis"];
+  SydStudioSeating [label="Sydney\nStudio\nSeating"];
+  SydStudioSeating2 [label="Better\nSydney\nStudio\nSeating"];
+  systemReef [label="Systems\nReef"];
+  timeData  [label="Timesheet\nData"];
+
+  //html [label=<The <font color='red'><b>foo</b></font>,<br/> the <font point-size='20'>bar</font> and<br/> the <i>baz</i>>]
+
+  AIlayout -> robDesk;
+  basicBeacon -> deskLoc;
+  basicRobot -> halo;
+  basicRobot -> robSense;
+  bizCap -> cadd;
+  boom -> desks;
+  bravo -> ShakedownBlog;
+  bravo -> SNAblog;
+  cadd -> BTARATA;
+  data -> sensors;
+  deskLoc -> geoEthno1;
+  desks -> deskLoc;
+  deskSenseDn -> geoEthno2;
+  deskSenseUp -> geoEthno1;
+  diary -> geoEthno1;
+  electron -> deskSenseUp;
+  electron -> diary;
+  emailData -> SNA
+  geoEthno1 -> changeSpace
+  geoEthno1 -> geoEthno2;
+  geoEthno2 -> altSpace
+  geoEthno2 -> geoEthno3;
+  geoEthno3 -> cadd;
+  halo -> robPaper;
+  hardware -> s3;
+  hardware -> sensicorn1;
+  lAmp -> robDesk
+  lAmp -> SydStudioSeating2;
+  lExp -> lAmp;
+  loTraining -> AIlayout;
+  mApp -> sensicorn2;
+  pathVis -> sensicorn1;
+  phone -> mApp;
+  pot -> lAmp;
+  pot -> potPaper;
+  pot -> SydStudioSeating;
+  RBTM -> cadd;
+  revit2ML -> loTraining;
+  revit2ML -> potPaper;
+  robDesk -> RBTM;
+  robSense -> robDesk;
+  s3 -> deskSenseUp;
+  sensicorn1 -> sensicorn2;
+  sensicorn2 -> geoEthno2;
+  sensors -> robSense;
+  sensors -> s3;
+  sensors -> Shakedown;
+  Shakedown -> Shakedown2;
+  Shakedown -> ShakedownBlog;
+  Shakedown -> ShakedownPaper;
+  SLAM -> robSense;
+  SNA -> lAmp;
+  SNAawareness -> SNA;
+  SNAawareness -> SNAblog;
+  SydStudioSeating -> SydStudioSeating2;
+  systemReef -> boom;
+  systemReef -> halo
+  timeData -> SNA
+
+  //Eras
+  // Eras really mess up the layout algorithm, comment them out
+  // if you want the topology to be more sane.
+
+  //basic era
+   {rank = same; data; basicRobot; hardware; systemReef; SNAawareness}
+//   {rank = same; desks; }
+//   //connected era
+//   {rank = same; electron;}
+//   {rank = same; potPaper; ShakedownPaper}
+//   {rank = same; deskSenseDn; bizCap}
+//   {rank = same; sensicorn2; Shakedown2}
+}
