@@ -36,11 +36,11 @@ function getNodes(){
     // console.log(d3.selectAll('.node'));
     nodes = d3.selectAll('.node');
 
-    nodes.on("mouseover", function (d) {
-        d3.select(this).select("ellipse").style("fill", "blue")
-    }).on("mouseout", function (d) {
-        d3.select(this).select("ellipse").style("fill", "black")
-    });
+    // nodes.on("mouseover", function (d) {
+    //     d3.select(this).select("ellipse").style("fill", "blue")
+    // }).on("mouseout", function (d) {
+    //     d3.select(this).select("ellipse").style("fill", "black")
+    // });
     nodes.each(function (d) {
       var base = 10;
       var ringOffset = 6;
@@ -65,6 +65,9 @@ function getNodes(){
 
       //Draw the progress bar
       if (pd.percentComplete > 0) {
+        // make the progress bar, method from
+        // https://daverupert.com/2018/03/animated-svg-radial-progress-bars/
+        // don't draw anything if it's at 0 or you get a little nipple
         var prog_full = ghostEllip.node().getTotalLength();
         var prog = prog_full * ((100 - pd.percentComplete) / 100);
         var progressEllip = mainEllip.clone();
