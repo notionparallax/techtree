@@ -122,6 +122,7 @@ var digraph_details = ['digraph G {',
  ' bravo -> ShakedownBlog;',
  ' Shakedown -> Shakedown2;',
  ' cadd -> BTARATA;',
+ ' robSense -> robDesk;',
  ' {rank = same; data; basicRobot; hardware; systemReef; SNAawareness}',
  ' \n}'];
 
