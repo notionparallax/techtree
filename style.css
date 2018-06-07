@@ -1,0 +1,25 @@
+.node {
+  cursor:pointer; pointer-events: all;
+}
+
+svg.ghost-ring {
+    fill: none;
+    stroke-opacity: 0.5;
+    stroke-width: 1;
+    stroke: black;
+}
+
+svg.progress-ring {
+  animation: dash 1s ease-out forwards;
+  fill: none;
+  stroke-dasharray: 162.054;
+  stroke-dashoffset: 378.786;
+  stroke-linecap: round;
+  stroke-width: 10;
+  stroke: yellow;
+}
+
+svg.face-ring{
+  fill: red;
+  stroke: black;
+}

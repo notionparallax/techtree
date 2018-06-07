@@ -53,10 +53,10 @@ function getNodes(){
 
         //Draw the ghostly line
         let ghostEllip = mainEllip.clone();
-        ghostEllip.style("fill", "none");
-        ghostEllip.style("stroke", "black");
-        ghostEllip.style("opacity", 0.5);
-        ghostEllip.style("stroke-width", "1");
+        // ghostEllip.style("fill", "none");
+        // ghostEllip.style("stroke", "black");
+        // ghostEllip.style("opacity", 0.5);
+        // ghostEllip.style("stroke-width", "1");
         ghostEllip.attr("rx", rx + 5)
         ghostEllip.attr("ry", ry + 5)
         ghostEllip.attr("class", "ghost-ring");
@@ -64,13 +64,13 @@ function getNodes(){
         //Draw the progress bar
         let prog_full = ghostEllip.node().getTotalLength();
         var progressEllip = mainEllip.clone();
-        progressEllip.style("fill", "none");
-        progressEllip.style("stroke", "yellow");
-        progressEllip.style("stroke-width", "10");
-        progressEllip.style("stroke-dasharray", prog_full*Math.random());
-        progressEllip.style("stroke-dashoffset", prog_full);
-        progressEllip.style("stroke-linecap", "round");
-        progressEllip.style("animation", "dash 1s ease-out forwards");
+        // progressEllip.style("fill", "none");
+        // progressEllip.style("stroke", "yellow");
+        // progressEllip.style("stroke-width", "10");
+        // progressEllip.style("stroke-dasharray", prog_full*Math.random());
+        // progressEllip.style("stroke-dashoffset", prog_full);
+        // progressEllip.style("stroke-linecap", "round");
+        // progressEllip.style("animation", "dash 1s ease-out forwards");
         progressEllip.attr("rx", rx + 5)
         progressEllip.attr("ry", ry + 5)
         progressEllip.attr("class", "progress-ring");
@@ -83,8 +83,8 @@ function getNodes(){
         let randInt = Math.floor(Math.random() * Math.floor(4)) + 1;
         for (var i = 0; i < randInt; i++) {
           var ownerEllip = mainEllip.clone();
-          ownerEllip.style("fill", "red");
-          ownerEllip.style("stroke", "black");
+          // ownerEllip.style("fill", "red");
+          // ownerEllip.style("stroke", "black");
           let faceRad = 20;
           ownerEllip.attr("cx", cx - (rx - faceRad) + (faceRad * 0.8 * i));
           ownerEllip.attr("cy", cy + (ry - faceRad));
