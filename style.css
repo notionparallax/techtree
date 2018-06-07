@@ -22,8 +22,8 @@ ellipse.ghost-ring {
 ellipse.progress-ring {
   animation: dash 1s ease-out forwards;
   fill: none;
-  stroke-dasharray: 162.054;
-  stroke-dashoffset: 378.786;
+  /* stroke-dasharray: 162.054;
+  stroke-dashoffset: 378.786; */
   stroke-linecap: round;
   stroke-width: 10;
   stroke: yellow;
