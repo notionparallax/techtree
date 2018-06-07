@@ -6,7 +6,7 @@ function Get(yourUrl){
     Httpreq.send(null);
     return Httpreq.responseText;
 }
-
+var project_json_obj = JSON.parse(Get("parallellData.json"));
 
 function fiddle_about(){
     var div = d3.select("#graph");
@@ -55,7 +55,7 @@ function getNodes(){
       var ringOffset = 8;
       var faceRad = 10;
 
-      // console.log(d)
+      console.log(d)
       var mainEllip = d3.select(this).select("ellipse");
       var cx = parseInt(mainEllip.attr("cx"), base);
       var cy = parseInt(mainEllip.attr("cy"), base);
@@ -69,9 +69,10 @@ function getNodes(){
       ghostEllip.attr("class", "ghost-ring");
 
       //Draw the progress bar
+      console.log(project_json_obj[d.key].percentComplete * 0.01);
       var prog_full = ghostEllip.node().getTotalLength();
       var progressEllip = mainEllip.clone();
-      progressEllip.style("stroke-dasharray", prog_full*Math.random());
+      progressEllip.style("stroke-dasharray", prog_full * project_json_obj[d.key].percentComplete * 0.01);
       progressEllip.style("stroke-dashoffset", prog_full);
       progressEllip.attr("rx", rx + (ringOffset*0.5))
       progressEllip.attr("ry", ry + (ringOffset*0.5))
