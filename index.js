@@ -1,13 +1,5 @@
 // Written by Ben Doherty June 2018
 
-// function Get(yourUrl){
-//     var Httpreq = new XMLHttpRequest(); // a new request
-//     Httpreq.open("GET",yourUrl,false);
-//     Httpreq.send(null);
-//     return Httpreq.responseText;
-// }
-
-
 function fiddle_about(){
     var div = d3.select("#graph");
     var svg = d3.select(div.node().querySelector("svg"));
@@ -133,22 +125,3 @@ function render(dotSrc) {
 }
 
 render(digraph_details)
-
-
-// graph.graphviz()
-//     .fade(false)
-//     .renderDot(digraph_details, whereIsEverything);
-
-
-
-
-// graph.on("mousemove", function () {
-//         cx = d3.mouse(this)[0];
-//         cy = d3.mouse(this)[1];
-//         // console.log(cx, cy);
-//     })
-// nodes.on("mouseout", function (d) {
-//         d3.select(this).attr("r", 5.5).style("fill", "#fff8ee");
-//     });
-
-    // graphviz.renderDot(dotSrc[, callback])
