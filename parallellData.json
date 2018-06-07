@@ -1,4 +1,4 @@
-var parallellData = {
+{
   "AIlayout": {
     "LongName": "AI Layout",
     "Name": "AIlayout",
@@ -278,7 +278,7 @@ var parallellData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
-    "percentComplete": 0,
+    "percentComplete": 5,
     "precursors": null
   },
   "deskSenseUp": {
@@ -292,7 +292,7 @@ var parallellData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
-    "percentComplete": 0,
+    "percentComplete": 50,
     "precursors": [
       "recqsdnZyKEXLlafN"
     ]
@@ -305,7 +305,7 @@ var parallellData = {
       "recHLT6IoCZXwwtp3"
     ],
     "Type": "Capability",
-    "percentComplete": 0,
+    "percentComplete": 80,
     "precursors": [
       "recli0IRLQZowpWoF",
       "recPhk9t87eiweyAl"
@@ -332,7 +332,7 @@ var parallellData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
-    "percentComplete": 0,
+    "percentComplete": 20,
     "precursors": null
   },
   "emailData": {
@@ -392,8 +392,8 @@ var parallellData = {
     "Owner": [
       "reck4uCQdMmA9Dy0e"
     ],
-    "Type": null,
-    "percentComplete": 0,
+    "Type": "Project",
+    "percentComplete": 100,
     "precursors": [
       "recEL4ZZsARmsYwFt",
       "rectkEzpAV9fxHPwS"
@@ -406,8 +406,8 @@ var parallellData = {
     "Owner": [
       "recj2rmnndUmxB3Dt"
     ],
-    "Type": null,
-    "percentComplete": 0,
+    "Type": "Capability",
+    "percentComplete": 100,
     "precursors": null
   },
   "lAmp": {
@@ -484,7 +484,7 @@ var parallellData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": null,
-    "percentComplete": 0,
+    "percentComplete": 50,
     "precursors": null
   },
   "potPaper": {
@@ -495,7 +495,7 @@ var parallellData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Publication",
-    "percentComplete": 0,
+    "percentComplete": 100,
     "precursors": [
       "recflCm8BzuGQbmW0",
       "recSIIp1grVggDGQo"
@@ -511,7 +511,7 @@ var parallellData = {
       "recjdvfsS0ZXESR2L"
     ],
     "Type": null,
-    "percentComplete": 0,
+    "percentComplete": 70,
     "precursors": null
   },
   "robDesk": {
@@ -628,4 +628,4 @@ var parallellData = {
     "percentComplete": 0,
     "precursors": null
   }
-};
+}
