@@ -14,9 +14,9 @@ function whereIsEverything(){
     d = {};
 
     Array.from(n).forEach(function(item) {
-        let e = item.getElementsByTagName("ellipse")[0];
-  	let this_node = {};
-    let name = item.getElementsByTagName("title")[0].textContent;
+        var e = item.getElementsByTagName("ellipse")[0];
+  	var this_node = {};
+    var name = item.getElementsByTagName("title")[0].textContent;
     this_node.id = item.id;
     this_node.name = name;
     this_node.x    = e.cx.baseVal.value;
@@ -44,57 +44,49 @@ function getNodes(){
         d3.select(this).select("ellipse").style("fill", "black")
     });
     nodes.each(function (d) {
-        // console.log(d)
-        let mainEllip = d3.select(this).select("ellipse");
-        let cx = parseInt(mainEllip.attr("cx"), 10);
-        let cy = parseInt(mainEllip.attr("cy"), 10);
-        let rx = parseInt(mainEllip.attr("rx"), 10);
-        let ry = parseInt(mainEllip.attr("ry"), 10);
+      var base = 10;
+      var ringOffset = 8;
+      var faceRad = 10;
 
-        //Draw the ghostly line
-        let ghostEllip = mainEllip.clone();
-        // ghostEllip.style("fill", "none");
-        // ghostEllip.style("stroke", "black");
-        // ghostEllip.style("opacity", 0.5);
-        // ghostEllip.style("stroke-width", "1");
-        ghostEllip.attr("rx", rx + 5)
-        ghostEllip.attr("ry", ry + 5)
-        ghostEllip.attr("class", "ghost-ring");
+      // console.log(d)
+      var mainEllip = d3.select(this).select("ellipse");
+      var cx = parseInt(mainEllip.attr("cx"), base);
+      var cy = parseInt(mainEllip.attr("cy"), base);
+      var rx = parseInt(mainEllip.attr("rx"), base);
+      var ry = parseInt(mainEllip.attr("ry"), base);
 
-        //Draw the progress bar
-        let prog_full = ghostEllip.node().getTotalLength();
-        var progressEllip = mainEllip.clone();
-        // progressEllip.style("fill", "none");
-        // progressEllip.style("stroke", "yellow");
-        // progressEllip.style("stroke-width", "10");
-        progressEllip.style("stroke-dasharray", prog_full*Math.random());
-        progressEllip.style("stroke-dashoffset", prog_full);
-        // progressEllip.style("stroke-linecap", "round");
-        // progressEllip.style("animation", "dash 1s ease-out forwards");
-        progressEllip.attr("rx", rx + 5)
-        progressEllip.attr("ry", ry + 5)
-        progressEllip.attr("class", "progress-ring");
+      //Draw the ghostly line
+      var ghostEllip = mainEllip.clone();
+      ghostEllip.attr("rx", rx + (ringOffset*0.5));
+      ghostEllip.attr("ry", ry + (ringOffset*0.5));
+      ghostEllip.attr("class", "ghost-ring");
 
-        this.append(ghostEllip);
-        this.append(progressEllip);
+      //Draw the progress bar
+      var prog_full = ghostEllip.node().getTotalLength();
+      var progressEllip = mainEllip.clone();
+      progressEllip.style("stroke-dasharray", prog_full*Math.random());
+      progressEllip.style("stroke-dashoffset", prog_full);
+      progressEllip.attr("rx", rx + (ringOffset*0.5))
+      progressEllip.attr("ry", ry + (ringOffset*0.5))
+      progressEllip.attr("class", "progress-ring");
 
-        //Draw the circles for ownership faces
-        //This needs a better way of getting the images into the circles
-        let randInt = Math.floor(Math.random() * Math.floor(4)) + 1;
-        for (var i = 0; i < randInt; i++) {
-          var ownerEllip = mainEllip.clone();
-          // ownerEllip.style("fill", "red");
-          // ownerEllip.style("stroke", "black");
-          let faceRad = 20;
-          ownerEllip.attr("cx", cx - (rx - faceRad) + (faceRad * 0.8 * i));
-          ownerEllip.attr("cy", cy + (ry - faceRad));
-          ownerEllip.attr("rx", faceRad);
-          ownerEllip.attr("ry", faceRad);
-          ownerEllip.attr("class", "face-ring");
-          this.append(ownerEllip);
-        }
+      this.append(ghostEllip);
+      this.append(progressEllip);
 
-    });
+      //Draw the circles for ownership faces
+      //This needs a better way of getting the images into the circles
+      var randInt = Math.floor(Math.random() * Math.floor(4)) + 1;
+      for (var i = 0; i < randInt; i++) {
+        var ownerEllip = mainEllip.clone();
+        ownerEllip.attr("cx", cx - (rx - faceRad) + (faceRad * 0.8 * i));
+        ownerEllip.attr("cy", cy + (ry - faceRad));
+        ownerEllip.attr("rx", faceRad);
+        ownerEllip.attr("ry", faceRad);
+        ownerEllip.attr("class", "face-ring");
+        this.append(ownerEllip);
+      }
+
+  });
 
 }
 
