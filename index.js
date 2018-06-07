@@ -67,8 +67,8 @@ function getNodes(){
         // progressEllip.style("fill", "none");
         // progressEllip.style("stroke", "yellow");
         // progressEllip.style("stroke-width", "10");
-        // progressEllip.style("stroke-dasharray", prog_full*Math.random());
-        // progressEllip.style("stroke-dashoffset", prog_full);
+        progressEllip.style("stroke-dasharray", prog_full*Math.random());
+        progressEllip.style("stroke-dashoffset", prog_full);
         // progressEllip.style("stroke-linecap", "round");
         // progressEllip.style("animation", "dash 1s ease-out forwards");
         progressEllip.attr("rx", rx + 5)

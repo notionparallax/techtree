@@ -2,14 +2,14 @@
   cursor:pointer; pointer-events: all;
 }
 
-svg.ghost-ring {
+ellipse.ghost-ring {
     fill: none;
     stroke-opacity: 0.5;
     stroke-width: 1;
     stroke: black;
 }
 
-svg.progress-ring {
+ellipse.progress-ring {
   animation: dash 1s ease-out forwards;
   fill: none;
   stroke-dasharray: 162.054;
@@ -19,7 +19,7 @@ svg.progress-ring {
   stroke: yellow;
 }
 
-svg.face-ring{
+ellipse.face-ring{
   fill: red;
   stroke: black;
 }
