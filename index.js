@@ -1,5 +1,12 @@
 // Written by Ben Doherty June 2018
 
+function Get(yourUrl){
+    var Httpreq = new XMLHttpRequest(); // a new request
+    Httpreq.open("GET",yourUrl,false);
+    Httpreq.send(null);
+    return Httpreq.responseText;
+}
+
 
 function fiddle_about(){
     var div = d3.select("#graph");
