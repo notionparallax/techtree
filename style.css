@@ -18,7 +18,7 @@ text {
 
 ellipse.ghost-ring {
     fill: none;
-    stroke-opacity: 0.5;
+    stroke-opacity: 0.1;
     stroke-width: 1;
     stroke: black;
 }
@@ -29,7 +29,6 @@ ellipse.progress-ring {
   /* stroke-dasharray: 162.054;
   stroke-dashoffset: 378.786; */
   stroke-linecap: round;
-  stroke-width: 10;
   stroke: yellow;
 }
 

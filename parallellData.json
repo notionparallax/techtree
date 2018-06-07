@@ -1,4 +1,4 @@
-{
+var parallellData = {
   "AIlayout": {
     "LongName": "AI Layout",
     "Name": "AIlayout",
@@ -628,4 +628,4 @@
     "percentComplete": 0,
     "precursors": null
   }
-}
+};
