@@ -6,7 +6,7 @@ function Get(yourUrl){
     Httpreq.send(null);
     return Httpreq.responseText;
 }
-var project_json_obj = JSON.parse(Get("parallellData.json"));
+
 
 function fiddle_about(){
     var div = d3.select("#graph");
@@ -41,7 +41,9 @@ return d;
 var graph = d3.select("#graph").graphviz();
 
 function getNodes(){
-    console.log(d3.selectAll('.node'));
+    var project_json_obj = JSON.parse(Get("parallellData.json"));
+
+    // console.log(d3.selectAll('.node'));
     nodes = d3.selectAll('.node');
 
     nodes.on("mouseover", function (d) {
