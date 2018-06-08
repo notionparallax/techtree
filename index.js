@@ -45,7 +45,7 @@ function getNodes(){
       var base = 10;
       var ringOffset = 6;
       var faceRad = 10;
-      var pd = parallellData[d.key];
+      var pd = parallelData[d.key];
 
       console.log(d)
       var mainEllip = d3.select(this).select("ellipse");
