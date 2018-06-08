@@ -6,21 +6,42 @@
 
 body {
   font-family: 'Blender-book';
+  background-color: rgb(40, 40, 40);
 }
 
-text {
+polygon {
+  fill: rgb(40, 40, 40);
+}
+
+.edge polygon {
+  fill: white;
+  stroke: white;
+}
+
+.edge path {
+  stroke: white;
+}
+
+.node text {
     font-family: 'Blender-book';
+    fill: white;
 }
 
 .node {
   cursor:pointer; pointer-events: all;
 }
 
+ellipse {
+  fill: rgb(57, 30, 233);
+  stroke-width: 2.5;
+    stroke:  rgb(84, 207, 212);
+}
+
 ellipse.ghost-ring {
     fill: none;
     stroke-opacity: 0.1;
     stroke-width: 1;
-    stroke: black;
+    stroke: white;
 }
 
 ellipse.progress-ring {
@@ -29,10 +50,14 @@ ellipse.progress-ring {
   /* stroke-dasharray: 162.054;
   stroke-dashoffset: 378.786; */
   stroke-linecap: round;
-  stroke: yellow;
+  stroke: #F44336;
 }
 
 ellipse.face-ring{
-  fill: red;
+  fill: white;
   stroke: black;
+  stroke-width: ;
+}
+.node text.initials {
+  fill: #3F51B5;
 }
