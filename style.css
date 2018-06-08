@@ -4,6 +4,15 @@
   src: url('https://bvn-architecture.github.io/techtree/blenderpro-book-webfont.woff');
 }
 
+#graph {
+  width: 100vw;
+  height: 100vh;
+}
+
+svg {
+    width: 100%;
+}
+
 body {
   font-family: 'Blender-book';
   background-color: rgb(40, 40, 40);
@@ -11,6 +20,12 @@ body {
 
 polygon {
   fill: rgb(40, 40, 40);
+}
+
+#graph0 > text {
+    font-size: 2em;
+    font-family: 'Blender-book';
+    fill: white;
 }
 
 .edge polygon {
