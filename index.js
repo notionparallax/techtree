@@ -1,11 +1,23 @@
 // Written by Ben Doherty June 2018
 
-
-var graph = d3.select("#graph").graphviz();
+var container = d3.select("#graph");
+var graph = container.graphviz();
+var base = 10;
+var ringOffset = 6;
+var faceRad = 11;
 
 function getNodes(){
     // console.log(d3.selectAll('.node'));
     nodes = d3.selectAll('.node');
+
+    var svg = d3.select("#graph svg");
+    var defs = svg.append("defs");
+    defs.append("clipPath")
+      .attr("id", "avatar-clip")
+      .append("circle")
+      .attr("cx", faceRad)
+      .attr("cy", faceRad)
+      .attr("r", faceRad)
 
     // nodes.on("mouseover", function (d) {
     //     d3.select(this).select("ellipse").style("fill", "blue")
@@ -13,9 +25,6 @@ function getNodes(){
     //     d3.select(this).select("ellipse").style("fill", "black")
     // });
     nodes.each(function (d) {
-      var base = 10;
-      var ringOffset = 6;
-      var faceRad = 10;
       var pd = parallelData[d.key];
 
       // console.log(d)
@@ -61,7 +70,6 @@ function getNodes(){
           team = pd.Owner;
         }
       }
-      // console.log(pd.Name, "team", team);
 
 
       for (var i = 0; i < team.length; i++) {
@@ -85,7 +93,18 @@ function getNodes(){
             .attr("font-size", faceRad)
             .attr("class", "initials")
             .text(person.Initials);
+
+        d3.select(this).append("image")
+          .attr("x", 0)
+          .attr("y", 0)
+          .attr("width", faceRad * 2)
+          .attr("height", faceRad * 2)
+          .attr("xlink:href", person.thumb_large)
+          .attr("clip-path", "url(#avatar-clip)")
+          .attr("transform", "translate(" + (cenX-faceRad) + ", "
+                                          + (cenY-faceRad) + ")" );
       }
+
 
       //set node colours based on type of node
       if (pd.Type === "Project")            { mainEllip.style("stroke", "rgb(146, 21, 210)");
