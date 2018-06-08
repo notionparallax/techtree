@@ -94,19 +94,12 @@ function getNodes(){
       }
 
       //set node colours based on type of node
-      if (pd.Type === "Project") {
-        mainEllip.style("fill", "red");
-      } else if (pd.Type === "Capability"){
-        mainEllip.style("fill", "green");
-      } else if (pd.Type === "Publication"){
-        mainEllip.style("fill", "blue");
-      } else if (pd.Type === "Milestone"){
-        mainEllip.style("fill", "orange");
-      } else if (pd.Type === "Product"){
-        mainEllip.style("fill", "silver");
-      } else {
-        //nothing
-      }
+      if (pd.Type === "Project")            { mainEllip.style("stroke", "rgb(146, 21, 210)");
+      } else if (pd.Type === "Capability")  { mainEllip.style("stroke", "rgb(236, 222, 97)");
+      } else if (pd.Type === "Publication") { mainEllip.style("stroke", "rgb(122, 214, 65)");
+      } else if (pd.Type === "Milestone")   { mainEllip.style("stroke", "rgba(226, 123, 34, 0.9215686274509803)");
+      } else if (pd.Type === "Product")     { mainEllip.style("stroke", "rgb(239, 165, 226)");
+      } else {        /*nothing*/      }
 
   });
 
