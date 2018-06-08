@@ -30,7 +30,7 @@ var parallelData = {
     "Name": "RBTM",
     "Other_people_involved": null,
     "Owner": null,
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 0,
     "precursors": [
       "recJMJDs4EKTMzUQm"
@@ -41,7 +41,7 @@ var parallelData = {
     "Name": "SLAM",
     "Other_people_involved": null,
     "Owner": null,
-    "Type": null,
+    "Type": "Capability",
     "percentComplete": 0,
     "precursors": [
       "recEL4ZZsARmsYwFt"
@@ -54,7 +54,7 @@ var parallelData = {
     "Owner": [
       "recgcDkgKvrBLH1k0"
     ],
-    "Type": null,
+    "Type": "Capability",
     "percentComplete": 0,
     "precursors": [
       "recF1PTEM9uexmaTm",
@@ -66,7 +66,9 @@ var parallelData = {
     "LongName": "SNA Awareness",
     "Name": "SNAawareness",
     "Other_people_involved": null,
-    "Owner": null,
+    "Owner": [
+      "recgcDkgKvrBLH1k0"
+    ],
     "Type": "Capability",
     "percentComplete": 0,
     "precursors": null
@@ -75,7 +77,9 @@ var parallelData = {
     "LongName": "Social Network Analysis Blog Post",
     "Name": "SNAblog",
     "Other_people_involved": null,
-    "Owner": null,
+    "Owner": [
+      "recgcDkgKvrBLH1k0"
+    ],
     "Type": "Publication",
     "percentComplete": 0,
     "precursors": [
@@ -86,9 +90,14 @@ var parallelData = {
   "Shakedown": {
     "LongName": "Shakedown data capture",
     "Name": "Shakedown",
-    "Other_people_involved": null,
-    "Owner": null,
-    "Type": null,
+    "Other_people_involved": [
+      "recgcDkgKvrBLH1k0",
+      "rece9qyNSfMqAhZAL"
+    ],
+    "Owner": [
+      "recj2rmnndUmxB3Dt"
+    ],
+    "Type": "Project",
     "percentComplete": 0,
     "precursors": [
       "recrOomL72JDA45yp"
@@ -99,7 +108,7 @@ var parallelData = {
     "Name": "Shakedown2",
     "Other_people_involved": null,
     "Owner": null,
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 0,
     "precursors": [
       "recL2m88D6TZ1chAj"
@@ -108,8 +117,12 @@ var parallelData = {
   "ShakedownBlog": {
     "LongName": "Shakedown Blog",
     "Name": "ShakedownBlog",
-    "Other_people_involved": null,
-    "Owner": null,
+    "Other_people_involved": [
+      "rece9qyNSfMqAhZAL"
+    ],
+    "Owner": [
+      "recj2rmnndUmxB3Dt"
+    ],
     "Type": "Publication",
     "percentComplete": 0,
     "precursors": [
@@ -137,11 +150,11 @@ var parallelData = {
     "Name": "SydStudioSeating",
     "Other_people_involved": null,
     "Owner": null,
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 0,
     "precursors": [
-      "recsE2Wezl1QpWoL3",
-      "recg3Af1SGeuhckqO"
+      "recg3Af1SGeuhckqO",
+      "recmjo5fVtiAflmvo"
     ]
   },
   "SydStudioSeating2": {
@@ -163,7 +176,7 @@ var parallelData = {
       "recHN7P3Wz3YGdAN2"
     ],
     "Type": "Product",
-    "percentComplete": 0,
+    "percentComplete": 50,
     "precursors": [
       "rec916rZDT7JzwkZs"
     ]
@@ -171,8 +184,12 @@ var parallelData = {
   "basicBeacon": {
     "LongName": "iBeacon Awareness",
     "Name": "basicBeacon",
-    "Other_people_involved": null,
-    "Owner": null,
+    "Other_people_involved": [
+      "rece9qyNSfMqAhZAL"
+    ],
+    "Owner": [
+      "rec3HypnJiuTkeVBJ"
+    ],
     "Type": "Capability",
     "percentComplete": 0,
     "precursors": null
@@ -252,8 +269,16 @@ var parallelData = {
   "data": {
     "LongName": "Data Literacy",
     "Name": "data",
-    "Other_people_involved": null,
-    "Owner": null,
+    "Other_people_involved": [
+      "recj2rmnndUmxB3Dt",
+      "rece9qyNSfMqAhZAL",
+      "rec3HypnJiuTkeVBJ",
+      "recjdvfsS0ZXESR2L",
+      "recuFyI25ChOwWWhr"
+    ],
+    "Owner": [
+      "recgcDkgKvrBLH1k0"
+    ],
     "Type": "Capability",
     "percentComplete": 0,
     "precursors": null
@@ -261,8 +286,12 @@ var parallelData = {
   "deskLoc": {
     "LongName": "Desk Location",
     "Name": "deskLoc",
-    "Other_people_involved": null,
-    "Owner": null,
+    "Other_people_involved": [
+      "recgcDkgKvrBLH1k0"
+    ],
+    "Owner": [
+      "rece9qyNSfMqAhZAL"
+    ],
     "Type": "Project",
     "percentComplete": 0,
     "precursors": [
@@ -330,8 +359,14 @@ var parallelData = {
   "electron": {
     "LongName": "Desktop App",
     "Name": "electron",
-    "Other_people_involved": null,
-    "Owner": null,
+    "Other_people_involved": [
+      "recj2rmnndUmxB3Dt",
+      "recuFyI25ChOwWWhr",
+      "recgcDkgKvrBLH1k0"
+    ],
+    "Owner": [
+      "rece9qyNSfMqAhZAL"
+    ],
     "Type": "Project",
     "percentComplete": 20,
     "precursors": null
@@ -343,7 +378,7 @@ var parallelData = {
     "Owner": [
       "recgcDkgKvrBLH1k0"
     ],
-    "Type": null,
+    "Type": "Capability",
     "percentComplete": 0,
     "precursors": null
   },
@@ -365,7 +400,7 @@ var parallelData = {
     "Name": "geoEthno2",
     "Other_people_involved": null,
     "Owner": null,
-    "Type": null,
+    "Type": "Milestone",
     "percentComplete": 0,
     "precursors": [
       "recC9Zxt4MV7hRodc",
@@ -380,7 +415,7 @@ var parallelData = {
     "Owner": [
       "rece9qyNSfMqAhZAL"
     ],
-    "Type": null,
+    "Type": "Milestone",
     "percentComplete": 0,
     "precursors": [
       "rec916rZDT7JzwkZs"
@@ -418,7 +453,7 @@ var parallelData = {
     "Owner": [
       "recgcDkgKvrBLH1k0"
     ],
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 0,
     "precursors": [
       "recsE2Wezl1QpWoL3",
@@ -429,18 +464,27 @@ var parallelData = {
   "lExp": {
     "LongName": "Learning Experiment",
     "Name": "lExp",
-    "Other_people_involved": null,
-    "Owner": null,
-    "Type": null,
+    "Other_people_involved": [
+      "rece9qyNSfMqAhZAL"
+    ],
+    "Owner": [
+      "recgcDkgKvrBLH1k0"
+    ],
+    "Type": "Project",
     "percentComplete": 0,
     "precursors": null
   },
   "loTraining": {
     "LongName": "Layout Training Data",
     "Name": "loTraining",
-    "Other_people_involved": null,
-    "Owner": null,
-    "Type": null,
+    "Other_people_involved": [
+      "recjdvfsS0ZXESR2L",
+      "recFUgthTUYQnR7Mz"
+    ],
+    "Owner": [
+      "rece9qyNSfMqAhZAL"
+    ],
+    "Type": "Project",
     "percentComplete": 70,
     "precursors": [
       "recSIIp1grVggDGQo"
@@ -451,7 +495,7 @@ var parallelData = {
     "Name": "mApp",
     "Other_people_involved": null,
     "Owner": null,
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 0,
     "precursors": [
       "recOF4lA6W5eyRfl3"
@@ -464,7 +508,7 @@ var parallelData = {
     "Owner": [
       "rec3HypnJiuTkeVBJ"
     ],
-    "Type": null,
+    "Type": "Capability",
     "percentComplete": 50,
     "precursors": null
   },
@@ -484,7 +528,7 @@ var parallelData = {
     "Owner": [
       "recgcDkgKvrBLH1k0"
     ],
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 50,
     "precursors": null
   },
@@ -511,7 +555,7 @@ var parallelData = {
     "Owner": [
       "recjdvfsS0ZXESR2L"
     ],
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 70,
     "precursors": null
   },
@@ -520,7 +564,7 @@ var parallelData = {
     "Name": "robDesk",
     "Other_people_involved": null,
     "Owner": null,
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 0,
     "precursors": [
       "recmUQLIxzr2wiyzd",
@@ -537,7 +581,7 @@ var parallelData = {
     "Owner": [
       "reck4uCQdMmA9Dy0e"
     ],
-    "Type": null,
+    "Type": "Publication",
     "percentComplete": 0,
     "precursors": [
       "recPhk9t87eiweyAl"
@@ -548,7 +592,7 @@ var parallelData = {
     "Name": "robSense",
     "Other_people_involved": null,
     "Owner": null,
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 0,
     "precursors": [
       "recctP32G3sreUKjg",
@@ -576,11 +620,13 @@ var parallelData = {
   "sensicorn1": {
     "LongName": "Sensicorn 1",
     "Name": "sensicorn1",
-    "Other_people_involved": null,
+    "Other_people_involved": [
+      "rec3HypnJiuTkeVBJ"
+    ],
     "Owner": [
       "rece9qyNSfMqAhZAL"
     ],
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 80,
     "precursors": [
       "recru4UXYdMmO7sX8",
@@ -592,7 +638,7 @@ var parallelData = {
     "Name": "sensicorn2",
     "Other_people_involved": null,
     "Owner": null,
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 0,
     "precursors": [
       "reca1ZZ98UE1Y07Oo",
@@ -606,7 +652,7 @@ var parallelData = {
     "Owner": [
       "recj2rmnndUmxB3Dt"
     ],
-    "Type": null,
+    "Type": "Capability",
     "percentComplete": 0,
     "precursors": [
       "recXEw0Q2LFFIa2XB"
@@ -621,7 +667,7 @@ var parallelData = {
     "Owner": [
       "recHLT6IoCZXwwtp3"
     ],
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 0,
     "precursors": null
   },
@@ -630,7 +676,7 @@ var parallelData = {
     "Name": "timeData",
     "Other_people_involved": null,
     "Owner": null,
-    "Type": null,
+    "Type": "Capability",
     "percentComplete": 0,
     "precursors": null
   }

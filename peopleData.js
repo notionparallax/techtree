@@ -56,7 +56,8 @@ var peopleData = {
     "Name": "Annisa",
     "Notes": null,
     "Techs": [
-      "recru4UXYdMmO7sX8"
+      "recXEw0Q2LFFIa2XB",
+      "reca1ZZ98UE1Y07Oo"
     ],
     "id": "rec3HypnJiuTkeVBJ",
     "thumb_large": "https://dl.airtable.com/JgeHAo9xSGmjVWy0FtXS_large_P_160405_N20.jpg"
@@ -124,7 +125,9 @@ var peopleData = {
     "Initials": "RX",
     "Name": "AI Richard",
     "Notes": null,
-    "Techs": null,
+    "Techs": [
+      "recnjMKU5MFlbshGD"
+    ],
     "id": "recFUgthTUYQnR7Mz",
     "thumb_large": "http://getdrawings.com/images/casper-drawing-8.jpg"
   },
@@ -252,7 +255,12 @@ var peopleData = {
       "rec5v7YBAh4XzeOQ7",
       "recSIIp1grVggDGQo",
       "recqsdnZyKEXLlafN",
-      "reco8NZ3WlsKp4wJg"
+      "reco8NZ3WlsKp4wJg",
+      "recBSgYm9bZFyanp3",
+      "recXEw0Q2LFFIa2XB",
+      "recsE2Wezl1QpWoL3",
+      "recL2m88D6TZ1chAj",
+      "recwy65aPjhG9k7DU"
     ],
     "id": "rece9qyNSfMqAhZAL",
     "thumb_large": "https://dl.airtable.com/9bCj4hVTSkCAXtf3e4eT_large_face.jpg"
@@ -283,11 +291,9 @@ var peopleData = {
     "Name": "Ishaan",
     "Notes": null,
     "Techs": [
-      "recCdV0IBu62AhiOt",
-      "recmjo5fVtiAflmvo",
-      "recflCm8BzuGQbmW0",
-      "rec0ArDcPS4hLrmJq",
-      "recFT5OW9AN6NJAAp"
+      "rechAwGrx1K8hAmTi",
+      "recg3Af1SGeuhckqO",
+      "recL2m88D6TZ1chAj"
     ],
     "id": "recgcDkgKvrBLH1k0",
     "thumb_large": "https://dl.airtable.com/heJnNH6AS0CjCCRvxXa3_large_Ishaan.jpg"
@@ -318,12 +324,8 @@ var peopleData = {
     "Name": "Aiden",
     "Notes": null,
     "Techs": [
-      "rec5v7YBAh4XzeOQ7",
-      "rec2musyOg3qL274O",
-      "reczMCua56WUmp3zF",
-      "recqsdnZyKEXLlafN",
-      "recrOomL72JDA45yp",
-      "reco8NZ3WlsKp4wJg"
+      "rechAwGrx1K8hAmTi",
+      "recXEw0Q2LFFIa2XB"
     ],
     "id": "recj2rmnndUmxB3Dt",
     "thumb_large": "https://dl.airtable.com/wNAkSR0RUlLTf8AMRYJA_large_50.png"
@@ -354,7 +356,9 @@ var peopleData = {
     "Name": "Shawnee",
     "Notes": null,
     "Techs": [
-      "recmUQLIxzr2wiyzd"
+      "recmUQLIxzr2wiyzd",
+      "recXEw0Q2LFFIa2XB",
+      "recnjMKU5MFlbshGD"
     ],
     "id": "recjdvfsS0ZXESR2L",
     "thumb_large": "https://dl.airtable.com/LtvAB3rHQC2u6tcZArZt_large_Shawnee%2BFinlayson.jpg"
@@ -416,7 +420,9 @@ var peopleData = {
     "Name": "Baptiste",
     "Notes": null,
     "Techs": [
-      "rec5v7YBAh4XzeOQ7"
+      "rec5v7YBAh4XzeOQ7",
+      "rechAwGrx1K8hAmTi",
+      "recXEw0Q2LFFIa2XB"
     ],
     "id": "recuFyI25ChOwWWhr",
     "thumb_large": "https://dl.airtable.com/FRJXAfziQn226JiBopNq_large_20171005_171412_resized.jpg"
