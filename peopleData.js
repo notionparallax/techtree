@@ -65,22 +65,22 @@ var peopleData = {
     "Headshot": [
       {
         "filename": "dura-ace-cog.jpg",
-        "id": "attzVBMKsBoqCwH4N",
-        "size": 139753,
+        "id": "attGY4CDlDWCO1Ug0",
+        "size": 349692,
         "thumbnails": {
           "large": {
             "height": 512,
-            "url": "https://dl.airtable.com/JDhVYh9SAOPYoIBE6ipb_large_dura-ace-cog.jpg",
-            "width": 614
+            "url": "https://dl.airtable.com/k7bmR1FNTyeJBIzaiWcA_large_dura-ace-cog.jpg",
+            "width": 512
           },
           "small": {
             "height": 36,
-            "url": "https://dl.airtable.com/Nb21kuBJTLcWQK4XkRuw_small_dura-ace-cog.jpg",
-            "width": 43
+            "url": "https://dl.airtable.com/80fMJGaRTg2tLpHDUekQ_small_dura-ace-cog.jpg",
+            "width": 36
           }
         },
         "type": "image/jpeg",
-        "url": "https://dl.airtable.com/4lBScRgSwycEkslVUVcO_dura-ace-cog.jpg"
+        "url": "https://dl.airtable.com/OOtgGnlQS4n8IShitlvQ_dura-ace-cog.jpg"
       }
     ],
     "Initials": "--",
@@ -88,7 +88,7 @@ var peopleData = {
     "Notes": "This is who'll be assigned automagically if nobody is assigned",
     "Techs": null,
     "id": "recF9tgC6LJUmi5gJ",
-    "thumb_large": "https://dl.airtable.com/JDhVYh9SAOPYoIBE6ipb_large_dura-ace-cog.jpg"
+    "thumb_large": "https://dl.airtable.com/k7bmR1FNTyeJBIzaiWcA_large_dura-ace-cog.jpg"
   },
   "recFKWrjwOUM5oWxI": {
     "Headshot": [
@@ -225,42 +225,23 @@ var peopleData = {
   "rece9qyNSfMqAhZAL": {
     "Headshot": [
       {
-        "filename": "MVIMG_20180224_173642.jpg",
-        "id": "attiDpgZgGjEWT4iR",
-        "size": 7441317,
+        "filename": "face.jpg",
+        "id": "attdaQhNW1zfK4FrF",
+        "size": 533677,
         "thumbnails": {
           "large": {
-            "height": 683,
-            "url": "https://dl.airtable.com/nUBlmdvR1iLT0mCbllA1_large_MVIMG_20180224_173642.jpg",
+            "height": 512,
+            "url": "https://dl.airtable.com/9bCj4hVTSkCAXtf3e4eT_large_face.jpg",
             "width": 512
           },
           "small": {
             "height": 36,
-            "url": "https://dl.airtable.com/vao3Ge65RXuQs17gLU4p_small_MVIMG_20180224_173642.jpg",
-            "width": 27
+            "url": "https://dl.airtable.com/XBF0no73TZzffAq7pQnw_small_face.jpg",
+            "width": 36
           }
         },
         "type": "image/jpeg",
-        "url": "https://dl.airtable.com/i6xzpJ9QSPmRqqlhxxYH_MVIMG_20180224_173642.jpg"
-      },
-      {
-        "filename": "face.jpg",
-        "id": "att24vtQ3Nyb0Et7F",
-        "size": 550035,
-        "thumbnails": {
-          "large": {
-            "height": 512,
-            "url": "https://dl.airtable.com/Xuhm9DnPRXaH8Cb6U7B5_large_face.jpg",
-            "width": 524
-          },
-          "small": {
-            "height": 36,
-            "url": "https://dl.airtable.com/4oVo2DG0R8uoLJ96MlNA_small_face.jpg",
-            "width": 37
-          }
-        },
-        "type": "image/jpeg",
-        "url": "https://dl.airtable.com/Qn78TSlQQyitfoeaYFwX_face.jpg"
+        "url": "https://dl.airtable.com/QAuKDpFiSqmdz4gTDVKa_face.jpg"
       }
     ],
     "Initials": "BeD",
@@ -274,28 +255,28 @@ var peopleData = {
       "reco8NZ3WlsKp4wJg"
     ],
     "id": "rece9qyNSfMqAhZAL",
-    "thumb_large": "https://dl.airtable.com/nUBlmdvR1iLT0mCbllA1_large_MVIMG_20180224_173642.jpg"
+    "thumb_large": "https://dl.airtable.com/9bCj4hVTSkCAXtf3e4eT_large_face.jpg"
   },
   "recgcDkgKvrBLH1k0": {
     "Headshot": [
       {
         "filename": "Ishaan.jpg",
-        "id": "atthfGGFkTCJEDwUT",
-        "size": 1356236,
+        "id": "attiQH5ebrzZzivNM",
+        "size": 136215,
         "thumbnails": {
           "large": {
-            "height": 831,
-            "url": "https://dl.airtable.com/hI2scvcS1WedienZx2uw_large_Ishaan.jpg",
+            "height": 512,
+            "url": "https://dl.airtable.com/heJnNH6AS0CjCCRvxXa3_large_Ishaan.jpg",
             "width": 512
           },
           "small": {
             "height": 36,
-            "url": "https://dl.airtable.com/4GxL57iRQGHepMnMgl7u_small_Ishaan.jpg",
-            "width": 22
+            "url": "https://dl.airtable.com/dwvEVpaWTVO1EAfDqhCg_small_Ishaan.jpg",
+            "width": 36
           }
         },
         "type": "image/jpeg",
-        "url": "https://dl.airtable.com/UpUIIl24SauNKHDBRDsg_Ishaan.jpg"
+        "url": "https://dl.airtable.com/3tQHY3rkQWTQKnCsL51p_Ishaan.jpg"
       }
     ],
     "Initials": "IV",
@@ -309,7 +290,7 @@ var peopleData = {
       "recFT5OW9AN6NJAAp"
     ],
     "id": "recgcDkgKvrBLH1k0",
-    "thumb_large": "https://dl.airtable.com/hI2scvcS1WedienZx2uw_large_Ishaan.jpg"
+    "thumb_large": "https://dl.airtable.com/heJnNH6AS0CjCCRvxXa3_large_Ishaan.jpg"
   },
   "recj2rmnndUmxB3Dt": {
     "Headshot": [
@@ -351,22 +332,22 @@ var peopleData = {
     "Headshot": [
       {
         "filename": "Shawnee+Finlayson.jpg",
-        "id": "attF0UqrKqXac5UAR",
-        "size": 1836976,
+        "id": "attv0XAsb6pZQWOD6",
+        "size": 123751,
         "thumbnails": {
           "large": {
-            "height": 740,
-            "url": "https://dl.airtable.com/QwBnkwoAT86QmEXcI58t_large_Shawnee%2BFinlayson.jpg",
+            "height": 512,
+            "url": "https://dl.airtable.com/LtvAB3rHQC2u6tcZArZt_large_Shawnee%2BFinlayson.jpg",
             "width": 512
           },
           "small": {
             "height": 36,
-            "url": "https://dl.airtable.com/WZErzSZoS6q8KwMj0n6A_small_Shawnee%2BFinlayson.jpg",
-            "width": 25
+            "url": "https://dl.airtable.com/7uBNK5JcRVyqpM6YM79R_small_Shawnee%2BFinlayson.jpg",
+            "width": 36
           }
         },
         "type": "image/jpeg",
-        "url": "https://dl.airtable.com/P2n4NG1pSnqBhuzjkB7o_Shawnee%2BFinlayson.jpg"
+        "url": "https://dl.airtable.com/7KkDhpp0QZeedK6lAXPk_Shawnee%2BFinlayson.jpg"
       }
     ],
     "Initials": "SF",
@@ -376,7 +357,7 @@ var peopleData = {
       "recmUQLIxzr2wiyzd"
     ],
     "id": "recjdvfsS0ZXESR2L",
-    "thumb_large": "https://dl.airtable.com/QwBnkwoAT86QmEXcI58t_large_Shawnee%2BFinlayson.jpg"
+    "thumb_large": "https://dl.airtable.com/LtvAB3rHQC2u6tcZArZt_large_Shawnee%2BFinlayson.jpg"
   },
   "reck4uCQdMmA9Dy0e": {
     "Headshot": [

@@ -1,34 +1,5 @@
 // Written by Ben Doherty June 2018
 
-function fiddle_about(){
-    var div = d3.select("#graph");
-    var svg = d3.select(div.node().querySelector("svg"));
-    var g = d3.select(svg.node().querySelectorAll("g g.node"));
-    var nodes = g._groups[0][0];
-    console.log(nodes);
-  };
-
-function whereIsEverything(){
-    n = document.getElementsByClassName("node");
-    d = {};
-
-    Array.from(n).forEach(function(item) {
-        var e = item.getElementsByTagName("ellipse")[0];
-  	var this_node = {};
-    var name = item.getElementsByTagName("title")[0].textContent;
-    this_node.id = item.id;
-    this_node.name = name;
-    this_node.x    = e.cx.baseVal.value;
-    this_node.y    = e.cy.baseVal.value;
-    this_node.r    = e.rx.baseVal.value;
-    d[name] = this_node;
-});
-
-fiddle_about();
-console.log(d);
-return d;
-};
-
 
 var graph = d3.select("#graph").graphviz();
 
