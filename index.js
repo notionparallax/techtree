@@ -47,7 +47,7 @@ function getNodes(){
       var faceRad = 10;
       var pd = parallelData[d.key];
 
-      console.log(d)
+      // console.log(d)
       var mainEllip = d3.select(this).select("ellipse");
 
 
@@ -68,25 +68,39 @@ function getNodes(){
         // make the progress bar, method from
         // https://daverupert.com/2018/03/animated-svg-radial-progress-bars/
         // don't draw anything if it's at 0 or you get a little nipple
+        var progressEllip = mainEllip.clone();
         var prog_full = ghostEllip.node().getTotalLength();
         var prog = prog_full * ((100 - pd.percentComplete) / 100);
-        var progressEllip = mainEllip.clone();
         progressEllip.style("stroke-dasharray", prog_full);
         progressEllip.style("stroke-dashoffset", Math.max(0, prog));
-        progressEllip.style("stroke-width", ringOffset);
-        progressEllip.attr("rx", rx + (ringOffset*0.5))
-        progressEllip.attr("ry", ry + (ringOffset*0.5))
+        progressEllip.style("stroke-width", ringOffset * 0.3);
+        progressEllip.attr("rx", rx + (ringOffset*0.5));
+        progressEllip.attr("ry", ry + (ringOffset*0.5));
         progressEllip.attr("class", "progress-ring");
         this.append(progressEllip);
       }
 
-      //Draw the circles for ownership faces
-      //This needs a better way of getting the images into the circles
-      var randInt = Math.floor(Math.random() * Math.floor(4)) + 1;
-      for (var i = 0; i < randInt; i++) {
+      // Draw the circles for ownership faces
+      // This needs a better way of getting the images into the circles
+      var team = ["recF9tgC6LJUmi5gJ"]; // default assignment
+      if (pd.Owner != null) {
+        if (pd.Other_people_involved != null) {
+          team = pd.Owner.concat(pd.Other_people_involved);
+        } else {
+          team = pd.Owner;
+        }
+      }
+      // console.log(pd.Name, "team", team);
+
+
+      for (var i = 0; i < team.length; i++) {
+        var person = peopleData[team[i]];
+        console.log(person.Name, person.Initials, person.thumb_large);
         var ownerEllip = mainEllip.clone();
-        ownerEllip.attr("cx", cx - (rx - faceRad) + (faceRad * 0.8 * i));
-        ownerEllip.attr("cy", cy + (ry - faceRad));
+        var cenX = cx - (rx - faceRad) + (faceRad * 1.5 * i);
+        var cenY = cy + (ry - faceRad);
+        ownerEllip.attr("cx", cenX);
+        ownerEllip.attr("cy", cenY);
         ownerEllip.attr("rx", faceRad);
         ownerEllip.attr("ry", faceRad);
         ownerEllip.attr("class", "face-ring");
