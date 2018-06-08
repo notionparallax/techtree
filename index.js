@@ -91,6 +91,15 @@ function getNodes(){
         ownerEllip.attr("ry", faceRad);
         ownerEllip.attr("class", "face-ring");
         this.append(ownerEllip);
+
+        d3.select(this).append("text")
+            .attr("dx", cenX)
+            .attr("dy", cenY)
+            .attr("text-anchor", "middle")
+            .attr("alignment-baseline", "middle")
+            .attr("font-size", faceRad)
+            .attr("class", "initials")
+            .text(person.Initials);
       }
 
       //set node colours based on type of node
