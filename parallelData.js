@@ -1,4 +1,4 @@
-var parallellData = {
+var parallelData = {
   "AIlayout": {
     "LongName": "AI Layout",
     "Name": "AIlayout",
@@ -162,7 +162,7 @@ var parallellData = {
     "Owner": [
       "recHN7P3Wz3YGdAN2"
     ],
-    "Type": "Project",
+    "Type": "Product",
     "percentComplete": 0,
     "precursors": [
       "rec916rZDT7JzwkZs"
@@ -294,7 +294,8 @@ var parallellData = {
     "Type": "Project",
     "percentComplete": 50,
     "precursors": [
-      "recqsdnZyKEXLlafN"
+      "recqsdnZyKEXLlafN",
+      "rechAwGrx1K8hAmTi"
     ]
   },
   "desks": {
@@ -530,8 +531,12 @@ var parallellData = {
   "robPaper": {
     "LongName": "Robotics Papers",
     "Name": "robPaper",
-    "Other_people_involved": null,
-    "Owner": null,
+    "Other_people_involved": [
+      "recHLT6IoCZXwwtp3"
+    ],
+    "Owner": [
+      "reck4uCQdMmA9Dy0e"
+    ],
     "Type": null,
     "percentComplete": 0,
     "precursors": [
@@ -554,12 +559,13 @@ var parallellData = {
     "LongName": "S3",
     "Name": "s3",
     "Other_people_involved": [
-      "rece9qyNSfMqAhZAL"
+      "rece9qyNSfMqAhZAL",
+      "recMZdSRhVMMJQcOb"
     ],
     "Owner": [
       "recj2rmnndUmxB3Dt"
     ],
-    "Type": null,
+    "Type": "Project",
     "percentComplete": 100,
     "precursors": [
       "reczMCua56WUmp3zF",
