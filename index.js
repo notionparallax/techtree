@@ -79,11 +79,11 @@ function getNodes(){
         var ownerEllip = mainEllip.clone();
         var cenX = cx - (rx - faceRad) + (faceRad * 1.5 * i);
         var cenY = cy + (ry - faceRad);
-        ownerEllip.attr("cx", cenX);
-        ownerEllip.attr("cy", cenY);
-        ownerEllip.attr("rx", faceRad);
-        ownerEllip.attr("ry", faceRad);
-        ownerEllip.attr("class", "face-ring");
+        ownerEllip.attr("cx", cenX)
+                  .attr("cy", cenY)
+                  .attr("rx", faceRad)
+                  .attr("ry", faceRad)
+                  .attr("class", "face-ring");
         this.append(ownerEllip);
 
         d3.select(this).append("text")
