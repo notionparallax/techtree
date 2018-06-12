@@ -1,8 +1,8 @@
 // This is crusty, but it seems to work.
-// Generated at 2018-06-08 17:57:05.115932
+// Generated at 2018-06-12 17:57:22.003968
 
 
-var digraph_details = ['digraph G {', ' rankdir  = "LR";', ' label    = "Tech Tree of OATMEAL Projects";', ' labelloc = "t";', ' node [style=filled,', '       color="black", ', '       fontcolor="white", ', '       shape="oval", ', '       fixedsize=true, ', '       width=1,', '       height=1,', '       fontsize=8 ', '      ];', ' edge [arrowhead=vee,', '       arrowsize=0.5]', ' ', ' potPaper [label="A Plane of\nThrones Paper"];', ' robPaper [label="Robotics Papers"];', ' deskSenseDn [label="Below Desk\nSensing"];', ' desks [label="Unit Desks"];', ' deskSenseUp [label="Above Desk\nSensing"];', ' mApp [label="Mobile App"];', ' geoEthno2 [label="Geographic/\nEthnographic\ndata 2"];', ' basicBeacon [label="iBeacon\nAwareness"];', ' sensicorn2 [label="Sensicorn 2"];', ' geoEthno1 [label="Geographic/\nEthnographic\ndata 1"];', ' emailData [label="Email Data"];', ' RBTM [label="Robotic\nBuilding\nTopology\nModification"];', ' basicRobot [label="Awareness of\nRobots"];', ' timeData [label="Timesheet Data"];', ' SNA [label="Social Network\nAnalysis"];', ' changeSpace [label="Change Space\nCollective"];', ' robDesk [label="Robotic Desk\nArrangement"];', ' Shakedown [label="Shakedown data\ncapture"];', ' SNAawareness [label="SNA Awareness"];', ' phone [label="Access To\nPhones"];', ' halo [label="Robotic Weaving"];', ' SNAblog [label="Social Network\nAnalysis Blog\nPost"];', ' SydStudioSeating [label="Sydney Studio\nSeating"];', ' revit2ML [label="Revit Layout\nExtraction"];', ' data [label="Data Literacy"];', ' sensicorn1 [label="Sensicorn 1"];', ' SydStudioSeating2 [label="Better Sydney\nStudio Seating"];', ' diary [label="Diary Studies"];', ' SLAM [label="SLAM\n(Simultanious\nLocation And\nMapping)"];', ' bravo [label="Bravo Victor\nNovember"];', ' pot [label="A Plane of\nThrones\nFramework"];', ' deskLoc [label="Desk Location"];', ' electron [label="Desktop App"];', ' robSense [label="Robot Mounted\nSensing"];', ' boom [label="Distribution\nBoom"];', ' altSpace [label="altSpace"];', ' AIlayout [label="AI Layout"];', ' lAmp [label="Learning\nAmplified\nSeating Plans"];', ' bizCap [label="Capturing\nBusiness\nMetrics"];', ' loTraining [label="Layout Training\nData"];', ' cadd [label="Continuous\nAnalysis,\nDesign &\nDelivery"];', ' geoEthno3 [label="Geographic/\nEthnographic\ndata 3"];', ' ShakedownPaper [label="Shakedown Paper"];', ' s3 [label="S3"];', ' sensors [label="Sensor Literacy"];', ' pathVis [label="Path\nVisualisation"];', ' lExp [label="Learning\nExperiment"];', ' systemReef [label="Systems Reef"];', ' ShakedownBlog [label="Shakedown Blog"];', ' Shakedown2 [label="Shakedown (with\nstalls) Product"];', ' hardware [label="Hardware Design"];', ' BTARATA [label="Buildings That\nAre Right All\nThe Time"];', ' ', ' pot -> potPaper;', ' revit2ML -> potPaper;', ' halo -> robPaper;', ' boom -> desks;', ' halo -> desks;', ' s3 -> deskSenseUp;', ' electron -> deskSenseUp;', ' phone -> mApp;', ' geoEthno1 -> geoEthno2;', ' deskSenseDn -> geoEthno2;', ' sensicorn2 -> geoEthno2;', ' sensicorn1 -> sensicorn2;', ' mApp -> sensicorn2;', ' deskSenseUp -> geoEthno1;', ' diary -> geoEthno1;', ' deskLoc -> geoEthno1;', ' robDesk -> RBTM;', ' timeData -> SNA;', ' emailData -> SNA;', ' SNAawareness -> SNA;', ' geoEthno1 -> changeSpace;', ' AIlayout -> robDesk;', ' lAmp -> robDesk;', ' robSense -> robDesk;', ' sensors -> Shakedown;', ' basicRobot -> halo;', ' systemReef -> halo;', ' SNA -> SNAblog;', ' bravo -> SNAblog;', ' deskLoc -> SydStudioSeating;', ' lAmp -> SydStudioSeating;', ' pathVis -> sensicorn1;', ' hardware -> sensicorn1;', ' SydStudioSeating -> SydStudioSeating2;', ' electron -> diary;', ' basicRobot -> SLAM;', ' basicBeacon -> deskLoc;', ' desks -> deskLoc;', ' SLAM -> robSense;', ' sensors -> robSense;', ' systemReef -> boom;', ' geoEthno2 -> altSpace;', ' loTraining -> AIlayout;', ' lExp -> lAmp;', ' SNA -> lAmp;', ' pot -> lAmp;', ' revit2ML -> loTraining;', ' geoEthno3 -> cadd;', ' RBTM -> cadd;', ' bizCap -> cadd;', ' geoEthno2 -> geoEthno3;', ' Shakedown -> ShakedownPaper;', ' hardware -> s3;', ' desks -> s3;', ' sensors -> s3;', ' data -> sensors;', ' Shakedown -> ShakedownBlog;', ' bravo -> ShakedownBlog;', ' Shakedown -> Shakedown2;', ' cadd -> BTARATA;', ' {rank = same; data; basicRobot; hardware; systemReef; SNAawareness}', ' \n}'];
+var digraph_details = ['digraph G {', ' rankdir  = "LR";', ' label    = "Tech Tree of OATMEAL Projects";', ' labelloc = "t";', ' node [style=filled,', '       shape="oval", ', '       fixedsize=true, ', '       width=1,', '       height=1,', '       fontsize=8', '      ];', ' edge [arrowhead=vee,', '       arrowsize=0.5]', ' ', ' potPaper [label="A Plane of\nThrones Paper"];', ' robPaper [label="Robotics Papers"];', ' deskSenseDn [label="Below Desk\nSensing"];', ' desks [label="Unit Desks"];', ' deskSenseUp [label="Above Desk\nSensing"];', ' octopus [label="Octopus"];', ' mApp [label="Mobile App"];', ' geoEthno2 [label="Geographic/\nEthnographic\ndata 2"];', ' MeetingRoomProduct [label="Meeting Room\nOccupancy\nQuantification\nProduct"];', ' basicBeacon [label="iBeacon\nAwareness"];', ' sensicorn2 [label="Sensicorn 2"];', ' geoEthno1 [label="Geographic/\nEthnographic\ndata 1"];', ' emailData [label="Email Data"];', ' RBTM [label="Robotic\nBuilding\nTopology\nModification"];', ' basicRobot [label="Awareness of\nRobots"];', ' timeData [label="Timesheet Data"];', ' SNA [label="Social Network\nAnalysis"];', ' changeSpace [label="Change Space\nCollective"];', ' robDesk [label="Robotic Desk\nArrangement"];', ' CADD_AAS [label="Continuous\nAnalysis,\nDesign &\nDelivery as a\nservice"];', ' Shakedown [label="Shakedown data\ncapture"];', ' SNAawareness [label="SNA Awareness"];', ' diary2 [label="Mobile Phone\nDiary Studies"];', ' DeskRulesEngine [label="Desk Placement\nRules Engine"];', ' halo [label="Robotic Weaving"];', ' SNAblog [label="Social Network\nAnalysis Blog\nPost"];', ' SydStudioSeating [label="Sydney Studio\nSeating"];', ' revit2ML [label="Revit Layout\nExtraction"];', ' data [label="Data Literacy"];', ' sensicorn1 [label="Sensicorn 1"];', ' SydStudioSeating2 [label="Better Sydney\nStudio Seating"];', ' electronicsD [label="Electronics\nDesign"];', ' diary [label="Diary Studies"];', ' SLAM [label="SLAM\n(Simultanious\nLocation And\nMapping)"];', ' bravo [label="Bravo Victor\nNovember"];', ' PCB [label="Printed Circuit\nBoard Design"];', ' workplaceAnalytics [label="Workplace\nAnalytics"];', ' pot [label="A Plane of\nThrones\nFramework"];', ' deskLoc [label="Desk Location"];', ' SydneyModel [label="Sydney Studio\nRevit Model"];', ' electron [label="Desktop App"];', ' robSense [label="Robot Mounted\nSensing"];', ' boom [label="Distribution\nBoom"];', ' altSpace [label="altSpace"];', ' AIlayout [label="AI Layout"];', ' lAmp [label="Learning\nAmplified\nSeating Plans"];', ' bizCap [label="Capturing\nBusiness\nMetrics"];', ' loTraining [label="Layout Training\nData"];', ' cadd [label="Continuous\nAnalysis,\nDesign &\nDelivery"];', ' geoEthno3 [label="Geographic/\nEthnographic\ndata 3"];', ' ShakedownPaper [label="Shakedown Paper"];', ' ImageRec [label="Basic Image\nRecognition"];', ' s3 [label="S3"];', ' sensors [label="Sensor Literacy"];', ' pathVis [label="Path\nVisualisation"];', ' MeetingRoomOcc [label="Meeting Room\nOccupancy\nQuantification"];', ' lExp [label="Learning\nExperiment"];', ' systemReef [label="Systems Reef"];', ' ShakedownBlog [label="Shakedown Blog"];', ' Shakedown2 [label="Shakedown (with\nstalls) Product"];', ' hardware [label="Hardware Design"];', ' BTARATA [label="Buildings That\nAre Right All\nThe Time"];', ' ', ' pot -> potPaper;', ' revit2ML -> potPaper;', ' halo -> robPaper;', ' octopus -> deskSenseDn;', ' boom -> desks;', ' halo -> desks;', ' s3 -> deskSenseUp;', ' electron -> deskSenseUp;', ' desks -> octopus;', ' geoEthno1 -> geoEthno2;', ' deskSenseDn -> geoEthno2;', ' sensicorn2 -> geoEthno2;', ' MeetingRoomOcc -> MeetingRoomProduct;', ' sensicorn1 -> sensicorn2;', ' deskLoc -> sensicorn2;', ' deskSenseUp -> geoEthno1;', ' diary -> geoEthno1;', ' deskLoc -> geoEthno1;', ' robDesk -> RBTM;', ' timeData -> SNA;', ' emailData -> SNA;', ' SNAawareness -> SNA;', ' geoEthno1 -> changeSpace;', ' AIlayout -> robDesk;', ' robSense -> robDesk;', ' SydStudioSeating2 -> robDesk;', ' cadd -> CADD_AAS;', ' sensors -> Shakedown;', ' diary -> diary2;', ' mApp -> diary2;', ' deskLoc -> DeskRulesEngine;', ' basicRobot -> halo;', ' systemReef -> halo;', ' SNA -> SNAblog;', ' bravo -> SNAblog;', ' lAmp -> SydStudioSeating;', ' SydneyModel -> revit2ML;', ' pathVis -> sensicorn1;', ' hardware -> sensicorn1;', ' SydStudioSeating -> SydStudioSeating2;', ' DeskRulesEngine -> SydStudioSeating2;', ' electron -> diary;', ' basicRobot -> SLAM;', ' electronicsD -> PCB;', ' MeetingRoomOcc -> workplaceAnalytics;', ' basicBeacon -> deskLoc;', ' desks -> deskLoc;', ' ImageRec -> deskLoc;', ' mApp -> deskLoc;', ' SLAM -> robSense;', ' sensors -> robSense;', ' systemReef -> boom;', ' geoEthno2 -> altSpace;', ' loTraining -> AIlayout;', ' lExp -> lAmp;', ' SNA -> lAmp;', ' pot -> lAmp;', ' revit2ML -> loTraining;', ' geoEthno3 -> cadd;', ' RBTM -> cadd;', ' bizCap -> cadd;', ' workplaceAnalytics -> cadd;', ' geoEthno2 -> geoEthno3;', ' diary2 -> geoEthno3;', ' Shakedown -> ShakedownPaper;', ' hardware -> s3;', ' sensors -> s3;', ' PCB -> s3;', ' data -> sensors;', ' Shakedown -> MeetingRoomOcc;', ' Shakedown -> ShakedownBlog;', ' bravo -> ShakedownBlog;', ' Shakedown -> Shakedown2;', ' CADD_AAS -> BTARATA;', ' ', ' //{rank = same; data; basicRobot; hardware; systemReef; SNAawareness};', ' \n}'];
 
  digraph_details =  digraph_details.join("\n");
   
@@ -33,7 +33,79 @@ var parallelData = {
     "Type": "Capability",
     "percentComplete": 0,
     "precursors": [
+      "recKHYcTAaR6Vkn3s"
+    ]
+  },
+  "CADD_AAS": {
+    "LongName": "Continuous Analysis, Design & Delivery as a service",
+    "Name": "CADD_AAS",
+    "Other_people_involved": null,
+    "Owner": null,
+    "Type": "Product",
+    "percentComplete": 0,
+    "precursors": [
       "recnjUfIqLIJp934C"
+    ]
+  },
+  "DeskRulesEngine": {
+    "LongName": "Desk Placement Rules Engine",
+    "Name": "DeskRulesEngine",
+    "Other_people_involved": null,
+    "Owner": [
+      "rece9qyNSfMqAhZAL"
+    ],
+    "Type": "Project",
+    "percentComplete": 0,
+    "precursors": [
+      "recg3Af1SGeuhckqO"
+    ]
+  },
+  "ImageRec": {
+    "LongName": "Basic Image Recognition",
+    "Name": "ImageRec",
+    "Other_people_involved": null,
+    "Owner": null,
+    "Type": "Capability",
+    "percentComplete": 0,
+    "precursors": null
+  },
+  "MeetingRoomOcc": {
+    "LongName": "Meeting Room Occupancy Quantification",
+    "Name": "MeetingRoomOcc",
+    "Other_people_involved": [
+      "recgcDkgKvrBLH1k0"
+    ],
+    "Owner": [
+      "recj2rmnndUmxB3Dt"
+    ],
+    "Type": "Project",
+    "percentComplete": 0,
+    "precursors": [
+      "recL2m88D6TZ1chAj"
+    ]
+  },
+  "MeetingRoomProduct": {
+    "LongName": "Meeting Room Occupancy Quantification Product",
+    "Name": "MeetingRoomProduct",
+    "Other_people_involved": null,
+    "Owner": null,
+    "Type": "Product",
+    "percentComplete": 0,
+    "precursors": [
+      "recsAhFnFOcFBztTU"
+    ]
+  },
+  "PCB": {
+    "LongName": "Printed Circuit Board Design",
+    "Name": "PCB",
+    "Other_people_involved": null,
+    "Owner": [
+      "recj2rmnndUmxB3Dt"
+    ],
+    "Type": "Capability",
+    "percentComplete": 100,
+    "precursors": [
+      "recbg2qJjrY6BVKjM"
     ]
   },
   "RBTM": {
@@ -81,7 +153,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
-    "percentComplete": 0,
+    "percentComplete": 100,
     "precursors": null
   },
   "SNAblog": {
@@ -164,7 +236,6 @@ var parallelData = {
     "Type": "Project",
     "percentComplete": 0,
     "precursors": [
-      "recg3Af1SGeuhckqO",
       "recmjo5fVtiAflmvo"
     ]
   },
@@ -176,8 +247,22 @@ var parallelData = {
     "Type": null,
     "percentComplete": 0,
     "precursors": [
-      "recR43XpefFqhNpAC"
+      "recR43XpefFqhNpAC",
+      "recMW87IdbvZxXxEd"
     ]
+  },
+  "SydneyModel": {
+    "LongName": "Sydney Studio Revit Model",
+    "Name": "SydneyModel",
+    "Other_people_involved": [
+      "rec3HypnJiuTkeVBJ"
+    ],
+    "Owner": [
+      "recjdvfsS0ZXESR2L"
+    ],
+    "Type": "Project",
+    "percentComplete": 40,
+    "precursors": null
   },
   "altSpace": {
     "LongName": "altSpace",
@@ -202,7 +287,7 @@ var parallelData = {
       "rec3HypnJiuTkeVBJ"
     ],
     "Type": "Capability",
-    "percentComplete": 0,
+    "percentComplete": 30,
     "precursors": null
   },
   "basicRobot": {
@@ -213,7 +298,7 @@ var parallelData = {
       "reck4uCQdMmA9Dy0e"
     ],
     "Type": "Capability",
-    "percentComplete": 0,
+    "percentComplete": 100,
     "precursors": null
   },
   "bizCap": {
@@ -261,7 +346,8 @@ var parallelData = {
     "precursors": [
       "recnwxulBH9KL5lLV",
       "recDOicHkVaPVArFd",
-      "recnXgQGgzh4q3t9M"
+      "recnXgQGgzh4q3t9M",
+      "recfkDMBy4hbnCCtM"
     ]
   },
   "changeSpace": {
@@ -291,7 +377,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
-    "percentComplete": 0,
+    "percentComplete": 100,
     "precursors": null
   },
   "deskLoc": {
@@ -307,7 +393,9 @@ var parallelData = {
     "percentComplete": 0,
     "precursors": [
       "recBSgYm9bZFyanp3",
-      "rec3robMWYUXVp8GD"
+      "rec3robMWYUXVp8GD",
+      "recqOv9Vreddx4JOV",
+      "rec6Sw3PV7S8g7E6f"
     ]
   },
   "deskSenseDn": {
@@ -319,7 +407,9 @@ var parallelData = {
     ],
     "Type": "Project",
     "percentComplete": 5,
-    "precursors": null
+    "precursors": [
+      "rec6MNLorNu6r2hMI"
+    ]
   },
   "deskSenseUp": {
     "LongName": "Above Desk Sensing",
@@ -367,6 +457,20 @@ var parallelData = {
       "rechAwGrx1K8hAmTi"
     ]
   },
+  "diary2": {
+    "LongName": "Mobile Phone Diary Studies",
+    "Name": "diary2",
+    "Other_people_involved": null,
+    "Owner": [
+      "recjdvfsS0ZXESR2L"
+    ],
+    "Type": "Project",
+    "percentComplete": 0,
+    "precursors": [
+      "reccHCPeML8SyRFTp",
+      "rec6Sw3PV7S8g7E6f"
+    ]
+  },
   "electron": {
     "LongName": "Desktop App",
     "Name": "electron",
@@ -380,6 +484,17 @@ var parallelData = {
     ],
     "Type": "Project",
     "percentComplete": 20,
+    "precursors": null
+  },
+  "electronicsD": {
+    "LongName": "Electronics Design",
+    "Name": "electronicsD",
+    "Other_people_involved": null,
+    "Owner": [
+      "recj2rmnndUmxB3Dt"
+    ],
+    "Type": "Capability",
+    "percentComplete": 100,
     "precursors": null
   },
   "emailData": {
@@ -429,7 +544,8 @@ var parallelData = {
     "Type": "Milestone",
     "percentComplete": 0,
     "precursors": [
-      "rec916rZDT7JzwkZs"
+      "rec916rZDT7JzwkZs",
+      "recM8tifFlTEr4VSc"
     ]
   },
   "halo": {
@@ -508,8 +624,22 @@ var parallelData = {
     "Owner": null,
     "Type": "Project",
     "percentComplete": 0,
+    "precursors": null
+  },
+  "octopus": {
+    "LongName": "Octopus",
+    "Name": "octopus",
+    "Other_people_involved": [
+      "rece9qyNSfMqAhZAL",
+      "recj2rmnndUmxB3Dt"
+    ],
+    "Owner": [
+      "recwl2PnrQ8ueQBQ7"
+    ],
+    "Type": "Product",
+    "percentComplete": 70,
     "precursors": [
-      "recOF4lA6W5eyRfl3"
+      "rec3robMWYUXVp8GD"
     ]
   },
   "pathVis": {
@@ -521,15 +651,6 @@ var parallelData = {
     ],
     "Type": "Capability",
     "percentComplete": 50,
-    "precursors": null
-  },
-  "phone": {
-    "LongName": "Access To Phones",
-    "Name": "phone",
-    "Other_people_involved": null,
-    "Owner": null,
-    "Type": "Capability",
-    "percentComplete": 0,
     "precursors": null
   },
   "pot": {
@@ -546,7 +667,9 @@ var parallelData = {
   "potPaper": {
     "LongName": "A Plane of Thrones Paper",
     "Name": "potPaper",
-    "Other_people_involved": null,
+    "Other_people_involved": [
+      "rece9qyNSfMqAhZAL"
+    ],
     "Owner": [
       "recgcDkgKvrBLH1k0"
     ],
@@ -568,7 +691,9 @@ var parallelData = {
     ],
     "Type": "Project",
     "percentComplete": 70,
-    "precursors": null
+    "precursors": [
+      "recgrgZIuBEI9namY"
+    ]
   },
   "robDesk": {
     "LongName": "Robotic Desk Arrangement",
@@ -579,8 +704,8 @@ var parallelData = {
     "percentComplete": 0,
     "precursors": [
       "recmUQLIxzr2wiyzd",
-      "recmjo5fVtiAflmvo",
-      "reckGLlAcxRnaKhvi"
+      "reckGLlAcxRnaKhvi",
+      "recaFkQZ7S3oau84v"
     ]
   },
   "robPaper": {
@@ -624,8 +749,8 @@ var parallelData = {
     "percentComplete": 100,
     "precursors": [
       "reczMCua56WUmp3zF",
-      "rec3robMWYUXVp8GD",
-      "recrOomL72JDA45yp"
+      "recrOomL72JDA45yp",
+      "recea5Mw1USCySVAU"
     ]
   },
   "sensicorn1": {
@@ -653,7 +778,7 @@ var parallelData = {
     "percentComplete": 0,
     "precursors": [
       "reca1ZZ98UE1Y07Oo",
-      "rec6Sw3PV7S8g7E6f"
+      "recg3Af1SGeuhckqO"
     ]
   },
   "sensors": {
@@ -664,7 +789,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Capability",
-    "percentComplete": 0,
+    "percentComplete": 100,
     "precursors": [
       "recXEw0Q2LFFIa2XB"
     ]
@@ -690,6 +815,17 @@ var parallelData = {
     "Type": "Capability",
     "percentComplete": 0,
     "precursors": null
+  },
+  "workplaceAnalytics": {
+    "LongName": "Workplace Analytics",
+    "Name": "workplaceAnalytics",
+    "Other_people_involved": null,
+    "Owner": null,
+    "Type": "Capability",
+    "percentComplete": 0,
+    "precursors": [
+      "recsAhFnFOcFBztTU"
+    ]
   }
 };
 
@@ -753,7 +889,8 @@ var peopleData = {
     "Notes": null,
     "Techs": [
       "recXEw0Q2LFFIa2XB",
-      "reca1ZZ98UE1Y07Oo"
+      "reca1ZZ98UE1Y07Oo",
+      "recgrgZIuBEI9namY"
     ],
     "id": "rec3HypnJiuTkeVBJ",
     "thumb_large": "https://dl.airtable.com/JgeHAo9xSGmjVWy0FtXS_large_P_160405_N20.jpg"
@@ -956,7 +1093,9 @@ var peopleData = {
       "recXEw0Q2LFFIa2XB",
       "recsE2Wezl1QpWoL3",
       "recL2m88D6TZ1chAj",
-      "recwy65aPjhG9k7DU"
+      "recwy65aPjhG9k7DU",
+      "rec0ArDcPS4hLrmJq",
+      "rec6MNLorNu6r2hMI"
     ],
     "id": "rece9qyNSfMqAhZAL",
     "thumb_large": "https://dl.airtable.com/9bCj4hVTSkCAXtf3e4eT_large_face.jpg"
@@ -989,7 +1128,8 @@ var peopleData = {
     "Techs": [
       "rechAwGrx1K8hAmTi",
       "recg3Af1SGeuhckqO",
-      "recL2m88D6TZ1chAj"
+      "recL2m88D6TZ1chAj",
+      "recsAhFnFOcFBztTU"
     ],
     "id": "recgcDkgKvrBLH1k0",
     "thumb_large": "https://dl.airtable.com/heJnNH6AS0CjCCRvxXa3_large_Ishaan.jpg"
@@ -1021,7 +1161,8 @@ var peopleData = {
     "Notes": null,
     "Techs": [
       "rechAwGrx1K8hAmTi",
-      "recXEw0Q2LFFIa2XB"
+      "recXEw0Q2LFFIa2XB",
+      "rec6MNLorNu6r2hMI"
     ],
     "id": "recj2rmnndUmxB3Dt",
     "thumb_large": "https://dl.airtable.com/wNAkSR0RUlLTf8AMRYJA_large_50.png"
@@ -1148,7 +1289,9 @@ var peopleData = {
     "Initials": "MB",
     "Name": "Matthew",
     "Notes": null,
-    "Techs": null,
+    "Techs": [
+      "rec6MNLorNu6r2hMI"
+    ],
     "id": "recwl2PnrQ8ueQBQ7",
     "thumb_large": "https://dl.airtable.com/yXqIqKWoQcWED51FYjOO_large_P_160405_N171.jpg"
   }

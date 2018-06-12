@@ -22,7 +22,79 @@ var parallelData = {
     "Type": "Capability",
     "percentComplete": 0,
     "precursors": [
+      "recKHYcTAaR6Vkn3s"
+    ]
+  },
+  "CADD_AAS": {
+    "LongName": "Continuous Analysis, Design & Delivery as a service",
+    "Name": "CADD_AAS",
+    "Other_people_involved": null,
+    "Owner": null,
+    "Type": "Product",
+    "percentComplete": 0,
+    "precursors": [
       "recnjUfIqLIJp934C"
+    ]
+  },
+  "DeskRulesEngine": {
+    "LongName": "Desk Placement Rules Engine",
+    "Name": "DeskRulesEngine",
+    "Other_people_involved": null,
+    "Owner": [
+      "rece9qyNSfMqAhZAL"
+    ],
+    "Type": "Project",
+    "percentComplete": 0,
+    "precursors": [
+      "recg3Af1SGeuhckqO"
+    ]
+  },
+  "ImageRec": {
+    "LongName": "Basic Image Recognition",
+    "Name": "ImageRec",
+    "Other_people_involved": null,
+    "Owner": null,
+    "Type": "Capability",
+    "percentComplete": 0,
+    "precursors": null
+  },
+  "MeetingRoomOcc": {
+    "LongName": "Meeting Room Occupancy Quantification",
+    "Name": "MeetingRoomOcc",
+    "Other_people_involved": [
+      "recgcDkgKvrBLH1k0"
+    ],
+    "Owner": [
+      "recj2rmnndUmxB3Dt"
+    ],
+    "Type": "Project",
+    "percentComplete": 0,
+    "precursors": [
+      "recL2m88D6TZ1chAj"
+    ]
+  },
+  "MeetingRoomProduct": {
+    "LongName": "Meeting Room Occupancy Quantification Product",
+    "Name": "MeetingRoomProduct",
+    "Other_people_involved": null,
+    "Owner": null,
+    "Type": "Product",
+    "percentComplete": 0,
+    "precursors": [
+      "recsAhFnFOcFBztTU"
+    ]
+  },
+  "PCB": {
+    "LongName": "Printed Circuit Board Design",
+    "Name": "PCB",
+    "Other_people_involved": null,
+    "Owner": [
+      "recj2rmnndUmxB3Dt"
+    ],
+    "Type": "Capability",
+    "percentComplete": 100,
+    "precursors": [
+      "recbg2qJjrY6BVKjM"
     ]
   },
   "RBTM": {
@@ -70,7 +142,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
-    "percentComplete": 0,
+    "percentComplete": 100,
     "precursors": null
   },
   "SNAblog": {
@@ -153,7 +225,6 @@ var parallelData = {
     "Type": "Project",
     "percentComplete": 0,
     "precursors": [
-      "recg3Af1SGeuhckqO",
       "recmjo5fVtiAflmvo"
     ]
   },
@@ -165,8 +236,22 @@ var parallelData = {
     "Type": null,
     "percentComplete": 0,
     "precursors": [
-      "recR43XpefFqhNpAC"
+      "recR43XpefFqhNpAC",
+      "recMW87IdbvZxXxEd"
     ]
+  },
+  "SydneyModel": {
+    "LongName": "Sydney Studio Revit Model",
+    "Name": "SydneyModel",
+    "Other_people_involved": [
+      "rec3HypnJiuTkeVBJ"
+    ],
+    "Owner": [
+      "recjdvfsS0ZXESR2L"
+    ],
+    "Type": "Project",
+    "percentComplete": 40,
+    "precursors": null
   },
   "altSpace": {
     "LongName": "altSpace",
@@ -191,7 +276,7 @@ var parallelData = {
       "rec3HypnJiuTkeVBJ"
     ],
     "Type": "Capability",
-    "percentComplete": 0,
+    "percentComplete": 30,
     "precursors": null
   },
   "basicRobot": {
@@ -202,7 +287,7 @@ var parallelData = {
       "reck4uCQdMmA9Dy0e"
     ],
     "Type": "Capability",
-    "percentComplete": 0,
+    "percentComplete": 100,
     "precursors": null
   },
   "bizCap": {
@@ -250,7 +335,8 @@ var parallelData = {
     "precursors": [
       "recnwxulBH9KL5lLV",
       "recDOicHkVaPVArFd",
-      "recnXgQGgzh4q3t9M"
+      "recnXgQGgzh4q3t9M",
+      "recfkDMBy4hbnCCtM"
     ]
   },
   "changeSpace": {
@@ -280,7 +366,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
-    "percentComplete": 0,
+    "percentComplete": 100,
     "precursors": null
   },
   "deskLoc": {
@@ -296,7 +382,9 @@ var parallelData = {
     "percentComplete": 0,
     "precursors": [
       "recBSgYm9bZFyanp3",
-      "rec3robMWYUXVp8GD"
+      "rec3robMWYUXVp8GD",
+      "recqOv9Vreddx4JOV",
+      "rec6Sw3PV7S8g7E6f"
     ]
   },
   "deskSenseDn": {
@@ -308,7 +396,9 @@ var parallelData = {
     ],
     "Type": "Project",
     "percentComplete": 5,
-    "precursors": null
+    "precursors": [
+      "rec6MNLorNu6r2hMI"
+    ]
   },
   "deskSenseUp": {
     "LongName": "Above Desk Sensing",
@@ -356,6 +446,20 @@ var parallelData = {
       "rechAwGrx1K8hAmTi"
     ]
   },
+  "diary2": {
+    "LongName": "Mobile Phone Diary Studies",
+    "Name": "diary2",
+    "Other_people_involved": null,
+    "Owner": [
+      "recjdvfsS0ZXESR2L"
+    ],
+    "Type": "Project",
+    "percentComplete": 0,
+    "precursors": [
+      "reccHCPeML8SyRFTp",
+      "rec6Sw3PV7S8g7E6f"
+    ]
+  },
   "electron": {
     "LongName": "Desktop App",
     "Name": "electron",
@@ -369,6 +473,17 @@ var parallelData = {
     ],
     "Type": "Project",
     "percentComplete": 20,
+    "precursors": null
+  },
+  "electronicsD": {
+    "LongName": "Electronics Design",
+    "Name": "electronicsD",
+    "Other_people_involved": null,
+    "Owner": [
+      "recj2rmnndUmxB3Dt"
+    ],
+    "Type": "Capability",
+    "percentComplete": 100,
     "precursors": null
   },
   "emailData": {
@@ -418,7 +533,8 @@ var parallelData = {
     "Type": "Milestone",
     "percentComplete": 0,
     "precursors": [
-      "rec916rZDT7JzwkZs"
+      "rec916rZDT7JzwkZs",
+      "recM8tifFlTEr4VSc"
     ]
   },
   "halo": {
@@ -497,8 +613,22 @@ var parallelData = {
     "Owner": null,
     "Type": "Project",
     "percentComplete": 0,
+    "precursors": null
+  },
+  "octopus": {
+    "LongName": "Octopus",
+    "Name": "octopus",
+    "Other_people_involved": [
+      "rece9qyNSfMqAhZAL",
+      "recj2rmnndUmxB3Dt"
+    ],
+    "Owner": [
+      "recwl2PnrQ8ueQBQ7"
+    ],
+    "Type": "Product",
+    "percentComplete": 70,
     "precursors": [
-      "recOF4lA6W5eyRfl3"
+      "rec3robMWYUXVp8GD"
     ]
   },
   "pathVis": {
@@ -510,15 +640,6 @@ var parallelData = {
     ],
     "Type": "Capability",
     "percentComplete": 50,
-    "precursors": null
-  },
-  "phone": {
-    "LongName": "Access To Phones",
-    "Name": "phone",
-    "Other_people_involved": null,
-    "Owner": null,
-    "Type": "Capability",
-    "percentComplete": 0,
     "precursors": null
   },
   "pot": {
@@ -535,7 +656,9 @@ var parallelData = {
   "potPaper": {
     "LongName": "A Plane of Thrones Paper",
     "Name": "potPaper",
-    "Other_people_involved": null,
+    "Other_people_involved": [
+      "rece9qyNSfMqAhZAL"
+    ],
     "Owner": [
       "recgcDkgKvrBLH1k0"
     ],
@@ -557,7 +680,9 @@ var parallelData = {
     ],
     "Type": "Project",
     "percentComplete": 70,
-    "precursors": null
+    "precursors": [
+      "recgrgZIuBEI9namY"
+    ]
   },
   "robDesk": {
     "LongName": "Robotic Desk Arrangement",
@@ -568,8 +693,8 @@ var parallelData = {
     "percentComplete": 0,
     "precursors": [
       "recmUQLIxzr2wiyzd",
-      "recmjo5fVtiAflmvo",
-      "reckGLlAcxRnaKhvi"
+      "reckGLlAcxRnaKhvi",
+      "recaFkQZ7S3oau84v"
     ]
   },
   "robPaper": {
@@ -613,8 +738,8 @@ var parallelData = {
     "percentComplete": 100,
     "precursors": [
       "reczMCua56WUmp3zF",
-      "rec3robMWYUXVp8GD",
-      "recrOomL72JDA45yp"
+      "recrOomL72JDA45yp",
+      "recea5Mw1USCySVAU"
     ]
   },
   "sensicorn1": {
@@ -642,7 +767,7 @@ var parallelData = {
     "percentComplete": 0,
     "precursors": [
       "reca1ZZ98UE1Y07Oo",
-      "rec6Sw3PV7S8g7E6f"
+      "recg3Af1SGeuhckqO"
     ]
   },
   "sensors": {
@@ -653,7 +778,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Capability",
-    "percentComplete": 0,
+    "percentComplete": 100,
     "precursors": [
       "recXEw0Q2LFFIa2XB"
     ]
@@ -679,5 +804,16 @@ var parallelData = {
     "Type": "Capability",
     "percentComplete": 0,
     "precursors": null
+  },
+  "workplaceAnalytics": {
+    "LongName": "Workplace Analytics",
+    "Name": "workplaceAnalytics",
+    "Other_people_involved": null,
+    "Owner": null,
+    "Type": "Capability",
+    "percentComplete": 0,
+    "precursors": [
+      "recsAhFnFOcFBztTU"
+    ]
   }
 };
