@@ -57,7 +57,8 @@ var peopleData = {
     "Notes": null,
     "Techs": [
       "recXEw0Q2LFFIa2XB",
-      "reca1ZZ98UE1Y07Oo"
+      "reca1ZZ98UE1Y07Oo",
+      "recgrgZIuBEI9namY"
     ],
     "id": "rec3HypnJiuTkeVBJ",
     "thumb_large": "https://dl.airtable.com/JgeHAo9xSGmjVWy0FtXS_large_P_160405_N20.jpg"
@@ -260,7 +261,9 @@ var peopleData = {
       "recXEw0Q2LFFIa2XB",
       "recsE2Wezl1QpWoL3",
       "recL2m88D6TZ1chAj",
-      "recwy65aPjhG9k7DU"
+      "recwy65aPjhG9k7DU",
+      "rec0ArDcPS4hLrmJq",
+      "rec6MNLorNu6r2hMI"
     ],
     "id": "rece9qyNSfMqAhZAL",
     "thumb_large": "https://dl.airtable.com/9bCj4hVTSkCAXtf3e4eT_large_face.jpg"
@@ -293,7 +296,8 @@ var peopleData = {
     "Techs": [
       "rechAwGrx1K8hAmTi",
       "recg3Af1SGeuhckqO",
-      "recL2m88D6TZ1chAj"
+      "recL2m88D6TZ1chAj",
+      "recsAhFnFOcFBztTU"
     ],
     "id": "recgcDkgKvrBLH1k0",
     "thumb_large": "https://dl.airtable.com/heJnNH6AS0CjCCRvxXa3_large_Ishaan.jpg"
@@ -325,7 +329,8 @@ var peopleData = {
     "Notes": null,
     "Techs": [
       "rechAwGrx1K8hAmTi",
-      "recXEw0Q2LFFIa2XB"
+      "recXEw0Q2LFFIa2XB",
+      "rec6MNLorNu6r2hMI"
     ],
     "id": "recj2rmnndUmxB3Dt",
     "thumb_large": "https://dl.airtable.com/wNAkSR0RUlLTf8AMRYJA_large_50.png"
@@ -452,7 +457,9 @@ var peopleData = {
     "Initials": "MB",
     "Name": "Matthew",
     "Notes": null,
-    "Techs": null,
+    "Techs": [
+      "rec6MNLorNu6r2hMI"
+    ],
     "id": "recwl2PnrQ8ueQBQ7",
     "thumb_large": "https://dl.airtable.com/yXqIqKWoQcWED51FYjOO_large_P_160405_N171.jpg"
   }
