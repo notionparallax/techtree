@@ -1,7 +1,5 @@
 // Written by Ben Doherty June 2018
 
-var container = d3.select("#graph");
-var graph = container.graphviz();
 var base = 10;
 var ringOffset = 6;
 var faceRad = 11;
@@ -128,7 +126,6 @@ function getNodes(){
 }
 
 function render(dotSrc) {
-    // console.log('DOT source =', dotSrc);
     transition1 = d3.transition()
         .delay(100)
         .duration(1000);
@@ -136,10 +133,21 @@ function render(dotSrc) {
     graph
         .transition(transition1)
         .renderDot(dotSrc, getNodes);
-
-
-
-
 }
 
-render(digraph_details)
+var container = d3.select("#graph");
+if(container.graphviz !== undefined) {
+  // if the browser can handle it:
+  var graph = container.graphviz();
+  render(digraph_details)
+} else {
+  // If your browser is a piece of shit:
+  var elem = document.createElement('div');
+  elem.style.cssText = 'padding: 1em; position: absolute; font-size: 9em;'+
+                       'border-image: none; left: 0px; top: 0px; '+
+                       'height: 100%; text-align: center; color: white;'
+  elem.innerHTML += 'You really should get a better browser. Really, anything would be better than this!';
+  document.body.appendChild(elem);
+
+  console.log("FFS");
+}
