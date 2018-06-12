@@ -87,25 +87,31 @@ function getNodes(){
         this.append(ownerEllip);
 
         d3.select(this).append("text")
-            .attr("dx", cenX)
-            .attr("dy", cenY)
-            .attr("text-anchor", "middle")
-            .attr("alignment-baseline", "middle")
-            .attr("font-size", faceRad)
-            .attr("class", "initials" + " " + person.Initials)
-            .text(person.Initials);
+                  .attr("dx", cenX)
+                  .attr("dy", cenY)
+                  .attr("text-anchor", "middle")
+                  .attr("alignment-baseline", "middle")
+                  .attr("font-size", faceRad)
+                  .attr("z-index", 10-i)  // this doesn't work :(
+                  .attr("class", ["initials",
+                                  person.Initials,
+                                  "face"+i].join(" "))
+                  .text(person.Initials);
 
         d3.select(this).append("image")
-          .attr("x", 0)
-          .attr("y", 0)
-          .attr("width", faceRad * 2)
-          .attr("height", faceRad * 2)
-          .attr("class", "faceThumb" + " " + person.Initials)
-          .attr("title", person.Name)
-          .attr("xlink:href", person.thumb_large)
-          .attr("clip-path", "url(#avatar-clip)")
-          .attr("transform", "translate(" + (cenX-faceRad) + ", "
-                                          + (cenY-faceRad) + ")" );
+                  .attr("x", 0)
+                  .attr("y", 0)
+                  .attr("width", faceRad * 2)
+                  .attr("height", faceRad * 2)
+                  .attr("z-index", 20-i)  // this doesn't work :(
+                  .attr("class", ["faceThumb" ,
+                                  person.Initials,
+                                  "face"+i].join(" "))
+                  .attr("title", person.Name)
+                  .attr("xlink:href", person.thumb_large)
+                  .attr("clip-path", "url(#avatar-clip)")
+                  .attr("transform", "translate(" + (cenX-faceRad) + ", "
+                                                  + (cenY-faceRad) + ")" );
       }
 
 
