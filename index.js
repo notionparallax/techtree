@@ -157,6 +157,4 @@ if(container.graphviz !== undefined) {
                        'height: 100%; text-align: center; color: white;'
   elem.innerHTML += 'You really should get a better browser. Really, anything would be better than this!';
   document.body.appendChild(elem);
-
-  console.log("FFS");
 }
