@@ -1,5 +1,5 @@
 // This is crusty, but it seems to work.
-// Generated at 2018-06-12 18:49:27.641891
+// Generated at 2018-06-12 21:44:05.483389
 
 
 var digraph_details = ['digraph G {', ' rankdir  = "LR";', ' label    = "Tech Tree of OATMEAL Projects";', ' labelloc = "t";', ' node [style=filled,', '       shape="oval", ', '       fixedsize=true, ', '       width=1,', '       height=1,', '       fontsize=8', '      ];', ' edge [arrowhead=vee,', '       arrowsize=0.5]', ' ', ' potPaper [label="A Plane of\nThrones Paper"];', ' robPaper [label="Robotics Papers"];', ' deskSenseDn [label="Below Desk\nSensing"];', ' desks [label="Unit Desks"];', ' deskSenseUp [label="Above Desk\nSensing"];', ' octopus [label="Octopus"];', ' mApp [label="Mobile App"];', ' geoEthno2 [label="Geographic/\nEthnographic\ndata 2"];', ' MeetingRoomProduct [label="Meeting Room\nOccupancy\nQuantification\nProduct"];', ' basicBeacon [label="iBeacon\nAwareness"];', ' sensicorn2 [label="Sensicorn 2"];', ' geoEthno1 [label="Geographic/\nEthnographic\ndata 1"];', ' emailData [label="Email Data"];', ' RBTM [label="Robotic\nBuilding\nTopology\nModification"];', ' basicRobot [label="Awareness of\nRobots"];', ' timeData [label="Timesheet Data"];', ' SNA [label="Social Network\nAnalysis"];', ' changeSpace [label="Change Space\nCollective"];', ' robDesk [label="Robotic Desk\nArrangement"];', ' CADD_AAS [label="Continuous\nAnalysis,\nDesign &\nDelivery as a\nservice"];', ' Shakedown [label="Shakedown data\ncapture"];', ' SNAawareness [label="SNA Awareness"];', ' diary2 [label="Mobile Phone\nDiary Studies"];', ' DeskRulesEngine [label="Desk Placement\nRules Engine"];', ' halo [label="Robotic Weaving"];', ' SNAblog [label="Social Network\nAnalysis Blog\nPost"];', ' SydStudioSeating [label="Sydney Studio\nSeating"];', ' revit2ML [label="Revit Layout\nExtraction"];', ' data [label="Data Literacy"];', ' sensicorn1 [label="Sensicorn 1"];', ' SydStudioSeating2 [label="Better Sydney\nStudio Seating"];', ' electronicsD [label="Electronics\nDesign"];', ' diary [label="Diary Studies"];', ' SLAM [label="SLAM\n(Simultanious\nLocation And\nMapping)"];', ' bravo [label="Bravo Victor\nNovember"];', ' PCB [label="Printed Circuit\nBoard Design"];', ' workplaceAnalytics [label="Workplace\nAnalytics"];', ' pot [label="A Plane of\nThrones\nFramework"];', ' deskLoc [label="Desk Location"];', ' SydneyModel [label="Sydney Studio\nRevit Model"];', ' electron [label="Desktop App"];', ' robSense [label="Robot Mounted\nSensing"];', ' boom [label="Distribution\nBoom"];', ' altSpace [label="altSpace"];', ' AIlayout [label="AI Layout"];', ' lAmp [label="Learning\nAmplified\nSeating Plans"];', ' bizCap [label="Capturing\nBusiness\nMetrics"];', ' loTraining [label="Layout Training\nData"];', ' cadd [label="Continuous\nAnalysis,\nDesign &\nDelivery"];', ' geoEthno3 [label="Geographic/\nEthnographic\ndata 3"];', ' ShakedownPaper [label="Shakedown Paper"];', ' ImageRec [label="Basic Image\nRecognition"];', ' s3 [label="S3"];', ' sensors [label="Sensor Literacy"];', ' pathVis [label="Path\nVisualisation"];', ' MeetingRoomOcc [label="Meeting Room\nOccupancy\nQuantification"];', ' lExp [label="Learning\nExperiment"];', ' systemReef [label="Systems Reef"];', ' ShakedownBlog [label="Shakedown Blog"];', ' Shakedown2 [label="Shakedown (with\nstalls) Product"];', ' hardware [label="Hardware Design"];', ' BTARATA [label="Buildings That\nAre Right All\nThe Time"];', ' ', ' pot -> potPaper;', ' revit2ML -> potPaper;', ' halo -> robPaper;', ' octopus -> deskSenseDn;', ' boom -> desks;', ' halo -> desks;', ' s3 -> deskSenseUp;', ' electron -> deskSenseUp;', ' desks -> octopus;', ' geoEthno1 -> geoEthno2;', ' deskSenseDn -> geoEthno2;', ' sensicorn2 -> geoEthno2;', ' MeetingRoomOcc -> MeetingRoomProduct;', ' sensicorn1 -> sensicorn2;', ' deskLoc -> sensicorn2;', ' deskSenseUp -> geoEthno1;', ' diary -> geoEthno1;', ' deskLoc -> geoEthno1;', ' robDesk -> RBTM;', ' timeData -> SNA;', ' emailData -> SNA;', ' SNAawareness -> SNA;', ' geoEthno1 -> changeSpace;', ' AIlayout -> robDesk;', ' robSense -> robDesk;', ' SydStudioSeating2 -> robDesk;', ' cadd -> CADD_AAS;', ' sensors -> Shakedown;', ' diary -> diary2;', ' mApp -> diary2;', ' deskLoc -> DeskRulesEngine;', ' basicRobot -> halo;', ' systemReef -> halo;', ' SNA -> SNAblog;', ' bravo -> SNAblog;', ' lAmp -> SydStudioSeating;', ' SydneyModel -> revit2ML;', ' pathVis -> sensicorn1;', ' hardware -> sensicorn1;', ' SydStudioSeating -> SydStudioSeating2;', ' DeskRulesEngine -> SydStudioSeating2;', ' electron -> diary;', ' basicRobot -> SLAM;', ' electronicsD -> PCB;', ' MeetingRoomOcc -> workplaceAnalytics;', ' basicBeacon -> deskLoc;', ' desks -> deskLoc;', ' ImageRec -> deskLoc;', ' mApp -> deskLoc;', ' SLAM -> robSense;', ' sensors -> robSense;', ' systemReef -> boom;', ' geoEthno2 -> altSpace;', ' loTraining -> AIlayout;', ' lExp -> lAmp;', ' SNA -> lAmp;', ' pot -> lAmp;', ' revit2ML -> loTraining;', ' geoEthno3 -> cadd;', ' RBTM -> cadd;', ' bizCap -> cadd;', ' workplaceAnalytics -> cadd;', ' geoEthno2 -> geoEthno3;', ' diary2 -> geoEthno3;', ' Shakedown -> ShakedownPaper;', ' hardware -> s3;', ' sensors -> s3;', ' PCB -> s3;', ' data -> sensors;', ' Shakedown -> MeetingRoomOcc;', ' Shakedown -> ShakedownBlog;', ' bravo -> ShakedownBlog;', ' Shakedown -> Shakedown2;', ' CADD_AAS -> BTARATA;', ' ', ' //{rank = same; data; basicRobot; hardware; systemReef; SNAawareness};', ' \n}'];
@@ -20,7 +20,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recnjMKU5MFlbshGD"
@@ -32,7 +32,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recKHYcTAaR6Vkn3s"
@@ -44,7 +44,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Product",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recnjUfIqLIJp934C"
@@ -58,7 +58,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recg3Af1SGeuhckqO"
@@ -70,7 +70,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": null
   },
@@ -84,7 +84,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recL2m88D6TZ1chAj"
@@ -96,7 +96,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Product",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recsAhFnFOcFBztTU"
@@ -110,7 +110,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 100,
     "precursors": [
       "recbg2qJjrY6BVKjM"
@@ -122,7 +122,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recJMJDs4EKTMzUQm"
@@ -134,7 +134,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recEL4ZZsARmsYwFt"
@@ -148,7 +148,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recF1PTEM9uexmaTm",
@@ -164,7 +164,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 100,
     "precursors": null
   },
@@ -176,7 +176,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Publication",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recFT5OW9AN6NJAAp",
@@ -194,7 +194,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recrOomL72JDA45yp"
@@ -206,7 +206,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recL2m88D6TZ1chAj"
@@ -222,7 +222,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Publication",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recL2m88D6TZ1chAj",
@@ -239,7 +239,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Publication",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recL2m88D6TZ1chAj"
@@ -251,7 +251,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recmjo5fVtiAflmvo"
@@ -263,7 +263,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": null,
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recR43XpefFqhNpAC",
@@ -280,7 +280,7 @@ var parallelData = {
       "recjdvfsS0ZXESR2L"
     ],
     "Type": "Project",
-    "deck_embed": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRF7DSeGnbLr_zwWnHVrUF0ptxjfIoj9bDwkaJb370IYYWEwF48yszwLUUTAECQ5F6mlJMrUrlQqdj-/embed?start=false&loop=false&delayms=60000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+    "deck_embed": "https://docs.google.com/presentation/d/e/2PACX-1vRF7DSeGnbLr_zwWnHVrUF0ptxjfIoj9bDwkaJb370IYYWEwF48yszwLUUTAECQ5F6mlJMrUrlQqdj-/embed",
     "percentComplete": 40,
     "precursors": null
   },
@@ -292,7 +292,7 @@ var parallelData = {
       "recHN7P3Wz3YGdAN2"
     ],
     "Type": "Product",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 50,
     "precursors": [
       "rec916rZDT7JzwkZs"
@@ -308,7 +308,7 @@ var parallelData = {
       "rec3HypnJiuTkeVBJ"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 30,
     "precursors": null
   },
@@ -320,7 +320,7 @@ var parallelData = {
       "reck4uCQdMmA9Dy0e"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 100,
     "precursors": null
   },
@@ -332,7 +332,7 @@ var parallelData = {
       "rec0dpxUhHfgHWU7r"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": null
   },
@@ -344,7 +344,7 @@ var parallelData = {
       "recHLT6IoCZXwwtp3"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 70,
     "precursors": [
       "rectkEzpAV9fxHPwS"
@@ -358,7 +358,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Publication",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 100,
     "precursors": null
   },
@@ -368,7 +368,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recnwxulBH9KL5lLV",
@@ -385,7 +385,7 @@ var parallelData = {
       "recHN7P3Wz3YGdAN2"
     ],
     "Type": "Product",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recC9Zxt4MV7hRodc"
@@ -405,7 +405,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 100,
     "precursors": null
   },
@@ -419,7 +419,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recBSgYm9bZFyanp3",
@@ -436,7 +436,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 5,
     "precursors": [
       "rec6MNLorNu6r2hMI"
@@ -453,7 +453,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 50,
     "precursors": [
       "recqsdnZyKEXLlafN",
@@ -468,7 +468,7 @@ var parallelData = {
       "recHLT6IoCZXwwtp3"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 80,
     "precursors": [
       "recli0IRLQZowpWoF",
@@ -485,7 +485,7 @@ var parallelData = {
       "recjdvfsS0ZXESR2L"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "rechAwGrx1K8hAmTi"
@@ -499,7 +499,7 @@ var parallelData = {
       "recjdvfsS0ZXESR2L"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "reccHCPeML8SyRFTp",
@@ -518,7 +518,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 20,
     "precursors": null
   },
@@ -530,7 +530,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 100,
     "precursors": null
   },
@@ -542,7 +542,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": null
   },
@@ -552,7 +552,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Milestone",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "rec5v7YBAh4XzeOQ7",
@@ -566,7 +566,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Milestone",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recC9Zxt4MV7hRodc",
@@ -582,7 +582,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Milestone",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "rec916rZDT7JzwkZs",
@@ -597,7 +597,7 @@ var parallelData = {
       "reck4uCQdMmA9Dy0e"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 100,
     "precursors": [
       "recEL4ZZsARmsYwFt",
@@ -614,7 +614,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 100,
     "precursors": null
   },
@@ -626,7 +626,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recsE2Wezl1QpWoL3",
@@ -644,7 +644,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": null
   },
@@ -659,7 +659,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 70,
     "precursors": [
       "recSIIp1grVggDGQo"
@@ -671,7 +671,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": null
   },
@@ -686,7 +686,7 @@ var parallelData = {
       "recwl2PnrQ8ueQBQ7"
     ],
     "Type": "Product",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 70,
     "precursors": [
       "rec3robMWYUXVp8GD"
@@ -700,7 +700,7 @@ var parallelData = {
       "rec3HypnJiuTkeVBJ"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 50,
     "precursors": null
   },
@@ -712,7 +712,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 50,
     "precursors": null
   },
@@ -726,7 +726,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Publication",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 100,
     "precursors": [
       "recflCm8BzuGQbmW0",
@@ -743,7 +743,7 @@ var parallelData = {
       "recjdvfsS0ZXESR2L"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 70,
     "precursors": [
       "recgrgZIuBEI9namY"
@@ -755,7 +755,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recmUQLIxzr2wiyzd",
@@ -773,7 +773,7 @@ var parallelData = {
       "reck4uCQdMmA9Dy0e"
     ],
     "Type": "Publication",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recPhk9t87eiweyAl"
@@ -785,7 +785,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recctP32G3sreUKjg",
@@ -803,7 +803,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 100,
     "precursors": [
       "reczMCua56WUmp3zF",
@@ -821,7 +821,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 80,
     "precursors": [
       "recru4UXYdMmO7sX8",
@@ -834,7 +834,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "reca1ZZ98UE1Y07Oo",
@@ -849,7 +849,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 100,
     "precursors": [
       "recXEw0Q2LFFIa2XB"
@@ -865,7 +865,7 @@ var parallelData = {
       "recHLT6IoCZXwwtp3"
     ],
     "Type": "Project",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": null
   },
@@ -875,7 +875,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": null
   },
@@ -885,7 +885,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
-    "deck_embed": null,
+    "deck_embed": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "percentComplete": 0,
     "precursors": [
       "recsAhFnFOcFBztTU"
