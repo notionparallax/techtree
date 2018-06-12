@@ -4,6 +4,12 @@ var base = 10;
 var ringOffset = 6;
 var faceRad = 11;
 
+function showSlides(d) {
+  // deck_embed
+  console.log("data:", d._groups[0][0].dataset.more);
+}
+
+
 function getNodes(){
     // console.log(d3.selectAll('.node'));
     nodes = d3.selectAll('.node');
@@ -18,7 +24,8 @@ function getNodes(){
       .attr("r", faceRad)
 
     nodes.on("click", function (d) {
-        d3.select(this).select("ellipse").style("fill", "orange")
+        d3.select(this).select("ellipse").style("fill", "orange");
+        showSlides(d3.select(this).select("ellipse.main-ring"));
     })
     //.on("mouseout", function (d) {
     //     d3.select(this).select("ellipse").style("fill", "black")
@@ -28,7 +35,6 @@ function getNodes(){
 
       // console.log(d)
       var mainEllip = d3.select(this).select("ellipse");
-
 
       var cx = parseInt(mainEllip.attr("cx"), base);
       var cy = parseInt(mainEllip.attr("cy"), base);
@@ -73,7 +79,7 @@ function getNodes(){
 
       for (var i = 0; i < team.length; i++) {
         var person = peopleData[team[i]];
-        console.log(person.Name, person.Initials, person.thumb_large);
+        // console.log(person.Name, person.Initials, person.thumb_large);
         var ownerEllip = mainEllip.clone();
         var cenX = cx - (rx - faceRad) + (faceRad * 1.5 * i);
         var cenY = cy + (ry - faceRad);
@@ -120,6 +126,9 @@ function getNodes(){
       } else if (pd.Type === "Milestone")   { mainEllip.style("stroke", "rgba(226, 123, 34, 0.9215686274509803)");
       } else if (pd.Type === "Product")     { mainEllip.style("stroke", "rgb(239, 165, 226)");
       } else {        /*nothing*/      }
+
+      mainEllip.attr("data-more", parallelData[d.key].deck_embed);
+      mainEllip.attr("class", "main-ring");
 
   });
 
