@@ -19,9 +19,10 @@ function getNodes(){
       .attr("cy", faceRad)
       .attr("r", faceRad)
 
-    // nodes.on("mouseover", function (d) {
-    //     d3.select(this).select("ellipse").style("fill", "blue")
-    // }).on("mouseout", function (d) {
+    nodes.on("click", function (d) {
+        d3.select(this).select("ellipse").style("fill", "orange")
+    })
+    //.on("mouseout", function (d) {
     //     d3.select(this).select("ellipse").style("fill", "black")
     // });
     nodes.each(function (d) {
