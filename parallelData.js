@@ -9,6 +9,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recnjMKU5MFlbshGD"
@@ -20,6 +21,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recKHYcTAaR6Vkn3s"
@@ -31,6 +33,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Product",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recnjUfIqLIJp934C"
@@ -44,6 +47,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recg3Af1SGeuhckqO"
@@ -55,6 +59,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": null
   },
@@ -68,6 +73,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recL2m88D6TZ1chAj"
@@ -79,6 +85,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Product",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recsAhFnFOcFBztTU"
@@ -92,6 +99,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 100,
     "precursors": [
       "recbg2qJjrY6BVKjM"
@@ -103,6 +111,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recJMJDs4EKTMzUQm"
@@ -114,6 +123,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recEL4ZZsARmsYwFt"
@@ -127,6 +137,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recF1PTEM9uexmaTm",
@@ -142,6 +153,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 100,
     "precursors": null
   },
@@ -153,6 +165,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Publication",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recFT5OW9AN6NJAAp",
@@ -170,6 +183,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recrOomL72JDA45yp"
@@ -181,6 +195,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recL2m88D6TZ1chAj"
@@ -196,6 +211,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Publication",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recL2m88D6TZ1chAj",
@@ -212,6 +228,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Publication",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recL2m88D6TZ1chAj"
@@ -223,6 +240,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recmjo5fVtiAflmvo"
@@ -234,6 +252,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": null,
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recR43XpefFqhNpAC",
@@ -250,6 +269,7 @@ var parallelData = {
       "recjdvfsS0ZXESR2L"
     ],
     "Type": "Project",
+    "deck_embed": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vRF7DSeGnbLr_zwWnHVrUF0ptxjfIoj9bDwkaJb370IYYWEwF48yszwLUUTAECQ5F6mlJMrUrlQqdj-/embed?start=false&loop=false&delayms=60000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
     "percentComplete": 40,
     "precursors": null
   },
@@ -261,6 +281,7 @@ var parallelData = {
       "recHN7P3Wz3YGdAN2"
     ],
     "Type": "Product",
+    "deck_embed": null,
     "percentComplete": 50,
     "precursors": [
       "rec916rZDT7JzwkZs"
@@ -276,6 +297,7 @@ var parallelData = {
       "rec3HypnJiuTkeVBJ"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 30,
     "precursors": null
   },
@@ -287,6 +309,7 @@ var parallelData = {
       "reck4uCQdMmA9Dy0e"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 100,
     "precursors": null
   },
@@ -298,6 +321,7 @@ var parallelData = {
       "rec0dpxUhHfgHWU7r"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": null
   },
@@ -309,6 +333,7 @@ var parallelData = {
       "recHLT6IoCZXwwtp3"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 70,
     "precursors": [
       "rectkEzpAV9fxHPwS"
@@ -322,6 +347,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Publication",
+    "deck_embed": null,
     "percentComplete": 100,
     "precursors": null
   },
@@ -331,6 +357,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recnwxulBH9KL5lLV",
@@ -347,6 +374,7 @@ var parallelData = {
       "recHN7P3Wz3YGdAN2"
     ],
     "Type": "Product",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recC9Zxt4MV7hRodc"
@@ -366,6 +394,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 100,
     "precursors": null
   },
@@ -379,6 +408,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recBSgYm9bZFyanp3",
@@ -395,6 +425,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 5,
     "precursors": [
       "rec6MNLorNu6r2hMI"
@@ -411,6 +442,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 50,
     "precursors": [
       "recqsdnZyKEXLlafN",
@@ -425,6 +457,7 @@ var parallelData = {
       "recHLT6IoCZXwwtp3"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 80,
     "precursors": [
       "recli0IRLQZowpWoF",
@@ -441,6 +474,7 @@ var parallelData = {
       "recjdvfsS0ZXESR2L"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "rechAwGrx1K8hAmTi"
@@ -454,6 +488,7 @@ var parallelData = {
       "recjdvfsS0ZXESR2L"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "reccHCPeML8SyRFTp",
@@ -472,6 +507,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 20,
     "precursors": null
   },
@@ -483,6 +519,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 100,
     "precursors": null
   },
@@ -494,6 +531,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": null
   },
@@ -503,6 +541,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Milestone",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "rec5v7YBAh4XzeOQ7",
@@ -516,6 +555,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Milestone",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recC9Zxt4MV7hRodc",
@@ -531,6 +571,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Milestone",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "rec916rZDT7JzwkZs",
@@ -545,6 +586,7 @@ var parallelData = {
       "reck4uCQdMmA9Dy0e"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 100,
     "precursors": [
       "recEL4ZZsARmsYwFt",
@@ -554,11 +596,14 @@ var parallelData = {
   "hardware": {
     "LongName": "Hardware Design",
     "Name": "hardware",
-    "Other_people_involved": null,
+    "Other_people_involved": [
+      "recMZdSRhVMMJQcOb"
+    ],
     "Owner": [
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 100,
     "precursors": null
   },
@@ -570,6 +615,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recsE2Wezl1QpWoL3",
@@ -587,6 +633,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": null
   },
@@ -601,6 +648,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 70,
     "precursors": [
       "recSIIp1grVggDGQo"
@@ -612,6 +660,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": null
   },
@@ -626,6 +675,7 @@ var parallelData = {
       "recwl2PnrQ8ueQBQ7"
     ],
     "Type": "Product",
+    "deck_embed": null,
     "percentComplete": 70,
     "precursors": [
       "rec3robMWYUXVp8GD"
@@ -639,6 +689,7 @@ var parallelData = {
       "rec3HypnJiuTkeVBJ"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 50,
     "precursors": null
   },
@@ -650,6 +701,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 50,
     "precursors": null
   },
@@ -663,6 +715,7 @@ var parallelData = {
       "recgcDkgKvrBLH1k0"
     ],
     "Type": "Publication",
+    "deck_embed": null,
     "percentComplete": 100,
     "precursors": [
       "recflCm8BzuGQbmW0",
@@ -679,6 +732,7 @@ var parallelData = {
       "recjdvfsS0ZXESR2L"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 70,
     "precursors": [
       "recgrgZIuBEI9namY"
@@ -690,6 +744,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recmUQLIxzr2wiyzd",
@@ -707,6 +762,7 @@ var parallelData = {
       "reck4uCQdMmA9Dy0e"
     ],
     "Type": "Publication",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recPhk9t87eiweyAl"
@@ -718,6 +774,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recctP32G3sreUKjg",
@@ -735,6 +792,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 100,
     "precursors": [
       "reczMCua56WUmp3zF",
@@ -752,6 +810,7 @@ var parallelData = {
       "rece9qyNSfMqAhZAL"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 80,
     "precursors": [
       "recru4UXYdMmO7sX8",
@@ -764,6 +823,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "reca1ZZ98UE1Y07Oo",
@@ -778,6 +838,7 @@ var parallelData = {
       "recj2rmnndUmxB3Dt"
     ],
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 100,
     "precursors": [
       "recXEw0Q2LFFIa2XB"
@@ -793,6 +854,7 @@ var parallelData = {
       "recHLT6IoCZXwwtp3"
     ],
     "Type": "Project",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": null
   },
@@ -802,6 +864,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": null
   },
@@ -811,6 +874,7 @@ var parallelData = {
     "Other_people_involved": null,
     "Owner": null,
     "Type": "Capability",
+    "deck_embed": null,
     "percentComplete": 0,
     "precursors": [
       "recsAhFnFOcFBztTU"

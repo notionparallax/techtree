@@ -221,7 +221,8 @@ var peopleData = {
     "Name": "Barry C",
     "Notes": null,
     "Techs": [
-      "recqsdnZyKEXLlafN"
+      "recqsdnZyKEXLlafN",
+      "reczMCua56WUmp3zF"
     ],
     "id": "recMZdSRhVMMJQcOb",
     "thumb_large": "https://dl.airtable.com/tEyLZYnrSSaN4Ikic0k5_large_P_160405_N25.jpg"
