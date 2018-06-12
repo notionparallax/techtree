@@ -92,7 +92,7 @@ function getNodes(){
             .attr("text-anchor", "middle")
             .attr("alignment-baseline", "middle")
             .attr("font-size", faceRad)
-            .attr("class", "initials")
+            .attr("class", "initials" + " " + person.Initials)
             .text(person.Initials);
 
         d3.select(this).append("image")
@@ -100,6 +100,8 @@ function getNodes(){
           .attr("y", 0)
           .attr("width", faceRad * 2)
           .attr("height", faceRad * 2)
+          .attr("class", "faceThumb" + " " + person.Initials)
+          .attr("title", person.Name)
           .attr("xlink:href", person.thumb_large)
           .attr("clip-path", "url(#avatar-clip)")
           .attr("transform", "translate(" + (cenX-faceRad) + ", "
