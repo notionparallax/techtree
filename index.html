@@ -15,6 +15,24 @@
   <body>
     <div id="graph"></div>
 
+
+    <!-- modal -->
+    <div id="presentation-overlay"
+         class="overlay">
+    	<div class="popup">
+    		<!-- <h2 id="popup-heading">Info box</h2> -->
+    		<a class="close" id="close-popup" href="#">&times;</a>
+    		<div class="popup-content">
+          <iframe id="presentation-frame"
+                  src=""
+                  frameborder="0"
+                  allowfullscreen="true"
+                  mozallowfullscreen="true"
+                  webkitallowfullscreen="true"></iframe>
+    		</div>
+    	</div>
+    </div>
+
     <script type="text/javascript" src="digraph.js"></script>
     <script type="text/javascript" src="index.js"></script>
   </body>

@@ -7,6 +7,11 @@ var faceRad = 11;
 function showSlides(d) {
   // deck_embed
   console.log("data:", d._groups[0][0].dataset.more);
+  var popup = d3.select("#presentation-overlay");
+  popup.style("display", "initial");
+
+  d3.select("#presentation-frame")
+    .attr("src", d._groups[0][0].dataset.more);
 }
 
 
@@ -158,3 +163,15 @@ if(container.graphviz !== undefined) {
   elem.innerHTML += 'You really should get a better browser. Really, anything would be better than this!';
   document.body.appendChild(elem);
 }
+
+// hide the popup if the close icon or the background
+// is clicked
+function hidePopup(e) {
+  if(event.target.id === 'presentation-overlay'
+     ||
+     event.target.id === "close-popup"){
+    po.style.display = "none";
+  }
+}
+var po = document.getElementById('presentation-overlay');
+po.addEventListener('click', hidePopup, false);

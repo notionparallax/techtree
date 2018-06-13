@@ -76,3 +76,50 @@ ellipse.face-ring{
 .node text.initials {
   fill: #3F51B5;
 }
+
+/* overlay stuff */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  display: none;
+}
+
+.popup {
+  margin: 4em auto;
+  padding: 3px;
+  background: #fff;
+  border: 1px solid #666;
+  width: 80vw;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+   width: 40px;
+   height: 40px;
+   top: -5px;
+   right: -5px;
+   opacity: 0.8;
+   transition: all 200ms;
+   font-size: 3em;
+   font-weight: bold;
+   text-decoration: none;
+   color: #666;
+ }
+ .close:hover {
+   opacity: 1;
+ }
+
+iframe {
+  width: 100%;
+  height: 80vh;
+}
