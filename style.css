@@ -5,8 +5,8 @@
 }
 
 #graph {
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
 }
 
 svg {
@@ -14,8 +14,8 @@ svg {
 }
 
 body {
-  font-family: 'Blender-book';
   background-color: rgb(40, 40, 40);
+  font-family: 'Blender-book';
 }
 
 polygon {
@@ -23,9 +23,9 @@ polygon {
 }
 
 #graph0 > text {
-    font-size: 2em;
-    font-family: 'Blender-book';
     fill: white;
+    font-family: 'Blender-book';
+    font-size: 2em;
 }
 
 .edge polygon {
@@ -38,8 +38,8 @@ polygon {
 }
 
 .node text {
-    font-family: 'Blender-book';
-    fill: white;
+  font-family: 'Blender-book';
+  fill: white;
 }
 
 .node {
@@ -47,31 +47,29 @@ polygon {
 }
 
 ellipse {
+  stroke:  rgb(84, 207, 212);
   fill: rgb(57, 30, 233);
   stroke-width: 2.5;
-    stroke:  rgb(84, 207, 212);
 }
 
 ellipse.ghost-ring {
-    fill: none;
-    stroke-opacity: 0.1;
-    stroke-width: 1;
-    stroke: white;
+  fill: none;
+  stroke-opacity: 0.1;
+  stroke-width: 1;
+  stroke: white;
 }
 
 ellipse.progress-ring {
-  animation: dash 1s ease-out forwards;
+  animation: dash 2s ease-out forwards;
   fill: none;
-  /* stroke-dasharray: 162.054;
-  stroke-dashoffset: 378.786; */
   stroke-linecap: round;
   stroke: #F44336;
 }
 
 ellipse.face-ring{
   fill: white;
-  stroke: black;
   stroke-width: ;
+  stroke: black;
 }
 .node text.initials {
   fill: #3F51B5;
@@ -89,13 +87,13 @@ ellipse.face-ring{
 }
 
 .popup {
+  background-color: : #fff;
+  border: 1px solid #666;
+  box-shadow: 0 0 50px rgba(0,0,0,0.5);
   margin: 4em auto;
   padding: 3px;
-  background: #fff;
-  border: 1px solid #666;
-  width: 80vw;
-  box-shadow: 0 0 50px rgba(0,0,0,0.5);
   position: relative;
+  width: 80vw;
 }
 
 .popup-content {
@@ -103,23 +101,23 @@ ellipse.face-ring{
 }
 
 .close {
+  color: #666;
+  font-size: 3em;
+  font-weight: bold;
+  height: 40px;
+  opacity: 0.8;
+  right: -5px;
+  text-decoration: none;
+  top: -5px;
+  transition: all 200ms;
+  width: 40px;
   position: absolute;
-   width: 40px;
-   height: 40px;
-   top: -5px;
-   right: -5px;
-   opacity: 0.8;
-   transition: all 200ms;
-   font-size: 3em;
-   font-weight: bold;
-   text-decoration: none;
-   color: #666;
  }
  .close:hover {
    opacity: 1;
  }
 
 iframe {
-  width: 100%;
   height: 80vh;
+  width: 100%;
 }
