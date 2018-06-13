@@ -89,10 +89,10 @@ slide_service = build('slides', 'v1', http=creds.authorize(Http()))
 
 source_presentation_id = "1m9CLrjYTow1-QHn7_Ue2tBeOZMy4OWNSXdURX_Ar-Ok"
 template = slide_service.presentations().get(presentationId=source_presentation_id).execute()
-print("\n--SOURCE--")
+print("\n--SOURCE FILE--")
 print(template.get('presentationId'))
 print(template.get('title'))
-print("\n--rest of bs--")
+print("\n--OUTPUT IDs--")
 
 for project_name in decks_to_make:
     body = {
