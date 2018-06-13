@@ -95,9 +95,7 @@ print(template.get('title'))
 print("\n--OUTPUT IDs--")
 
 for project_name in decks_to_make:
-    body = {
-        'name': project_name
-    }
+    body = { 'name': project_name }
 
     drive_response = drive_service.files().copy(fileId=source_presentation_id,
                                                 body=body).execute()
@@ -107,13 +105,8 @@ for project_name in decks_to_make:
     body = {
         'requests': [
             {
-            'replaceAllText': {
-                'containsText': {
-                    'text': 'title'#,
-                    # 'matchCase': True
-                    },
-                'replaceText': project_name
-                }
+            'replaceAllText': { 'containsText': { 'text': 'title' },
+                                'replaceText': project_name }
             }
         ]
     }
