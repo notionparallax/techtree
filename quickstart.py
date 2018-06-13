@@ -112,6 +112,12 @@ for project_name in decks_to_make:
     }
     response = slide_service.presentations().batchUpdate(presentationId=presentation_copy_id,
                                                     body=body).execute()
+
+    # TODO: Look at this link to find out about publishing to web
+    # https://stackoverflow.com/questions/45382528/google-slides-programmatically-get-publish-to-web-link
+    # TODO: update thumbnail so that it doesn't looks like the template
+    # TODO: Add team page to deck
+
     # print("res", response)
 
     # presentation = service.presentations().create(body=body).execute()
