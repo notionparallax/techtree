@@ -20,6 +20,8 @@ function getNodes(){
     nodes = d3.selectAll('.node');
 
     var svg = d3.select("#graph svg");
+    svg.attr("height", "");
+
     var defs = svg.append("defs");
     defs.append("clipPath")
       .attr("id", "avatar-clip")
