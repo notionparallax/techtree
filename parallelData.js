@@ -474,7 +474,7 @@ var parallelData = {
       "recjdvfsS0ZXESR2L"
     ],
     "Type": "Project",
-    "deck_embed": "https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&amp;showinfo=0",
+    "deck_embed": "https://docs.google.com/presentation/d/e/2PACX-1vStVYAwvVi16weseHfuNUlw72UkiIp8MZIi4kaexFUFcldfL_X_szw71kbbiJQWKL6STUM8Sv93rG0y/embed",
     "percentComplete": 0,
     "precursors": [
       "rechAwGrx1K8hAmTi"
