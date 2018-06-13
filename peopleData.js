@@ -63,6 +63,17 @@ var peopleData = {
     "id": "rec3HypnJiuTkeVBJ",
     "thumb_large": "https://dl.airtable.com/JgeHAo9xSGmjVWy0FtXS_large_P_160405_N20.jpg"
   },
+  "recAVwOLxaAUdYQA3": {
+    "Headshot": null,
+    "Initials": null,
+    "Name": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vT1sumj-BT4ycM_tzVDXLtMQGEtqStZ6PhV79mWtg88xnt3_VE2_xe1l6ejqH1vlH2wqrfnlNM7Gwvw/embed?start=false&loop=false&delayms=3000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+    "Notes": null,
+    "Techs": [
+      "recflCm8BzuGQbmW0"
+    ],
+    "id": "recAVwOLxaAUdYQA3",
+    "thumb_large": "http://getdrawings.com/images/casper-drawing-8.jpg"
+  },
   "recF9tgC6LJUmi5gJ": {
     "Headshot": [
       {
@@ -339,23 +350,23 @@ var peopleData = {
   "recjdvfsS0ZXESR2L": {
     "Headshot": [
       {
-        "filename": "Shawnee+Finlayson.jpg",
-        "id": "attv0XAsb6pZQWOD6",
-        "size": 123751,
+        "filename": "Square Shawnee.jpg",
+        "id": "attQWA0Akrd7nj0RE",
+        "size": 283997,
         "thumbnails": {
           "large": {
             "height": 512,
-            "url": "https://dl.airtable.com/LtvAB3rHQC2u6tcZArZt_large_Shawnee%2BFinlayson.jpg",
+            "url": "https://dl.airtable.com/cHKAzERHQdjq4HvX1IIg_large_Square%20Shawnee.jpg",
             "width": 512
           },
           "small": {
             "height": 36,
-            "url": "https://dl.airtable.com/7uBNK5JcRVyqpM6YM79R_small_Shawnee%2BFinlayson.jpg",
+            "url": "https://dl.airtable.com/XcwCLSdFQUCqd6ZSNf1i_small_Square%20Shawnee.jpg",
             "width": 36
           }
         },
         "type": "image/jpeg",
-        "url": "https://dl.airtable.com/7KkDhpp0QZeedK6lAXPk_Shawnee%2BFinlayson.jpg"
+        "url": "https://dl.airtable.com/fKQHg6SPQ7qAhTpHXZd6_Square%20Shawnee.jpg"
       }
     ],
     "Initials": "SF",
@@ -367,7 +378,7 @@ var peopleData = {
       "recnjMKU5MFlbshGD"
     ],
     "id": "recjdvfsS0ZXESR2L",
-    "thumb_large": "https://dl.airtable.com/LtvAB3rHQC2u6tcZArZt_large_Shawnee%2BFinlayson.jpg"
+    "thumb_large": "https://dl.airtable.com/cHKAzERHQdjq4HvX1IIg_large_Square%20Shawnee.jpg"
   },
   "reck4uCQdMmA9Dy0e": {
     "Headshot": [
