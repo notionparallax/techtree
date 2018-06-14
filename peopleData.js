@@ -6,6 +6,11 @@ var peopleData = {
         "id": "attIji1HbmalXUkuZ",
         "size": 186823,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/yqJfemRoSJuaQ8JrGJQW_full_P_160405_N137.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/6ax7C3bmSUWbWYULMZsZ_large_P_160405_N137.jpg",
@@ -37,6 +42,11 @@ var peopleData = {
         "id": "attBViPOM4doUlrmU",
         "size": 170959,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/6lyw7ajSaYwMtr9iomwd_full_P_160405_N20.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/JgeHAo9xSGmjVWy0FtXS_large_P_160405_N20.jpg",
@@ -81,6 +91,11 @@ var peopleData = {
         "id": "attGY4CDlDWCO1Ug0",
         "size": 349692,
         "thumbnails": {
+          "full": {
+            "height": 1500,
+            "url": "https://dl.airtable.com/dng0XJfoS0eUB8x5RdeV_full_dura-ace-cog.jpg",
+            "width": 1500
+          },
           "large": {
             "height": 512,
             "url": "https://dl.airtable.com/k7bmR1FNTyeJBIzaiWcA_large_dura-ace-cog.jpg",
@@ -110,6 +125,11 @@ var peopleData = {
         "id": "attJPKI8qeNxWFgDi",
         "size": 159204,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/P63MRTaRBi7BaIHyk5QM_full_P_160405_N26.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/4NWLSnTFRwSfdFDBAt9A_large_P_160405_N26.jpg",
@@ -150,6 +170,11 @@ var peopleData = {
         "id": "att05xuQ0g4VVK3Nh",
         "size": 145252,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/5xws2wjZRmWuHPx3zRpg_full_P_160405_N190.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/n5K9IIPLSEiPPcY8qKCG_large_P_160405_N190.jpg",
@@ -181,6 +206,11 @@ var peopleData = {
         "id": "att6DDYg3qurTxHLC",
         "size": 54300,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/QoVaRKGkTQSvJydOzcJf_full_P_160405_N31.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/nestrTYmQqT79f6rfpHQ_large_P_160405_N31.jpg",
@@ -213,6 +243,11 @@ var peopleData = {
         "id": "attG3o5l2IdGJbkhh",
         "size": 134490,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/6JTe0IbPReuDEmOZfq5a_full_P_160405_N25.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/tEyLZYnrSSaN4Ikic0k5_large_P_160405_N25.jpg",
@@ -245,6 +280,11 @@ var peopleData = {
         "id": "attdaQhNW1zfK4FrF",
         "size": 533677,
         "thumbnails": {
+          "full": {
+            "height": 1697,
+            "url": "https://dl.airtable.com/r2nLmsAoQvmQbnzh6ekk_full_face.jpg",
+            "width": 1697
+          },
           "large": {
             "height": 512,
             "url": "https://dl.airtable.com/9bCj4hVTSkCAXtf3e4eT_large_face.jpg",
@@ -283,23 +323,28 @@ var peopleData = {
   "recgcDkgKvrBLH1k0": {
     "Headshot": [
       {
-        "filename": "Ishaan.jpg",
-        "id": "attiQH5ebrzZzivNM",
-        "size": 136215,
+        "filename": "avatar.jpeg",
+        "id": "atttB8sYkfCYQIWuq",
+        "size": 49442,
         "thumbnails": {
+          "full": {
+            "height": 450,
+            "url": "https://dl.airtable.com/ffmU2kBUTvYVq24msbZQ_full_avatar.jpeg",
+            "width": 450
+          },
           "large": {
-            "height": 512,
-            "url": "https://dl.airtable.com/heJnNH6AS0CjCCRvxXa3_large_Ishaan.jpg",
-            "width": 512
+            "height": 450,
+            "url": "https://dl.airtable.com/dNQuCohZT0ywNXD8dtro_large_avatar.jpeg",
+            "width": 450
           },
           "small": {
             "height": 36,
-            "url": "https://dl.airtable.com/dwvEVpaWTVO1EAfDqhCg_small_Ishaan.jpg",
+            "url": "https://dl.airtable.com/FsqHRcTRStWb4fa2Lkug_small_avatar.jpeg",
             "width": 36
           }
         },
         "type": "image/jpeg",
-        "url": "https://dl.airtable.com/3tQHY3rkQWTQKnCsL51p_Ishaan.jpg"
+        "url": "https://dl.airtable.com/T2b17z1KQ6iGqzwb0Dyg_avatar.jpeg"
       }
     ],
     "Initials": "IV",
@@ -312,7 +357,7 @@ var peopleData = {
       "recsAhFnFOcFBztTU"
     ],
     "id": "recgcDkgKvrBLH1k0",
-    "thumb_large": "https://dl.airtable.com/heJnNH6AS0CjCCRvxXa3_large_Ishaan.jpg"
+    "thumb_large": "https://dl.airtable.com/dNQuCohZT0ywNXD8dtro_large_avatar.jpeg"
   },
   "recj2rmnndUmxB3Dt": {
     "Headshot": [
@@ -321,6 +366,11 @@ var peopleData = {
         "id": "attE4V4KrVsP8E7wd",
         "size": 4270,
         "thumbnails": {
+          "full": {
+            "height": 50,
+            "url": "https://dl.airtable.com/w4d8MfQAavJ1huOw2BrQ_full_50.png",
+            "width": 50
+          },
           "large": {
             "height": 50,
             "url": "https://dl.airtable.com/wNAkSR0RUlLTf8AMRYJA_large_50.png",
@@ -354,6 +404,11 @@ var peopleData = {
         "id": "attQWA0Akrd7nj0RE",
         "size": 283997,
         "thumbnails": {
+          "full": {
+            "height": 751,
+            "url": "https://dl.airtable.com/HmQSyyqQXqbOAxWEBxDT_full_Square%20Shawnee.jpg",
+            "width": 751
+          },
           "large": {
             "height": 512,
             "url": "https://dl.airtable.com/cHKAzERHQdjq4HvX1IIg_large_Square%20Shawnee.jpg",
@@ -387,6 +442,11 @@ var peopleData = {
         "id": "attGOA5MpsB4raA3H",
         "size": 191503,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/2KPoGpzUTWvJ8MQMHe8i_full_P_160405_N47.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/1ocVojsCTZJYDRTtp7kI_large_P_160405_N47.jpg",
@@ -418,6 +478,11 @@ var peopleData = {
         "id": "atttBWDq0tQn5PWfU",
         "size": 205211,
         "thumbnails": {
+          "full": {
+            "height": 1048,
+            "url": "https://dl.airtable.com/IMXLREnDRuWpWrEjf4nb_full_20171005_171412_resized.jpg",
+            "width": 781
+          },
           "large": {
             "height": 687,
             "url": "https://dl.airtable.com/FRJXAfziQn226JiBopNq_large_20171005_171412_resized.jpg",
@@ -451,6 +516,11 @@ var peopleData = {
         "id": "attCl8pJkU9awSTLm",
         "size": 160824,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/IOSX3i4RimDkmDiO77QV_full_P_160405_N171.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/yXqIqKWoQcWED51FYjOO_large_P_160405_N171.jpg",

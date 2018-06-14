@@ -1,5 +1,5 @@
 // This is crusty, but it seems to work.
-// Generated at 2018-06-13 18:09:43.237389
+// Generated at 2018-06-14 14:38:22.306390
 
 
 var digraph_details = ['digraph G {', ' size = "16.66,8.33!"; // 1200x600 at 72px/in, "!" to force', ' ratio = "fill";', ' rankdir  = "LR";', ' label    = "Tech Tree of OATMEAL Projects";', ' labelloc = "t";', ' node [style=filled,', '       shape="oval", ', '       fixedsize=true, ', '       width=1,', '       height=1,', '       fontsize=8', '      ];', ' edge [arrowhead=vee,', '       arrowsize=0.5]', ' ', ' potPaper [label="A Plane of\nThrones Paper"];', ' robPaper [label="Robotics Papers"];', ' deskSenseDn [label="Below Desk\nSensing"];', ' desks [label="Unit Desks"];', ' deskSenseUp [label="Above Desk\nSensing"];', ' octopus [label="Octopus"];', ' mApp [label="Mobile App"];', ' geoEthno2 [label="Geographic/\nEthnographic\ndata 2"];', ' MeetingRoomProduct [label="Meeting Room\nOccupancy\nQuantification\nProduct"];', ' basicBeacon [label="iBeacon\nAwareness"];', ' sensicorn2 [label="Sensicorn 2"];', ' geoEthno1 [label="Geographic/\nEthnographic\ndata 1"];', ' emailData [label="Email Data"];', ' RBTM [label="Robotic\nBuilding\nTopology\nModification"];', ' basicRobot [label="Awareness of\nRobots"];', ' timeData [label="Timesheet Data"];', ' SNA [label="Social Network\nAnalysis"];', ' changeSpace [label="Change Space\nCollective"];', ' robDesk [label="Robotic Desk\nArrangement"];', ' CADD_AAS [label="Continuous\nAnalysis,\nDesign &\nDelivery as a\nservice"];', ' Shakedown [label="Shakedown data\ncapture"];', ' SNAawareness [label="SNA Awareness"];', ' diary2 [label="Mobile Phone\nDiary Studies"];', ' DeskRulesEngine [label="Desk Placement\nRules Engine"];', ' halo [label="Robotic Weaving"];', ' SNAblog [label="Social Network\nAnalysis Blog\nPost"];', ' SydStudioSeating [label="Sydney Studio\nSeating"];', ' revit2ML [label="Revit Layout\nExtraction"];', ' data [label="Data Literacy"];', ' sensicorn1 [label="Sensicorn 1"];', ' SydStudioSeating2 [label="Better Sydney\nStudio Seating"];', ' electronicsD [label="Electronics\nDesign"];', ' diary [label="Diary Studies"];', ' SLAM [label="SLAM\n(Simultanious\nLocation And\nMapping)"];', ' bravo [label="Bravo Victor\nNovember"];', ' PCB [label="Printed Circuit\nBoard Design"];', ' workplaceAnalytics [label="Workplace\nAnalytics"];', ' pot [label="A Plane of\nThrones\nFramework"];', ' deskLoc [label="Desk Location"];', ' SydneyModel [label="Sydney Studio\nRevit Model"];', ' electron [label="Desktop App"];', ' robSense [label="Robot Mounted\nSensing"];', ' boom [label="Distribution\nBoom"];', ' altSpace [label="altSpace"];', ' AIlayout [label="AI Layout"];', ' lAmp [label="Learning\nAmplified\nSeating Plans"];', ' bizCap [label="Capturing\nBusiness\nMetrics"];', ' loTraining [label="Layout Training\nData"];', ' cadd [label="Continuous\nAnalysis,\nDesign &\nDelivery"];', ' geoEthno3 [label="Geographic/\nEthnographic\ndata 3"];', ' ShakedownPaper [label="Shakedown Paper"];', ' ImageRec [label="Basic Image\nRecognition"];', ' s3 [label="S3"];', ' sensors [label="Sensor Literacy"];', ' pathVis [label="Path\nVisualisation"];', ' MeetingRoomOcc [label="Meeting Room\nOccupancy\nQuantification"];', ' lExp [label="Learning\nExperiment"];', ' systemReef [label="Systems Reef"];', ' ShakedownBlog [label="Shakedown Blog"];', ' Shakedown2 [label="Shakedown (with\nstalls) Product"];', ' hardware [label="Hardware Design"];', ' BTARATA [label="Buildings That\nAre Right All\nThe Time"];', ' ', ' pot -> potPaper;', ' revit2ML -> potPaper;', ' halo -> robPaper;', ' octopus -> deskSenseDn;', ' boom -> desks;', ' halo -> desks;', ' s3 -> deskSenseUp;', ' electron -> deskSenseUp;', ' desks -> octopus;', ' geoEthno1 -> geoEthno2;', ' deskSenseDn -> geoEthno2;', ' sensicorn2 -> geoEthno2;', ' MeetingRoomOcc -> MeetingRoomProduct;', ' sensicorn1 -> sensicorn2;', ' deskLoc -> sensicorn2;', ' deskSenseUp -> geoEthno1;', ' diary -> geoEthno1;', ' deskLoc -> geoEthno1;', ' robDesk -> RBTM;', ' timeData -> SNA;', ' emailData -> SNA;', ' SNAawareness -> SNA;', ' geoEthno1 -> changeSpace;', ' AIlayout -> robDesk;', ' robSense -> robDesk;', ' SydStudioSeating2 -> robDesk;', ' cadd -> CADD_AAS;', ' sensors -> Shakedown;', ' diary -> diary2;', ' mApp -> diary2;', ' deskLoc -> DeskRulesEngine;', ' basicRobot -> halo;', ' systemReef -> halo;', ' SNA -> SNAblog;', ' bravo -> SNAblog;', ' lAmp -> SydStudioSeating;', ' SydneyModel -> revit2ML;', ' pathVis -> sensicorn1;', ' hardware -> sensicorn1;', ' SydStudioSeating -> SydStudioSeating2;', ' DeskRulesEngine -> SydStudioSeating2;', ' electron -> diary;', ' basicRobot -> SLAM;', ' electronicsD -> PCB;', ' MeetingRoomOcc -> workplaceAnalytics;', ' basicBeacon -> deskLoc;', ' desks -> deskLoc;', ' ImageRec -> deskLoc;', ' mApp -> deskLoc;', ' SLAM -> robSense;', ' sensors -> robSense;', ' systemReef -> boom;', ' geoEthno2 -> altSpace;', ' loTraining -> AIlayout;', ' lExp -> lAmp;', ' SNA -> lAmp;', ' pot -> lAmp;', ' revit2ML -> loTraining;', ' geoEthno3 -> cadd;', ' RBTM -> cadd;', ' bizCap -> cadd;', ' workplaceAnalytics -> cadd;', ' geoEthno2 -> geoEthno3;', ' diary2 -> geoEthno3;', ' Shakedown -> ShakedownPaper;', ' hardware -> s3;', ' sensors -> s3;', ' PCB -> s3;', ' data -> sensors;', ' Shakedown -> MeetingRoomOcc;', ' Shakedown -> ShakedownBlog;', ' bravo -> ShakedownBlog;', ' Shakedown -> Shakedown2;', ' CADD_AAS -> BTARATA;', ' ', ' //{rank = same; data; basicRobot; hardware; systemReef; SNAawareness};', ' \n}'];
@@ -904,6 +904,11 @@ var peopleData = {
         "id": "attIji1HbmalXUkuZ",
         "size": 186823,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/yqJfemRoSJuaQ8JrGJQW_full_P_160405_N137.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/6ax7C3bmSUWbWYULMZsZ_large_P_160405_N137.jpg",
@@ -935,6 +940,11 @@ var peopleData = {
         "id": "attBViPOM4doUlrmU",
         "size": 170959,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/6lyw7ajSaYwMtr9iomwd_full_P_160405_N20.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/JgeHAo9xSGmjVWy0FtXS_large_P_160405_N20.jpg",
@@ -979,6 +989,11 @@ var peopleData = {
         "id": "attGY4CDlDWCO1Ug0",
         "size": 349692,
         "thumbnails": {
+          "full": {
+            "height": 1500,
+            "url": "https://dl.airtable.com/dng0XJfoS0eUB8x5RdeV_full_dura-ace-cog.jpg",
+            "width": 1500
+          },
           "large": {
             "height": 512,
             "url": "https://dl.airtable.com/k7bmR1FNTyeJBIzaiWcA_large_dura-ace-cog.jpg",
@@ -1008,6 +1023,11 @@ var peopleData = {
         "id": "attJPKI8qeNxWFgDi",
         "size": 159204,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/P63MRTaRBi7BaIHyk5QM_full_P_160405_N26.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/4NWLSnTFRwSfdFDBAt9A_large_P_160405_N26.jpg",
@@ -1048,6 +1068,11 @@ var peopleData = {
         "id": "att05xuQ0g4VVK3Nh",
         "size": 145252,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/5xws2wjZRmWuHPx3zRpg_full_P_160405_N190.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/n5K9IIPLSEiPPcY8qKCG_large_P_160405_N190.jpg",
@@ -1079,6 +1104,11 @@ var peopleData = {
         "id": "att6DDYg3qurTxHLC",
         "size": 54300,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/QoVaRKGkTQSvJydOzcJf_full_P_160405_N31.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/nestrTYmQqT79f6rfpHQ_large_P_160405_N31.jpg",
@@ -1111,6 +1141,11 @@ var peopleData = {
         "id": "attG3o5l2IdGJbkhh",
         "size": 134490,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/6JTe0IbPReuDEmOZfq5a_full_P_160405_N25.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/tEyLZYnrSSaN4Ikic0k5_large_P_160405_N25.jpg",
@@ -1143,6 +1178,11 @@ var peopleData = {
         "id": "attdaQhNW1zfK4FrF",
         "size": 533677,
         "thumbnails": {
+          "full": {
+            "height": 1697,
+            "url": "https://dl.airtable.com/r2nLmsAoQvmQbnzh6ekk_full_face.jpg",
+            "width": 1697
+          },
           "large": {
             "height": 512,
             "url": "https://dl.airtable.com/9bCj4hVTSkCAXtf3e4eT_large_face.jpg",
@@ -1181,23 +1221,28 @@ var peopleData = {
   "recgcDkgKvrBLH1k0": {
     "Headshot": [
       {
-        "filename": "Ishaan.jpg",
-        "id": "attiQH5ebrzZzivNM",
-        "size": 136215,
+        "filename": "avatar.jpeg",
+        "id": "atttB8sYkfCYQIWuq",
+        "size": 49442,
         "thumbnails": {
+          "full": {
+            "height": 450,
+            "url": "https://dl.airtable.com/ffmU2kBUTvYVq24msbZQ_full_avatar.jpeg",
+            "width": 450
+          },
           "large": {
-            "height": 512,
-            "url": "https://dl.airtable.com/heJnNH6AS0CjCCRvxXa3_large_Ishaan.jpg",
-            "width": 512
+            "height": 450,
+            "url": "https://dl.airtable.com/dNQuCohZT0ywNXD8dtro_large_avatar.jpeg",
+            "width": 450
           },
           "small": {
             "height": 36,
-            "url": "https://dl.airtable.com/dwvEVpaWTVO1EAfDqhCg_small_Ishaan.jpg",
+            "url": "https://dl.airtable.com/FsqHRcTRStWb4fa2Lkug_small_avatar.jpeg",
             "width": 36
           }
         },
         "type": "image/jpeg",
-        "url": "https://dl.airtable.com/3tQHY3rkQWTQKnCsL51p_Ishaan.jpg"
+        "url": "https://dl.airtable.com/T2b17z1KQ6iGqzwb0Dyg_avatar.jpeg"
       }
     ],
     "Initials": "IV",
@@ -1210,7 +1255,7 @@ var peopleData = {
       "recsAhFnFOcFBztTU"
     ],
     "id": "recgcDkgKvrBLH1k0",
-    "thumb_large": "https://dl.airtable.com/heJnNH6AS0CjCCRvxXa3_large_Ishaan.jpg"
+    "thumb_large": "https://dl.airtable.com/dNQuCohZT0ywNXD8dtro_large_avatar.jpeg"
   },
   "recj2rmnndUmxB3Dt": {
     "Headshot": [
@@ -1219,6 +1264,11 @@ var peopleData = {
         "id": "attE4V4KrVsP8E7wd",
         "size": 4270,
         "thumbnails": {
+          "full": {
+            "height": 50,
+            "url": "https://dl.airtable.com/w4d8MfQAavJ1huOw2BrQ_full_50.png",
+            "width": 50
+          },
           "large": {
             "height": 50,
             "url": "https://dl.airtable.com/wNAkSR0RUlLTf8AMRYJA_large_50.png",
@@ -1252,6 +1302,11 @@ var peopleData = {
         "id": "attQWA0Akrd7nj0RE",
         "size": 283997,
         "thumbnails": {
+          "full": {
+            "height": 751,
+            "url": "https://dl.airtable.com/HmQSyyqQXqbOAxWEBxDT_full_Square%20Shawnee.jpg",
+            "width": 751
+          },
           "large": {
             "height": 512,
             "url": "https://dl.airtable.com/cHKAzERHQdjq4HvX1IIg_large_Square%20Shawnee.jpg",
@@ -1285,6 +1340,11 @@ var peopleData = {
         "id": "attGOA5MpsB4raA3H",
         "size": 191503,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/2KPoGpzUTWvJ8MQMHe8i_full_P_160405_N47.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/1ocVojsCTZJYDRTtp7kI_large_P_160405_N47.jpg",
@@ -1316,6 +1376,11 @@ var peopleData = {
         "id": "atttBWDq0tQn5PWfU",
         "size": 205211,
         "thumbnails": {
+          "full": {
+            "height": 1048,
+            "url": "https://dl.airtable.com/IMXLREnDRuWpWrEjf4nb_full_20171005_171412_resized.jpg",
+            "width": 781
+          },
           "large": {
             "height": 687,
             "url": "https://dl.airtable.com/FRJXAfziQn226JiBopNq_large_20171005_171412_resized.jpg",
@@ -1349,6 +1414,11 @@ var peopleData = {
         "id": "attCl8pJkU9awSTLm",
         "size": 160824,
         "thumbnails": {
+          "full": {
+            "height": 500,
+            "url": "https://dl.airtable.com/IOSX3i4RimDkmDiO77QV_full_P_160405_N171.jpg",
+            "width": 500
+          },
           "large": {
             "height": 500,
             "url": "https://dl.airtable.com/yXqIqKWoQcWED51FYjOO_large_P_160405_N171.jpg",
