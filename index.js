@@ -14,6 +14,11 @@ function showSlides(d) {
     .attr("src", d._groups[0][0].dataset.more);
 }
 
+function circumference(d3circle) {
+  // would use this, but FF doesn't support
+  // var prog_full = ghostEllip.node().getTotalLength();
+  return 2 * Math.PI * d3circle.node().rx.baseVal.value;
+}
 
 function getNodes(){
     // console.log(d3.selectAll('.node'));
@@ -61,7 +66,8 @@ function getNodes(){
         // https://daverupert.com/2018/03/animated-svg-radial-progress-bars/
         // don't draw anything if it's at 0 or you get a little nipple
         var progressEllip = mainEllip.clone();
-        var prog_full = ghostEllip.node().getTotalLength();
+
+        var prog_full = circumference(ghostEllip);
         var prog = prog_full * ((100 - pd.percentComplete) / 100);
         progressEllip.style("stroke-dasharray", prog_full);
         progressEllip.style("stroke-dashoffset", Math.max(0, prog));
