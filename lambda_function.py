@@ -22,7 +22,15 @@ def lambda_handler(event, context):
         return f
     
     if TESTING:
-        t = mergeD({'createdTime': '2018-05-25T07:45:33.000Z', 'fields': {'Other_people_involved': ['rece9qyNSfMqAhZAL'], 'Owner': ['recgcDkgKvrBLH1k0'], 'LongName': 'A Plane of Thrones Paper', 'Name': 'potPaper', 'percentComplete': 100, 'precursors': ['recflCm8BzuGQbmW0', 'recSIIp1grVggDGQo'], 'Type': 'Publication'}, 'id': 'rec0ArDcPS4hLrmJq'})
+        t = mergeD({'createdTime': '2018-05-25T07:45:33.000Z', 
+                    'fields': {'Other_people_involved': ['rece9qyNSfMqAhZAL'],
+                               'Owner': ['recgcDkgKvrBLH1k0'], 
+                               'LongName': 'A Plane of Thrones Paper', 
+                               'Name': 'potPaper', 
+                               'percentComplete': 100, 
+                               'precursors': ['recflCm8BzuGQbmW0', 'recSIIp1grVggDGQo'], 
+                               'Type': 'Publication'}, 
+                    'id': 'rec0ArDcPS4hLrmJq'})
         print(t)
     
     
@@ -55,7 +63,16 @@ def lambda_handler(event, context):
             return "https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&amp;showinfo=0"
         
     if TESTING:
-        embed = '<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRF7DSeGnbLr_zwWnHVrUF0ptxjfIoj9bDwkaJb370IYYWEwF48yszwLUUTAECQ5F6mlJMrUrlQqdj-/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>'
+        embed = ('<iframe '
+                 'src="https://docs.google.com/presentation/d/e/'
+                 '2PACX-1vRF7DSeGnbLr_zwWnHVrUF0ptxjfIoj9bDwkaJb370IYYWEwF48yszwLUUTAECQ5F6mlJMrUrlQqdj-/embed?'
+                 'start=false&loop=false&delayms=60000"'
+                 'frameborder="0"'
+                 'width="960"'
+                 'height="569"'
+                 'allowfullscreen="true"'
+                 'mozallowfullscreen="true"'
+                 'webkitallowfullscreen="true"></iframe>')
         print( pull_out_embed_url(embed) )
     
     
@@ -64,6 +81,7 @@ def lambda_handler(event, context):
         try:
             ln = "\n".join( textwrap.wrap(row["LongName"], LINE_LENGTH))
         except Exception as e:
+            print(e)
             ln = row["LongName"]
         return ln
     
@@ -79,7 +97,7 @@ def lambda_handler(event, context):
     
     group_data = get_table("groups")
     group_dict = {}
-    for i, row in group_data.iterrows():
+    for _, row in group_data.iterrows():
         print(row)
         group_dict[row.id] = {"name":row.Name,
                               "longName": row.LongName,
@@ -90,7 +108,7 @@ def lambda_handler(event, context):
     
     node_descriptions = []
     edges = []
-    for i, row in project_data.iterrows():
+    for _, row in project_data.iterrows():
         ln = wrap_long_name(row)
         n = make_node_description(row, ln)
         node_descriptions.append(n)
@@ -107,7 +125,7 @@ def lambda_handler(event, context):
             print(group_dict[id])
             group_dict[id]["nodes"].append(row["Name"])
     
-    print(group_dict)
+    # print(group_dict)
     subgraph_template = """
 subgraph cluster_{name} {{
     style="rounded"
@@ -116,7 +134,7 @@ subgraph cluster_{name} {{
     label = "{long_name}";
 }}"""
     subgraphs = ""
-    for k, v in group_dict.items():
+    for _, v in group_dict.items():
         subgraphs += subgraph_template.format(name=v["name"],
                                               long_name=v["longName"],
                                               nodes="; ".join(v["nodes"]))
