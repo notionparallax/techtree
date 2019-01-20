@@ -8,7 +8,7 @@ from datetime import datetime
 print('Loading function')
 
 LINE_LENGTH = 15
-TESTING = False
+TESTING = False # True
 
 def lambda_handler(event, context):
     jsonp_body = "// This is crusty, but it seems to work.\n// Generated at {}".format(str(datetime.now()))
@@ -26,9 +26,6 @@ def lambda_handler(event, context):
         print(t)
     
     
-    # In[7]:
-    
-    
     def get_table(table_name):
         """Get the table from the OATMEAL airtable database and return it as a DataFrame."""
         auth_headers = {'Authorization': 'Bearer keyYXkjYFw61SeWDk'}
@@ -43,9 +40,6 @@ def lambda_handler(event, context):
     if TESTING:
         t = get_table("Techs")
         print(t)
-    
-    
-    # In[12]:
     
     
     def pull_out_embed_url(embed_code):
@@ -65,9 +59,6 @@ def lambda_handler(event, context):
         print( pull_out_embed_url(embed) )
     
     
-    # In[13]:
-    
-    
     def wrap_long_name(row):
         """Insert line breaks to make names fit in the node."""
         try:
@@ -77,26 +68,24 @@ def lambda_handler(event, context):
         return ln
     
     
-    # In[14]:
-    
-    
     def make_node_description(row, long_name_broken):
         node_description_pattern = "{name} [label=\"{longName}\"];"
         return node_description_pattern.format(name=row["Name"], longName=long_name_broken)
     
     
-    # In[15]:
-    
-    
     project_data = get_table("Techs")
     project_data.set_index("id", inplace=True)
     project_data.deck_embed = project_data.deck_embed.apply(pull_out_embed_url)
-    # project_data.sample(2)
     
-    
-    # In[24]:
-    
-    
+    group_data = get_table("groups")
+    group_dict = {}
+    for i, row in group_data.iterrows():
+        print(row)
+        group_dict[row.id] = {"name":row.Name,
+                              "longName": row.LongName,
+                              "nodes":[]
+                             }
+
     edge_pattern = "{from_node} -> {to_node};"
     
     node_descriptions = []
@@ -112,9 +101,25 @@ def lambda_handler(event, context):
                 e = edge_pattern.format(from_node=project_data.loc[precursor].Name,
                                         to_node=row["Name"])
                 edges.append(e)
+        
+        if type(row["Group"]) is not float: # nothing reads as NaN, therefore float
+            id = row["Group"][0]
+            print(group_dict[id])
+            group_dict[id]["nodes"].append(row["Name"])
     
-    
-    # In[25]:
+    print(group_dict)
+    subgraph_template = """
+subgraph cluster_{name} {{
+    style="rounded"
+    node [style=filled, color=white];
+    {nodes};
+    label = "{long_name}";
+}}"""
+    subgraphs = ""
+    for k, v in group_dict.items():
+        subgraphs += subgraph_template.format(name=v["name"],
+                                              long_name=v["longName"],
+                                              nodes="; ".join(v["nodes"]))
     
     
     g = """digraph G {{
@@ -136,11 +141,15 @@ def lambda_handler(event, context):
       {nodes}
       
       {edges}
+
+      {subgraphs}
       
       //{{rank = same; data; basicRobot; hardware; systemReef; SNAawareness}};
       
     }}""".format(edges="\n  ".join(edges), 
-                 nodes="\n  ".join(node_descriptions)) # , babies=babies
+                 nodes="\n  ".join(node_descriptions),
+                 subgraphs=subgraphs
+                 ) 
     
     
     # print(g)
@@ -157,10 +166,7 @@ def lambda_handler(event, context):
     j = simplejson.dumps(new_dict, ignore_nan=True, sort_keys=True, indent=2)
     ret_dict["parallelData"] = j    
     jsonp_body += "\n\n\n" + j
-    
-    
-    # In[27]:
-    
+        
     
     def get_thumb(row):
         try:
@@ -174,10 +180,7 @@ def lambda_handler(event, context):
         except Exception as e:
             print(e)
             return "http://getdrawings.com/images/casper-drawing-8.jpg"
-    
-    
-    # In[28]:
-    
+        
     
     people_data = get_table("People")
     people_data["thumb_large"] = people_data.apply(get_thumb, axis=1)
@@ -198,3 +201,6 @@ def lambda_handler(event, context):
     # jsonp_body += "\n\n\n" + j
     return ret_dict
             #raise Exception('Something went wrong')
+
+if TESTING:
+    lambda_handler(1,2)
