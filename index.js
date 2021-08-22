@@ -3,10 +3,11 @@
 const base = 10;
 const ringOffset = 6;
 const faceRad = 11;
-d3.json('https://plcpwfhyzd.execute-api.us-west-2.amazonaws.com/prod/data',  (json_data)=> {
-  const digraph_details = json_data['digraph_js']
-  const parallelData = JSON.parse(json_data['parallelData'])
-  const peopleData = JSON.parse(json_data['peopleData'])
+
+d3.json(
+    "https://raw.githubusercontent.com/notionparallax/techtree/main/static_graph.json"
+).then(makeTree);
+function makeTree(json_data) {
     function showSlides(d) {
       // deck_embed
       console.log("data:", d._groups[0][0].dataset.more);
