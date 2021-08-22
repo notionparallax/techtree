@@ -6,7 +6,7 @@ const faceRad = 11;
 
 d3.json(
     "https://raw.githubusercontent.com/notionparallax/techtree/main/static_graph.json"
-).then(makeTree);
+).then(dummy);
 
 function dummy(json_data) {
     const digraph_details = json_data["digraph_js"];
