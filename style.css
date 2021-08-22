@@ -75,6 +75,13 @@ ellipse.face-ring{
   fill: #3F51B5;
 }
 
+svg g.cluster path {
+  stroke: #ffffff87;
+}
+svg g.cluster text {
+  fill: #ffffff;
+}
+
 /* overlay stuff */
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
