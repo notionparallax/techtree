@@ -104,3 +104,6 @@ venv.bak/
 .mypy_cache/
 client_secret.json
 credentials.json
+
+# venv
+tt-env/
