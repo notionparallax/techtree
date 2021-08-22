@@ -1,40 +1,37 @@
-<!doctype html>
-<html lang=en>
-  <head>
-    <meta charset=utf-8>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://unpkg.com/viz.js@1.8.0/viz.js" type="javascript/worker"></script>
-    <script src="https://unpkg.com/d3-graphviz@1.4.0/build/d3-graphviz.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
 
         <script src="https://d3js.org/d3.v5.js"></script>
         <script src="https://unpkg.com/@hpcc-js/wasm@0.3.13/dist/index.min.js"></script>
         <script src="https://unpkg.com/d3-graphviz@3.0.5/build/d3-graphviz.js"></script>
 
-    <link href="style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" />
 
-    <title>OATMEAL Techtree</title>
-  </head>
-  <body>
-    <div id="graph"></div>
+        <title>OATMEAL Techtree</title>
+    </head>
+    <body>
+        <div id="graph"></div>
 
+        <!-- modal -->
+        <div id="presentation-overlay" class="overlay">
+            <div class="popup">
+                <!-- <h2 id="popup-heading">Info box</h2> -->
+                <a class="close" id="close-popup" href="#">&times;</a>
+                <div class="popup-content">
+                    <iframe
+                        id="presentation-frame"
+                        src=""
+                        frameborder="0"
+                        allowfullscreen="true"
+                        mozallowfullscreen="true"
+                        webkitallowfullscreen="true"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
 
-    <!-- modal -->
-    <div id="presentation-overlay"
-         class="overlay">
-    	<div class="popup">
-    		<!-- <h2 id="popup-heading">Info box</h2> -->
-    		<a class="close" id="close-popup" href="#">&times;</a>
-    		<div class="popup-content">
-          <iframe id="presentation-frame"
-                  src=""
-                  frameborder="0"
-                  allowfullscreen="true"
-                  mozallowfullscreen="true"
-                  webkitallowfullscreen="true"></iframe>
-    		</div>
-    	</div>
-    </div>
-
-    <script type="text/javascript" src="index.js"></script>
-  </body>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
 </html>
