@@ -11,7 +11,7 @@ LINE_LENGTH = 15
 TESTING = False # True
 
 def lambda_handler(event, context):
-    jsonp_body = "// This is crusty, but it seems to work.\n// Generated at {}".format(str(datetime.now()))
+    jsonp_body = f"// This is crusty, but it seems to work.\n// Generated at {datetime.now()}"
     ret_dict = {}
 
     def mergeD(ugly_data):
@@ -140,7 +140,7 @@ subgraph cluster_{name} {{
                                               nodes="; ".join(v["nodes"]))
     
     
-    g = """digraph G {{
+    g = f"""digraph G {{
       size = "16.66,8.33!"; // 1200x600 at 72px/in, "!" to force
       ratio = "fill";
       rankdir  = "LR";
@@ -156,19 +156,15 @@ subgraph cluster_{name} {{
       edge [arrowhead=vee,
             arrowsize=0.5]
       
-      {nodes}
+      {"\n  ".join(node_descriptions)}
       
-      {edges}
+      {"\n  ".join(edges)}
 
       {subgraphs}
       
       //{{rank = same; data; basicRobot; hardware; systemReef; SNAawareness}};
       
-    }}""".format(edges="\n  ".join(edges), 
-                 nodes="\n  ".join(node_descriptions),
-                 subgraphs=subgraphs
-                 ) 
-    
+    }}"""
     
     # print(g)
     

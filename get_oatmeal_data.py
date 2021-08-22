@@ -22,7 +22,7 @@ from datetime import datetime
 LINE_LENGTH = 15
 TESTING = False
 
-jsonp_body = "// This is crusty, but it seems to work.\n// Generated at {}".format(str(datetime.now()))
+jsonp_body = f"// This is crusty, but it seems to work.\n// Generated at {datetime.now()}"
 
 
 # In[6]:
@@ -131,7 +131,7 @@ for i, row in project_data.iterrows():
 # In[25]:
 
 
-g = """digraph G {{
+g = f"""digraph G {{
   size = "16.66,8.33!"; // 1200x600 at 72px/in, "!" to force
   ratio = "fill";
   rankdir  = "LR";
@@ -147,14 +147,13 @@ g = """digraph G {{
   edge [arrowhead=vee,
         arrowsize=0.5]
   
-  {nodes}
+  {"\n  ".join(node_descriptions)}
   
-  {edges}
+  {"\n  ".join(edges)}
   
   //{{rank = same; data; basicRobot; hardware; systemReef; SNAawareness}};
   
-}}""".format(edges="\n  ".join(edges), 
-             nodes="\n  ".join(node_descriptions)) # , babies=babies
+}}"""
 
 
 # print(g)
@@ -210,7 +209,8 @@ ret_dict['peopleData'] = j
 # with open('peopleData.js', 'w') as f:
 #     f.write(j)
 # jsonp_body += "\n\n\n" + j
-return json.dumps(ret_dict)
+# return 
+json.dumps(ret_dict)
 
 # In[30]:
 
