@@ -1,16 +1,16 @@
 // Written by Ben Doherty June 2018
 
-var base = 10;
-var ringOffset = 6;
-var faceRad = 11;
-d3.json('https://plcpwfhyzd.execute-api.us-west-2.amazonaws.com/prod/data', function (json_data) {
-    var digraph_details = json_data['digraph_js']
-    var parallelData = JSON.parse(json_data['parallelData'])
-    var peopleData = JSON.parse(json_data['peopleData'])
+const base = 10;
+const ringOffset = 6;
+const faceRad = 11;
+d3.json('https://plcpwfhyzd.execute-api.us-west-2.amazonaws.com/prod/data',  (json_data)=> {
+  const digraph_details = json_data['digraph_js']
+  const parallelData = JSON.parse(json_data['parallelData'])
+  const peopleData = JSON.parse(json_data['peopleData'])
     function showSlides(d) {
       // deck_embed
       console.log("data:", d._groups[0][0].dataset.more);
-      var popup = d3.select("#presentation-overlay");
+      const popup = d3.select("#presentation-overlay");
       popup.style("display", "initial");
 
       d3.select("#presentation-frame")
@@ -45,19 +45,19 @@ d3.json('https://plcpwfhyzd.execute-api.us-west-2.amazonaws.com/prod/data', func
         //.on("mouseout", function (d) {
         //     d3.select(this).select("ellipse").style("fill", "black")
         // });
-        nodes.each(function (d) {
-          var pd = parallelData[d.key];
+        nodes.each( (d)=> {
+          const pd = parallelData[d.key];
 
           // console.log(d)
-          var mainEllip = d3.select(this).select("ellipse");
+          const mainEllip = d3.select(this).select("ellipse");
 
-          var cx = parseInt(mainEllip.attr("cx"), base);
-          var cy = parseInt(mainEllip.attr("cy"), base);
-          var rx = parseInt(mainEllip.attr("rx"), base);
-          var ry = parseInt(mainEllip.attr("ry"), base);
+          const cx = parseInt(mainEllip.attr("cx"), base);
+          const cy = parseInt(mainEllip.attr("cy"), base);
+          const rx = parseInt(mainEllip.attr("rx"), base);
+          const ry = parseInt(mainEllip.attr("ry"), base);
 
           //Draw the ghostly line
-          var ghostEllip = mainEllip.clone();
+          const ghostEllip = mainEllip.clone();
           ghostEllip.attr("rx", rx + (ringOffset*0.5));
           ghostEllip.attr("ry", ry + (ringOffset*0.5));
           ghostEllip.attr("class", "ghost-ring");
@@ -68,10 +68,10 @@ d3.json('https://plcpwfhyzd.execute-api.us-west-2.amazonaws.com/prod/data', func
             // make the progress bar, method from
             // https://daverupert.com/2018/03/animated-svg-radial-progress-bars/
             // don't draw anything if it's at 0 or you get a little nipple
-            var progressEllip = mainEllip.clone();
+            const progressEllip = mainEllip.clone();
 
-            var prog_full = circumference(ghostEllip);
-            var prog = prog_full * ((100 - pd.percentComplete) / 100);
+            const prog_full = circumference(ghostEllip);
+            const prog = prog_full * ((100 - pd.percentComplete) / 100);
             progressEllip.style("stroke-dasharray", prog_full);
             progressEllip.style("stroke-dashoffset", Math.max(0, prog));
             progressEllip.style("stroke-width", ringOffset * 0.3);
@@ -83,7 +83,7 @@ d3.json('https://plcpwfhyzd.execute-api.us-west-2.amazonaws.com/prod/data', func
 
           // Draw the circles for ownership faces
           // This needs a better way of getting the images into the circles
-          var team = ["recF9tgC6LJUmi5gJ"]; // default assignment
+          let team = ["recF9tgC6LJUmi5gJ"]; // default assignment
           if (pd.Owner != null) {
             if (pd.Other_people_involved != null) {
               team = pd.Owner.concat(pd.Other_people_involved);
@@ -92,13 +92,13 @@ d3.json('https://plcpwfhyzd.execute-api.us-west-2.amazonaws.com/prod/data', func
             }
           }
 
-
-          for (var i = 0; i < team.length; i++) {
-            var person = peopleData[team[i]];
+          // TODO: why is this written as a for loop? 🤮
+          for (let i = 0; i < team.length; i++) {
+            let person = peopleData[team[i]];
             // console.log(person.Name, person.Initials, person.thumb_large);
-            var ownerEllip = mainEllip.clone();
-            var cenX = cx - (rx - faceRad) + (faceRad * 1.5 * i);
-            var cenY = cy + (ry - faceRad);
+            let ownerEllip = mainEllip.clone();
+            let cenX = cx - (rx - faceRad) + (faceRad * 1.5 * i);
+            let cenY = cy + (ry - faceRad);
             ownerEllip.attr("cx", cenX)
                       .attr("cy", cenY)
                       .attr("rx", faceRad)
@@ -178,6 +178,8 @@ d3.json('https://plcpwfhyzd.execute-api.us-west-2.amazonaws.com/prod/data', func
     // hide the popup if the close icon or the background
     // is clicked
     function hidePopup(e) {
+      // TODO: rewrite this somethign like:
+      // if(['presentation-overlay', "close-popup"].includes(e.target.id))
       if(event.target.id === 'presentation-overlay'
         ||
         event.target.id === "close-popup"){
